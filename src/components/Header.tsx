@@ -15,8 +15,8 @@ export function Header() {
   return (
     <header className="fixed top-0 z-50 w-full border-b border-border/50 bg-background/80 backdrop-blur-md">
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
-        <a href="#" className="font-mono text-sm tracking-widest text-accent uppercase">
-          ciaohuamiaumichiao
+        <a href="#" className="text-sm tracking-widest text-accent">
+          小花貓咪叫 <span className="font-mono">ciaohuamiaumichiao</span>
         </a>
 
         {/* Desktop */}

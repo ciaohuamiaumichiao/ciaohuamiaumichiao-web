@@ -9,7 +9,7 @@ export function Contact() {
             </p>
             <h2 className="mt-2 text-3xl font-light tracking-tight">聯絡方式</h2>
             <p className="mt-4 text-base leading-relaxed text-muted">
-              無論是影像製作、策展合作或數位建置需求，歡迎來信討論。
+              無論是影像製作、藝術顧問或數位建置需求，歡迎來信或透過 IG 聯繫。
             </p>
           </div>
 
@@ -25,9 +25,15 @@ export function Contact() {
             </div>
 
             <div>
-              <p className="font-mono text-xs text-accent-dim uppercase">公司</p>
-              <p className="mt-2 text-lg text-foreground">甚好創意有限公司</p>
-              <p className="mt-1 text-sm text-muted">統編 52399058</p>
+              <p className="font-mono text-xs text-accent-dim uppercase">Instagram</p>
+              <a
+                href="https://www.instagram.com/ciaohuamiaumichiao"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-2 block text-lg text-foreground transition-colors hover:text-accent"
+              >
+                @ciaohuamiaumichiao
+              </a>
             </div>
 
             <div>

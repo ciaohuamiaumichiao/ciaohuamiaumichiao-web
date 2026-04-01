@@ -5,9 +5,14 @@ export function Footer() {
         <p className="font-mono text-xs text-muted">
           &copy; {new Date().getFullYear()} 小花貓咪叫 ciaohuamiaumichiao
         </p>
-        <p className="font-mono text-xs text-muted">
-          甚好創意有限公司
-        </p>
+        <a
+          href="https://www.instagram.com/ciaohuamiaumichiao"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-mono text-xs text-muted transition-colors hover:text-accent"
+        >
+          @ciaohuamiaumichiao
+        </a>
       </div>
     </footer>
   );

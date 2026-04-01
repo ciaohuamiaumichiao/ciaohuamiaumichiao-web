@@ -16,12 +16,12 @@ export function Hero() {
           Director &middot; Curator &middot; Digital Creator
         </p>
 
-        <h1 className="mt-6 text-5xl font-light tracking-tight sm:text-7xl lg:text-8xl">
-          小花貓咪叫
+        <h1 className="mt-6 text-3xl font-light tracking-tight sm:text-4xl lg:text-5xl">
+          張正杰 Cheng Chieh Kimi Chang
         </h1>
 
-        <p className="mt-4 font-mono text-lg tracking-widest text-muted sm:text-xl">
-          ciaohuamiaumichiao
+        <p className="mt-4 text-lg tracking-widest text-muted sm:text-xl">
+          小花貓咪叫 <span className="font-mono">ciaohuamiaumichiao</span>
         </p>
 
         <p className="mx-auto mt-8 max-w-md text-base leading-relaxed text-muted">
