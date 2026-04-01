@@ -1,0 +1,80 @@
+const services = [
+  {
+    number: "01",
+    title: "影像製作",
+    subtitle: "Film & Video Production",
+    description:
+      "企業形象片、紀錄片、展覽紀錄、活動側拍。從前期企劃、現場執導到後期剪輯，提供完整的影像製作服務。",
+    items: ["企業形象影片", "紀錄片", "展覽紀錄", "活動側拍", "後期剪輯"],
+    price: "專案報價 NT$50,000 起",
+  },
+  {
+    number: "02",
+    title: "策展顧問",
+    subtitle: "Curation & Consulting",
+    description:
+      "展覽策劃、空間視覺規劃、藝術指導。協助機構與品牌透過展覽說出自己的故事，打造沉浸式的觀展體驗。",
+    items: ["展覽策劃", "空間視覺規劃", "藝術指導", "展覽執行", "開幕活動統籌"],
+    price: "顧問費 + 策展執行費",
+  },
+  {
+    number: "03",
+    title: "創意數位建置",
+    subtitle: "Creative Digital Solutions",
+    description:
+      "為品牌與機構量身打造網站、數位系統與線上平台。結合創意產業的實務理解，建立真正好用的數位工具。",
+    items: ["品牌官網", "展覽網站", "管理系統", "排班平台", "數位策略顧問"],
+    price: "網站建置 NT$30,000 起 + 維護方案",
+  },
+];
+
+export function Services() {
+  return (
+    <section id="services" className="border-t border-border px-6 py-24 lg:py-32">
+      <div className="mx-auto max-w-6xl">
+        <p className="font-mono text-xs tracking-[0.2em] text-accent-dim uppercase">
+          Services
+        </p>
+        <h2 className="mt-2 text-3xl font-light tracking-tight">服務項目</h2>
+
+        <div className="mt-16 grid gap-8 lg:grid-cols-3">
+          {services.map((service) => (
+            <div
+              key={service.number}
+              className="group rounded-2xl border border-border bg-surface p-8 transition-all hover:border-accent/30"
+            >
+              <span className="font-mono text-xs text-accent-dim">
+                {service.number}
+              </span>
+
+              <h3 className="mt-4 text-xl font-light">{service.title}</h3>
+              <p className="mt-1 font-mono text-xs text-muted">
+                {service.subtitle}
+              </p>
+
+              <p className="mt-4 text-sm leading-relaxed text-muted">
+                {service.description}
+              </p>
+
+              <ul className="mt-6 space-y-2">
+                {service.items.map((item) => (
+                  <li
+                    key={item}
+                    className="flex items-center gap-2 text-sm text-muted"
+                  >
+                    <span className="h-px w-3 bg-accent/40" />
+                    {item}
+                  </li>
+                ))}
+              </ul>
+
+              <p className="mt-8 border-t border-border pt-4 font-mono text-xs text-accent">
+                {service.price}
+              </p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
