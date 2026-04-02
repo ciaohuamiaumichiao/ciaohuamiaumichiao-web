@@ -25,6 +25,18 @@ export function Contact() {
             </div>
 
             <div>
+              <p className="font-mono text-xs text-accent-dim uppercase">LINE@</p>
+              <a
+                href="https://lin.ee/097eutou"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-2 block text-lg text-foreground transition-colors hover:text-accent"
+              >
+                @097eutou 小花貓咪叫
+              </a>
+            </div>
+
+            <div>
               <p className="font-mono text-xs text-accent-dim uppercase">Instagram</p>
               <a
                 href="https://www.instagram.com/ciaohuamiaumichiao"
@@ -37,9 +49,15 @@ export function Contact() {
             </div>
 
             <div>
-              <p className="font-mono text-xs text-accent-dim uppercase">品牌</p>
-              <p className="mt-2 text-lg text-foreground">小花貓咪叫</p>
-              <p className="mt-1 text-sm text-muted">ciaohuamiaumichiao</p>
+              <p className="font-mono text-xs text-accent-dim uppercase">YouTube</p>
+              <a
+                href="https://www.youtube.com/channel/UCfxcum7XC4qB-jFbH1qjE-Q"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-2 block text-lg text-foreground transition-colors hover:text-accent"
+              >
+                小花貓咪叫 ciaohuamiaumichiao
+              </a>
             </div>
           </div>
         </div>

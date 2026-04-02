@@ -16,15 +16,11 @@ export function About() {
           {/* Content */}
           <div className="space-y-6 text-base leading-relaxed text-muted">
             <p>
-              導演、策展人。擎光媒體工作室、甚好創意有限公司創辦人。
+              導演、策展人。擎光媒體工作室、甚好創意。
             </p>
             <p>
               從導演、企劃、製片規劃到現場統籌與剪輯，作品涵蓋 MV、短片、演唱會及各類展演製作。
-              合作對象橫跨總統府、國際精品、建設集團到公益組織。
-            </p>
-            <p>
-              近年將影像實務經驗延伸至策展與數位建置，
-              同時以「影像與藝術顧問」身份，協助團隊從零開始建立影像製作能力。
+              合作對象橫跨政府機關、國際精品、建設集團到社會企業、公益組織。
             </p>
 
             <div className="grid grid-cols-2 gap-6 pt-6 sm:grid-cols-4">

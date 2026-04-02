@@ -5,7 +5,9 @@ import { useState } from "react";
 const navLinks = [
   { label: "關於", href: "#about" },
   { label: "服務", href: "#services" },
-  { label: "展覽經歷", href: "#exhibitions" },
+  { label: "作品", href: "#showreel" },
+  { label: "經歷", href: "#exhibitions" },
+  { label: "幕後人聚場", href: "#backstage" },
   { label: "聯絡", href: "#contact" },
 ];
 

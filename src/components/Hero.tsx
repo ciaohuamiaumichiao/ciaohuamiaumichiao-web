@@ -36,10 +36,12 @@ export function Hero() {
             了解服務
           </a>
           <a
-            href="#contact"
-            className="rounded-full bg-accent px-6 py-2.5 text-sm text-background transition-colors hover:bg-accent-dim"
+            href="https://lin.ee/097eutou"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 rounded-full bg-[#06C755] px-6 py-2.5 text-sm font-medium text-white transition-opacity hover:opacity-90"
           >
-            聯絡我
+            LINE 聯繫
           </a>
         </div>
       </div>
