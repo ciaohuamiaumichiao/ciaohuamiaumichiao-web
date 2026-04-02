@@ -7,7 +7,7 @@ import { useEffect } from "react";
 // 2. 連結你的 Instagram 帳號 @ciaohuamiaumichiao
 // 3. 建立一個 widget，選擇樣式（建議 Grid）
 // 4. 複製 widget ID，填入下方
-const BEHOLD_WIDGET_ID = ""; // 例如 "abc123DEF456"
+const BEHOLD_WIDGET_ID = "cECR6KvFPWPhVAOC5sAr";
 
 export function InstagramFeed() {
   useEffect(() => {
