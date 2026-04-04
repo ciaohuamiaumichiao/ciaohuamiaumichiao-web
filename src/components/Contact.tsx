@@ -1,65 +1,67 @@
+"use client";
+
+import { FadeIn } from "./FadeIn";
+
+const contactLinks = [
+  {
+    label: "Email",
+    value: "ciaohuamiaumichiao@gmail.com",
+    href: "mailto:ciaohuamiaumichiao@gmail.com",
+  },
+  {
+    label: "LINE@",
+    value: "@097eutou 小花貓咪叫",
+    href: "https://line.me/R/ti/p/@097eutou",
+  },
+  {
+    label: "Instagram",
+    value: "@ciaohuamiaumichiao",
+    href: "https://www.instagram.com/ciaohuamiaumichiao",
+  },
+  {
+    label: "YouTube",
+    value: "小花貓咪叫 ciaohuamiaumichiao",
+    href: "https://www.youtube.com/channel/UCfxcum7XC4qB-jFbH1qjE-Q",
+  },
+];
+
 export function Contact() {
   return (
-    <section id="contact" className="border-t border-border px-6 py-24 lg:py-32">
+    <section id="contact" className="border-t border-border px-6 py-28 lg:py-36">
       <div className="mx-auto max-w-6xl">
-        <div className="grid gap-12 lg:grid-cols-[1fr_1fr] lg:gap-20">
-          <div>
-            <p className="font-mono text-xs tracking-[0.2em] text-accent-dim uppercase">
+        <div className="grid gap-16 lg:grid-cols-[1fr_1fr] lg:gap-24">
+          <FadeIn>
+            <p className="text-[10px] uppercase tracking-[0.3em] text-accent-dim">
               Contact
             </p>
-            <h2 className="mt-2 text-3xl font-light tracking-tight">聯絡方式</h2>
-            <p className="mt-4 text-base leading-relaxed text-muted">
-              無論是影像製作、藝術顧問或數位建置需求，歡迎來信或透過 IG 聯繫。
+            <h2 className="mt-3 text-4xl tracking-tight lg:text-5xl">聯絡方式</h2>
+            <div className="mt-4 h-px w-12 bg-accent/30" />
+            <p className="mt-8 text-[15px] leading-[1.85] text-muted/70">
+              無論是影像製作、藝術顧問或數位建置需求，
+              歡迎透過以下方式聯繫。
             </p>
-          </div>
+          </FadeIn>
 
-          <div className="space-y-8">
-            <div>
-              <p className="font-mono text-xs text-accent-dim uppercase">Email</p>
-              <a
-                href="mailto:ciaohuamiaumichiao@gmail.com"
-                className="mt-2 block text-lg text-foreground transition-colors hover:text-accent"
-              >
-                ciaohuamiaumichiao@gmail.com
-              </a>
+          <FadeIn delay={0.2}>
+            <div className="space-y-6">
+              {contactLinks.map((link) => (
+                <a
+                  key={link.label}
+                  href={link.href}
+                  target={link.href.startsWith("mailto") ? undefined : "_blank"}
+                  rel={link.href.startsWith("mailto") ? undefined : "noopener noreferrer"}
+                  className="group block border-b border-border/30 pb-6 transition-colors last:border-0"
+                >
+                  <p className="text-[10px] uppercase tracking-[0.2em] text-accent/40 transition-colors group-hover:text-accent/70">
+                    {link.label}
+                  </p>
+                  <p className="mt-2 text-lg transition-colors group-hover:text-accent">
+                    {link.value}
+                  </p>
+                </a>
+              ))}
             </div>
-
-            <div>
-              <p className="font-mono text-xs text-accent-dim uppercase">LINE@</p>
-              <a
-                href="https://line.me/R/ti/p/@097eutou"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="mt-2 block text-lg text-foreground transition-colors hover:text-accent"
-              >
-                @097eutou 小花貓咪叫
-              </a>
-            </div>
-
-            <div>
-              <p className="font-mono text-xs text-accent-dim uppercase">Instagram</p>
-              <a
-                href="https://www.instagram.com/ciaohuamiaumichiao"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="mt-2 block text-lg text-foreground transition-colors hover:text-accent"
-              >
-                @ciaohuamiaumichiao
-              </a>
-            </div>
-
-            <div>
-              <p className="font-mono text-xs text-accent-dim uppercase">YouTube</p>
-              <a
-                href="https://www.youtube.com/channel/UCfxcum7XC4qB-jFbH1qjE-Q"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="mt-2 block text-lg text-foreground transition-colors hover:text-accent"
-              >
-                小花貓咪叫 ciaohuamiaumichiao
-              </a>
-            </div>
-          </div>
+          </FadeIn>
         </div>
       </div>
     </section>

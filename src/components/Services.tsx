@@ -1,3 +1,7 @@
+"use client";
+
+import { FadeIn, FadeInStagger, FadeInItem } from "./FadeIn";
+
 const services = [
   {
     number: "01",
@@ -30,50 +34,57 @@ const services = [
 
 export function Services() {
   return (
-    <section id="services" className="border-t border-border px-6 py-24 lg:py-32">
+    <section id="services" className="border-t border-border px-6 py-28 lg:py-36">
       <div className="mx-auto max-w-6xl">
-        <p className="font-mono text-xs tracking-[0.2em] text-accent-dim uppercase">
-          Services
-        </p>
-        <h2 className="mt-2 text-3xl font-light tracking-tight">服務項目</h2>
+        <FadeIn>
+          <p className="text-[10px] uppercase tracking-[0.3em] text-accent-dim">
+            Services
+          </p>
+          <h2 className="mt-3 text-4xl tracking-tight lg:text-5xl">服務項目</h2>
+          <div className="mt-4 h-px w-12 bg-accent/30" />
+        </FadeIn>
 
-        <div className="mt-16 grid gap-8 lg:grid-cols-3">
+        <FadeInStagger className="mt-20 grid gap-6 lg:grid-cols-3">
           {services.map((service) => (
-            <div
-              key={service.number}
-              className="group rounded-2xl border border-border bg-surface p-8 transition-all hover:border-accent/30"
-            >
-              <span className="font-mono text-xs text-accent-dim">
-                {service.number}
-              </span>
+            <FadeInItem key={service.number}>
+              <div className="group relative h-full overflow-hidden rounded-2xl border border-border/60 bg-surface p-8 transition-all duration-500 hover:border-accent/30 hover:bg-surface/80">
+                {/* Hover glow */}
+                <div className="pointer-events-none absolute -right-12 -top-12 h-32 w-32 rounded-full bg-accent/0 blur-[60px] transition-all duration-700 group-hover:bg-accent/[0.06]" />
 
-              <h3 className="mt-4 text-xl font-light">{service.title}</h3>
-              <p className="mt-1 font-mono text-xs text-muted">
-                {service.subtitle}
-              </p>
+                <span className="font-mono text-[10px] tracking-wider text-accent/50">
+                  {service.number}
+                </span>
 
-              <p className="mt-4 text-sm leading-relaxed text-muted">
-                {service.description}
-              </p>
+                <h3 className="mt-5 text-2xl tracking-tight">{service.title}</h3>
+                <p className="mt-1 text-[10px] uppercase tracking-[0.15em] text-muted/50">
+                  {service.subtitle}
+                </p>
 
-              <ul className="mt-6 space-y-2">
-                {service.items.map((item) => (
-                  <li
-                    key={item}
-                    className="flex items-center gap-2 text-sm text-muted"
-                  >
-                    <span className="h-px w-3 bg-accent/40" />
-                    {item}
-                  </li>
-                ))}
-              </ul>
+                <p className="mt-5 text-sm leading-relaxed text-muted/80">
+                  {service.description}
+                </p>
 
-              <p className="mt-8 border-t border-border pt-4 font-mono text-xs text-accent">
-                {service.price}
-              </p>
-            </div>
+                <ul className="mt-6 space-y-2.5">
+                  {service.items.map((item) => (
+                    <li
+                      key={item}
+                      className="flex items-center gap-3 text-[13px] text-muted/70"
+                    >
+                      <span className="h-px w-4 bg-accent/25 transition-all group-hover:w-6 group-hover:bg-accent/40" />
+                      {item}
+                    </li>
+                  ))}
+                </ul>
+
+                <div className="mt-8 border-t border-border/40 pt-5">
+                  <p className="font-mono text-[11px] text-accent/70">
+                    {service.price}
+                  </p>
+                </div>
+              </div>
+            </FadeInItem>
           ))}
-        </div>
+        </FadeInStagger>
       </div>
     </section>
   );

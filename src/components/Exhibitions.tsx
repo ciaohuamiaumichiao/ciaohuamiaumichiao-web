@@ -1,3 +1,7 @@
+"use client";
+
+import { FadeIn, FadeInStagger, FadeInItem } from "./FadeIn";
+
 const experiences = [
   {
     category: "策展",
@@ -159,71 +163,78 @@ const roles = [
 
 export function Exhibitions() {
   return (
-    <section id="exhibitions" className="border-t border-border px-6 py-24 lg:py-32">
+    <section id="exhibitions" className="border-t border-border px-6 py-28 lg:py-36">
       <div className="mx-auto max-w-6xl">
-        <p className="font-mono text-xs tracking-[0.2em] text-accent-dim uppercase">
-          Exhibitions & Projects
-        </p>
-        <h2 className="mt-2 text-3xl font-light tracking-tight">經歷與作品</h2>
+        <FadeIn>
+          <p className="text-[10px] uppercase tracking-[0.3em] text-accent-dim">
+            Exhibitions & Projects
+          </p>
+          <h2 className="mt-3 text-4xl tracking-tight lg:text-5xl">經歷與作品</h2>
+          <div className="mt-4 h-px w-12 bg-accent/30" />
+        </FadeIn>
 
         {/* Roles */}
-        <div className="mt-12 flex flex-wrap gap-3">
-          {roles.map((role) => (
-            <span
-              key={role}
-              className="rounded-full border border-border px-4 py-1.5 text-xs text-muted"
-            >
-              {role}
-            </span>
-          ))}
-        </div>
+        <FadeIn delay={0.15}>
+          <div className="mt-14 flex flex-wrap gap-2">
+            {roles.map((role) => (
+              <span
+                key={role}
+                className="rounded-full border border-border/60 px-4 py-1.5 text-[11px] text-muted/60"
+              >
+                {role}
+              </span>
+            ))}
+          </div>
+        </FadeIn>
 
         {/* Experience by category */}
-        <div className="mt-16 space-y-16">
+        <div className="mt-20 space-y-20">
           {experiences.map((group) => (
-            <div key={group.category}>
-              <h3 className="mb-6 text-sm font-medium tracking-wide text-accent">
+            <FadeIn key={group.category}>
+              <h3 className="text-[11px] uppercase tracking-[0.2em] text-accent/70">
                 {group.category}
               </h3>
-              <div className="space-y-0">
+              <div className="mt-6 space-y-0">
                 {group.items.map((item, i) => (
                   <div
                     key={i}
-                    className="grid gap-2 border-b border-border/50 py-4 first:border-t first:border-border/50 sm:grid-cols-[80px_1fr_auto]"
+                    className="group grid gap-2 border-b border-border/30 py-5 transition-colors first:border-t first:border-border/30 hover:bg-surface/50 sm:grid-cols-[80px_1fr_auto] sm:px-3"
                   >
-                    <span className="font-mono text-xs text-accent-dim">
+                    <span className="font-mono text-[11px] text-accent-dim/60">
                       {item.year}
                     </span>
                     <div>
-                      <p className="text-sm">{item.title}</p>
+                      <p className="text-[14px] transition-colors group-hover:text-accent">{item.title}</p>
                       {item.venue && (
-                        <p className="mt-0.5 text-xs text-muted">{item.venue}</p>
+                        <p className="mt-0.5 text-[11px] text-muted/50">{item.venue}</p>
                       )}
                     </div>
-                    <p className="text-xs text-muted sm:text-right">
+                    <p className="text-[11px] text-muted/50 sm:text-right">
                       {item.role}
                       {item.period && ` · ${item.period}`}
                     </p>
                   </div>
                 ))}
               </div>
-            </div>
+            </FadeIn>
           ))}
         </div>
 
         {/* Clients */}
-        <div className="mt-20">
-          <h3 className="mb-6 text-sm font-medium tracking-wide text-accent">
-            合作客戶
-          </h3>
-          <div className="flex flex-wrap gap-x-6 gap-y-2">
-            {clients.map((client) => (
-              <span key={client} className="text-xs text-muted">
-                {client}
-              </span>
-            ))}
+        <FadeIn>
+          <div className="mt-24">
+            <h3 className="text-[11px] uppercase tracking-[0.2em] text-accent/70">
+              合作客戶
+            </h3>
+            <div className="mt-6 flex flex-wrap gap-x-1 gap-y-1">
+              {clients.map((client, i) => (
+                <span key={client} className="text-[12px] text-muted/40">
+                  {client}{i < clients.length - 1 && <span className="mx-2 text-border">·</span>}
+                </span>
+              ))}
+            </div>
           </div>
-        </div>
+        </FadeIn>
       </div>
     </section>
   );
