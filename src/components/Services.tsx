@@ -51,16 +51,16 @@ export function Services() {
                 {/* Hover glow */}
                 <div className="pointer-events-none absolute -right-12 -top-12 h-32 w-32 rounded-full bg-accent/0 blur-[60px] transition-all duration-700 group-hover:bg-accent/[0.06]" />
 
-                <span className="font-mono text-[10px] tracking-wider text-accent/50">
+                <span className="font-mono text-[10px] tracking-wider text-accent-dim">
                   {service.number}
                 </span>
 
                 <h3 className="mt-5 text-2xl tracking-tight">{service.title}</h3>
-                <p className="mt-1 text-[10px] uppercase tracking-[0.15em] text-muted/50">
+                <p className="mt-1 text-[10px] uppercase tracking-[0.15em] text-muted">
                   {service.subtitle}
                 </p>
 
-                <p className="mt-5 text-sm leading-relaxed text-muted/80">
+                <p className="mt-5 text-sm leading-relaxed text-muted">
                   {service.description}
                 </p>
 
@@ -68,7 +68,7 @@ export function Services() {
                   {service.items.map((item) => (
                     <li
                       key={item}
-                      className="flex items-center gap-3 text-[13px] text-muted/70"
+                      className="flex items-center gap-3 text-[13px] text-muted"
                     >
                       <span className="h-px w-4 bg-accent/25 transition-all group-hover:w-6 group-hover:bg-accent/40" />
                       {item}
@@ -77,7 +77,7 @@ export function Services() {
                 </ul>
 
                 <div className="mt-8 border-t border-border/40 pt-5">
-                  <p className="font-mono text-[11px] text-accent/70">
+                  <p className="font-mono text-[11px] text-accent">
                     {service.price}
                   </p>
                 </div>

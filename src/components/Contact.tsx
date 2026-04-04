@@ -36,7 +36,7 @@ export function Contact() {
             </p>
             <h2 className="mt-3 text-4xl tracking-tight lg:text-5xl">聯絡方式</h2>
             <div className="mt-4 h-px w-12 bg-accent/30" />
-            <p className="mt-8 text-[15px] leading-[1.85] text-muted/70">
+            <p className="mt-8 text-[15px] leading-[1.85] text-muted">
               無論是影像製作、藝術顧問或數位建置需求，
               歡迎透過以下方式聯繫。
             </p>
@@ -52,7 +52,7 @@ export function Contact() {
                   rel={link.href.startsWith("mailto") ? undefined : "noopener noreferrer"}
                   className="group block border-b border-border/30 pb-6 transition-colors last:border-0"
                 >
-                  <p className="text-[10px] uppercase tracking-[0.2em] text-accent/40 transition-colors group-hover:text-accent/70">
+                  <p className="text-[10px] uppercase tracking-[0.2em] text-accent-dim transition-colors group-hover:text-accent">
                     {link.label}
                   </p>
                   <p className="mt-2 text-lg transition-colors group-hover:text-accent">

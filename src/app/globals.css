@@ -1,14 +1,14 @@
-@import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200;300;400;500;600&family=Noto+Sans+TC:wght@300;400;500&display=swap');
+@import "tailwindcss";
 
 :root {
   --background: #080808;
   --foreground: #ebebeb;
-  --accent: #c9a87c;
-  --accent-dim: #96764e;
-  --muted: #6b6b6b;
-  --border: #1e1e1e;
-  --surface: #111111;
+  --accent: #d4a96e;
+  --accent-dim: #b08550;
+  --muted: #999999;
+  --border: #252525;
+  --surface: #131313;
 }
 
 @theme inline {

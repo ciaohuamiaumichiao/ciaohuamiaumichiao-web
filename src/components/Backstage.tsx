@@ -20,22 +20,22 @@ export function Backstage() {
             <h2 className="mt-3 text-4xl tracking-tight lg:text-5xl">
               the Backstage
             </h2>
-            <p className="mt-1 text-xl text-muted/50">幕後人聚場</p>
+            <p className="mt-1 text-xl text-muted">幕後人聚場</p>
             <div className="mt-4 h-px w-12 bg-accent/30" />
 
             <blockquote className="mt-8 border-l-2 border-accent/20 pl-5">
-              <p className="text-[15px] leading-[1.85] text-muted/70 italic">
+              <p className="text-[15px] leading-[1.85] text-muted italic">
                 給每一個在某個人的幕後，默默付出的人。
                 一個讓人願意持續留下來的地方。
               </p>
             </blockquote>
 
-            <p className="mt-6 text-[13px] leading-relaxed text-muted/60">
+            <p className="mt-6 text-[13px] leading-relaxed text-muted">
               源自「Backstage is a WORLD」攝影展，2026 年成立的社群平台。
               關注志工、教會同工、非營利工作者與展演幕後協作者的
-              <span className="text-foreground/80">熱情續航</span>、
-              <span className="text-foreground/80">能量管理</span>與
-              <span className="text-foreground/80">技能成長</span>。
+              <span className="text-foreground">熱情續航</span>、
+              <span className="text-foreground">能量管理</span>與
+              <span className="text-foreground">技能成長</span>。
             </p>
           </FadeIn>
 
@@ -43,7 +43,7 @@ export function Backstage() {
           <div className="space-y-10">
             {/* 核心信念 */}
             <FadeIn delay={0.15}>
-              <h3 className="text-[11px] uppercase tracking-[0.2em] text-accent/70">核心信念</h3>
+              <h3 className="text-[11px] uppercase tracking-[0.2em] text-accent">核心信念</h3>
               <ul className="mt-5 space-y-3">
                 {[
                   "每一個幕後都是主角",
@@ -51,7 +51,7 @@ export function Backstage() {
                   "服務是一種節奏，可持續才能走得遠",
                   "走在一起，看見彼此，走得更遠",
                 ].map((belief) => (
-                  <li key={belief} className="flex items-start gap-3 text-[13px] text-muted/70">
+                  <li key={belief} className="flex items-start gap-3 text-[13px] text-muted">
                     <span className="mt-2 h-px w-4 shrink-0 bg-accent/30" />
                     {belief}
                   </li>
@@ -62,7 +62,7 @@ export function Backstage() {
             {/* 社群節奏 */}
             <FadeInStagger className="space-y-0">
               <FadeInItem>
-                <h3 className="mb-5 text-[11px] uppercase tracking-[0.2em] text-accent/70">社群節奏</h3>
+                <h3 className="mb-5 text-[11px] uppercase tracking-[0.2em] text-accent">社群節奏</h3>
               </FadeInItem>
               <div className="grid grid-cols-2 gap-3">
                 {[
@@ -73,8 +73,8 @@ export function Backstage() {
                 ].map((item) => (
                   <FadeInItem key={item.freq}>
                     <div className="rounded-xl border border-border/40 bg-surface/50 p-5 transition-colors hover:border-accent/20">
-                      <p className="text-[10px] uppercase tracking-wider text-accent/50">{item.freq}</p>
-                      <p className="mt-2 text-[13px] text-muted/70">{item.content}</p>
+                      <p className="text-[10px] uppercase tracking-wider text-accent-dim">{item.freq}</p>
+                      <p className="mt-2 text-[13px] text-muted">{item.content}</p>
                     </div>
                   </FadeInItem>
                 ))}
@@ -88,7 +88,7 @@ export function Backstage() {
                   href="https://backstageworld.vercel.app/community.html"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="rounded-full border border-accent/20 px-7 py-2.5 text-center text-xs uppercase tracking-[0.12em] text-accent/70 transition-all hover:border-accent/50 hover:bg-accent/5"
+                  className="rounded-full border border-accent/20 px-7 py-2.5 text-center text-xs uppercase tracking-[0.12em] text-accent transition-all hover:border-accent/50 hover:bg-accent/5"
                 >
                   了解更多
                 </a>

@@ -40,7 +40,7 @@ export function About() {
                 <FadeInItem key={stat.label}>
                   <div className="border-l border-accent/20 pl-4">
                     <p className="text-3xl font-light text-accent">{stat.value}</p>
-                    <p className="mt-1 text-[11px] uppercase tracking-wider text-muted/60">{stat.label}</p>
+                    <p className="mt-1 text-[11px] uppercase tracking-wider text-muted">{stat.label}</p>
                   </div>
                 </FadeInItem>
               ))}

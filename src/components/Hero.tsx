@@ -58,7 +58,7 @@ export function Hero() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.8, delay: 1.3 }}
-          className="mx-auto mt-10 max-w-sm text-sm leading-relaxed text-muted/80"
+          className="mx-auto mt-10 max-w-sm text-sm leading-relaxed text-muted"
         >
           以影像說故事，以策展連結人，以數位創造可能。
         </motion.p>
@@ -94,7 +94,7 @@ export function Hero() {
         className="absolute bottom-10 left-1/2 -translate-x-1/2"
       >
         <div className="flex flex-col items-center gap-2">
-          <span className="text-[9px] uppercase tracking-[0.3em] text-muted/50">Scroll</span>
+          <span className="text-[9px] uppercase tracking-[0.3em] text-muted">Scroll</span>
           <motion.div
             animate={{ y: [0, 6, 0] }}
             transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}

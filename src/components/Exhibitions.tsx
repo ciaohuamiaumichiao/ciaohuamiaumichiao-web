@@ -179,7 +179,7 @@ export function Exhibitions() {
             {roles.map((role) => (
               <span
                 key={role}
-                className="rounded-full border border-border/60 px-4 py-1.5 text-[11px] text-muted/60"
+                className="rounded-full border border-border/60 px-4 py-1.5 text-[11px] text-muted"
               >
                 {role}
               </span>
@@ -191,7 +191,7 @@ export function Exhibitions() {
         <div className="mt-20 space-y-20">
           {experiences.map((group) => (
             <FadeIn key={group.category}>
-              <h3 className="text-[11px] uppercase tracking-[0.2em] text-accent/70">
+              <h3 className="text-[11px] uppercase tracking-[0.2em] text-accent">
                 {group.category}
               </h3>
               <div className="mt-6 space-y-0">
@@ -200,16 +200,16 @@ export function Exhibitions() {
                     key={i}
                     className="group grid gap-2 border-b border-border/30 py-5 transition-colors first:border-t first:border-border/30 hover:bg-surface/50 sm:grid-cols-[80px_1fr_auto] sm:px-3"
                   >
-                    <span className="font-mono text-[11px] text-accent-dim/60">
+                    <span className="font-mono text-[11px] text-accent-dim">
                       {item.year}
                     </span>
                     <div>
                       <p className="text-[14px] transition-colors group-hover:text-accent">{item.title}</p>
                       {item.venue && (
-                        <p className="mt-0.5 text-[11px] text-muted/50">{item.venue}</p>
+                        <p className="mt-0.5 text-[11px] text-muted">{item.venue}</p>
                       )}
                     </div>
-                    <p className="text-[11px] text-muted/50 sm:text-right">
+                    <p className="text-[11px] text-muted sm:text-right">
                       {item.role}
                       {item.period && ` · ${item.period}`}
                     </p>
@@ -223,12 +223,12 @@ export function Exhibitions() {
         {/* Clients */}
         <FadeIn>
           <div className="mt-24">
-            <h3 className="text-[11px] uppercase tracking-[0.2em] text-accent/70">
+            <h3 className="text-[11px] uppercase tracking-[0.2em] text-accent">
               合作客戶
             </h3>
             <div className="mt-6 flex flex-wrap gap-x-1 gap-y-1">
               {clients.map((client, i) => (
-                <span key={client} className="text-[12px] text-muted/40">
+                <span key={client} className="text-[12px] text-muted">
                   {client}{i < clients.length - 1 && <span className="mx-2 text-border">·</span>}
                 </span>
               ))}

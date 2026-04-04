@@ -28,7 +28,7 @@ export function Showreel() {
           </div>
 
           <div className="mt-6 flex items-center justify-between">
-            <p className="text-[13px] text-muted/60">
+            <p className="text-[13px] text-muted">
               作品精選播放清單
             </p>
             <a
@@ -44,7 +44,7 @@ export function Showreel() {
 
         <FadeIn delay={0.3}>
           <div className="mt-16 text-center">
-            <p className="text-sm text-muted/60">
+            <p className="text-sm text-muted">
               想了解更多作品或合作洽談？
             </p>
             <a
