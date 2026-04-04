@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d4a96e"/>
+      <stop offset="100%" stop-color="#9e7340"/>
+    </linearGradient>
+  </defs>
+  <!-- Background circle -->
+  <circle cx="256" cy="256" r="256" fill="#0a0a0a"/>
+  <!-- Left ear -->
+  <path d="M128 240 L160 80 L220 200 Z" fill="url(#g)" opacity="0.9"/>
+  <!-- Right ear -->
+  <path d="M384 240 L352 80 L292 200 Z" fill="url(#g)" opacity="0.9"/>
+  <!-- Head -->
+  <ellipse cx="256" cy="300" rx="130" ry="120" fill="url(#g)" opacity="0.9"/>
+  <!-- Left eye -->
+  <ellipse cx="212" cy="280" rx="18" ry="22" fill="#0a0a0a"/>
+  <!-- Right eye -->
+  <ellipse cx="300" cy="280" rx="18" ry="22" fill="#0a0a0a"/>
+  <!-- Nose -->
+  <path d="M248 316 L256 308 L264 316 Z" fill="#0a0a0a"/>
+  <!-- Mouth -->
+  <path d="M256 316 Q242 334 230 328" fill="none" stroke="#0a0a0a" stroke-width="3" stroke-linecap="round"/>
+  <path d="M256 316 Q270 334 282 328" fill="none" stroke="#0a0a0a" stroke-width="3" stroke-linecap="round"/>
+  <!-- Whiskers left -->
+  <line x1="130" y1="290" x2="192" y2="300" stroke="#0a0a0a" stroke-width="2.5" opacity="0.7"/>
+  <line x1="134" y1="310" x2="194" y2="312" stroke="#0a0a0a" stroke-width="2.5" opacity="0.7"/>
+  <line x1="138" y1="330" x2="196" y2="324" stroke="#0a0a0a" stroke-width="2.5" opacity="0.7"/>
+  <!-- Whiskers right -->
+  <line x1="382" y1="290" x2="320" y2="300" stroke="#0a0a0a" stroke-width="2.5" opacity="0.7"/>
+  <line x1="378" y1="310" x2="318" y2="312" stroke="#0a0a0a" stroke-width="2.5" opacity="0.7"/>
+  <line x1="374" y1="330" x2="316" y2="324" stroke="#0a0a0a" stroke-width="2.5" opacity="0.7"/>
+  <!-- Small flower on ear -->
+  <circle cx="175" cy="140" r="10" fill="#f5f2ed" opacity="0.8"/>
+  <circle cx="163" cy="130" r="8" fill="#f5f2ed" opacity="0.6"/>
+  <circle cx="187" cy="130" r="8" fill="#f5f2ed" opacity="0.6"/>
+  <circle cx="167" cy="148" r="8" fill="#f5f2ed" opacity="0.6"/>
+  <circle cx="183" cy="148" r="8" fill="#f5f2ed" opacity="0.6"/>
+  <circle cx="175" cy="140" r="5" fill="#d4a96e"/>
+</svg>
