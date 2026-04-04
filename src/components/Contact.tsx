@@ -27,7 +27,7 @@ export function Contact() {
             <div>
               <p className="font-mono text-xs text-accent-dim uppercase">LINE@</p>
               <a
-                href="https://lin.ee/097eutou"
+                href="https://line.me/R/ti/p/@097eutou"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-2 block text-lg text-foreground transition-colors hover:text-accent"

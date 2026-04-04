@@ -52,7 +52,7 @@ export function Showreel() {
             想了解更多作品或合作洽談？
           </p>
           <a
-            href="https://lin.ee/097eutou"
+            href="https://line.me/R/ti/p/@097eutou"
             target="_blank"
             rel="noopener noreferrer"
             className="mt-4 inline-flex items-center gap-2 rounded-full bg-[#06C755] px-6 py-2.5 text-sm font-medium text-white transition-opacity hover:opacity-90"

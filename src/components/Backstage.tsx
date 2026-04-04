@@ -75,7 +75,7 @@ export function Backstage() {
                 了解更多
               </a>
               <a
-                href="https://lin.ee/097eutou"
+                href="https://line.me/R/ti/p/@097eutou"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 rounded-full bg-[#06C755] px-6 py-2.5 text-sm font-medium text-white transition-opacity hover:opacity-90"
