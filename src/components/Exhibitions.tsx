@@ -127,7 +127,6 @@ const experiences = [
 ];
 
 const clients = [
-  "中華民國總統府",
   "行政院經濟部",
   "資策會",
   "台灣世界展望會",
