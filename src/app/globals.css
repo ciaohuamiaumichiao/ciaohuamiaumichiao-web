@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200;300;400;500;600&family=Noto+Sans+TC:wght@300;400;500&display=swap');
 @import "tailwindcss";
 
-:root {
+/* Dark mode (default) */
+:root, [data-theme="dark"] {
   --background: #080808;
   --foreground: #ebebeb;
   --accent: #d4a96e;
@@ -9,6 +10,17 @@
   --muted: #999999;
   --border: #252525;
   --surface: #131313;
+}
+
+/* Light mode */
+[data-theme="light"] {
+  --background: #f5f2ed;
+  --foreground: #1a1a1a;
+  --accent: #9e7340;
+  --accent-dim: #7a5830;
+  --muted: #6b6b6b;
+  --border: #ddd5c9;
+  --surface: #ece7df;
 }
 
 @theme inline {
@@ -28,6 +40,7 @@ body {
     Roboto, "Helvetica Neue", sans-serif;
   font-weight: 300;
   letter-spacing: 0.01em;
+  transition: background-color 0.5s ease, color 0.5s ease;
 }
 
 h1, h2, h3 {
@@ -57,4 +70,9 @@ body::before {
   z-index: 9999;
   opacity: 0.015;
   background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+/* Light mode adjustments */
+[data-theme="light"] body::before {
+  opacity: 0.03;
 }
