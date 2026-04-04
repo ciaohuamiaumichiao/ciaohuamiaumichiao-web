@@ -141,6 +141,52 @@ const jsonLd = {
         ],
       },
     },
+    {
+      "@type": "FAQPage",
+      "@id": `${BASE_URL}/#faq`,
+      mainEntity: [
+        {
+          "@type": "Question",
+          name: "張正杰是誰？",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "張正杰（Kimi Chang）是台灣影像導演與策展人，品牌名「小花貓咪叫 ciaohuamiaumichiao」。擁有 15 年以上影像製作經驗，執導超過 30 支音樂 MV，現為擎光媒體工作室及甚好創意有限公司負責人。",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "小花貓咪叫提供哪些服務？",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "提供三大服務：(1) 影像製作——企業形象片、紀錄片、展覽紀錄、活動側拍，NT$50,000 起；(2) 影像與藝術顧問——策展規劃、影像團隊建立與成長陪跑，初次諮詢 NT$5,000 + 執行費；(3) 創意數位建置——品牌網站、影音硬體規劃與系統整合，NT$60,000 起。",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "如何聯繫張正杰？",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "可透過 LINE 官方帳號 @097eutou 聯繫，或 Email 至 ciaohuamiaumichiao@gmail.com。也可追蹤 Instagram @ciaohuamiaumichiao。",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "什麼是 the Backstage 幕後人聚場？",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "the Backstage 幕後人聚場是由張正杰發起的創意產業工作者社群，透過每週聚會、每月沙龍、雙月工作坊等節奏，連結幕後工作者，分享經驗與資源。",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "張正杰有哪些代表作品？",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "代表作品包括：約書亞樂團 MV 30+ 支、Gateway Worship 聯名 MV、孟庭葦巡迴演唱會執行導演、馬偕紀念醫院 145 週年院慶形象影片、MOMO TV 球場第一排編導，以及 2026 年策展「Backstage is a WORLD」攝影展。",
+          },
+        },
+      ],
+    },
   ],
 };
 
