@@ -9,7 +9,7 @@
 ## 服務項目
 
 - [影像製作](https://ciaohuamiaumichiao-web.vercel.app/#services): 企業形象片、紀錄片、展覽紀錄、活動側拍。從前期企劃、現場執導到後期剪輯，完整影像製作服務。專案報價 NT$50,000 起。
-- [影像與藝術顧問](https://ciaohuamiaumichiao-web.vercel.app/#services): 展覽策劃與藝術指導、影像團隊組建與培訓、創作方向與風格定位、品牌視覺策略。初次諮詢 NT$5,000 + 執行費。
+- [影像與藝術顧問](https://ciaohuamiaumichiao-web.vercel.app/#services): 展覽策劃與藝術指導、影像團隊組建與培訓、短影音內容策略顧問（Reels / Shorts / TikTok）、社群團隊成長陪跑顧問、品牌視覺策略。初次諮詢 NT$5,000 + 執行費。
 - [創意數位建置](https://ciaohuamiaumichiao-web.vercel.app/#services): 品牌官網與展覽網站、管理系統與排班平台、影音硬體規劃與建置、直播／錄影系統整合。網站建置 NT$60,000 起 + 維護方案。
 
 ## 經歷亮點
