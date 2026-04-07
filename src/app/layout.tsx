@@ -46,12 +46,21 @@ export const metadata: Metadata = {
     siteName: "小花貓咪叫 ciaohuamiaumichiao",
     locale: "zh_TW",
     type: "website",
+    images: [
+      {
+        url: `${BASE_URL}/opengraph-image`,
+        width: 1200,
+        height: 630,
+        alt: "小花貓咪叫 ciaohuamiaumichiao — 張正杰｜導演・策展人",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "小花貓咪叫 ciaohuamiaumichiao — 張正杰",
     description:
       "影像導演、策展人。影像製作、影像與藝術顧問、創意數位建置服務。",
+    images: [`${BASE_URL}/opengraph-image`],
   },
   alternates: {
     canonical: BASE_URL,
@@ -145,6 +154,54 @@ const jsonLd = {
           },
         ],
       },
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": `${BASE_URL}/#breadcrumb`,
+      itemListElement: [
+        {
+          "@type": "ListItem",
+          position: 1,
+          name: "首頁",
+          item: BASE_URL,
+        },
+        {
+          "@type": "ListItem",
+          position: 2,
+          name: "關於",
+          item: `${BASE_URL}/#about`,
+        },
+        {
+          "@type": "ListItem",
+          position: 3,
+          name: "服務項目",
+          item: `${BASE_URL}/#services`,
+        },
+        {
+          "@type": "ListItem",
+          position: 4,
+          name: "作品影像",
+          item: `${BASE_URL}/#showreel`,
+        },
+        {
+          "@type": "ListItem",
+          position: 5,
+          name: "經歷與作品",
+          item: `${BASE_URL}/#exhibitions`,
+        },
+        {
+          "@type": "ListItem",
+          position: 6,
+          name: "幕後人聚場",
+          item: `${BASE_URL}/#backstage`,
+        },
+        {
+          "@type": "ListItem",
+          position: 7,
+          name: "聯絡",
+          item: `${BASE_URL}/#contact`,
+        },
+      ],
     },
     {
       "@type": "FAQPage",
