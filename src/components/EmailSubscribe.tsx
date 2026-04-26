@@ -1,20 +1,20 @@
 /**
- * Buttondown 訂閱表單。
- * 設定步驟：
- * 1. 註冊 https://buttondown.email （免費 100 訂閱以內）
- * 2. 把下方 BUTTONDOWN_USERNAME 改成你的帳號
- * 3. 在 buttondown 設定頁開啟 "Allow embedding"
- * 完整指南：docs/email-setup.md
+ * Substack 訂閱按鈕（外連到 Substack 訂閱頁）。
+ *
+ * 為什麼用外連而不是 embed iframe：
+ * 1. Substack 的 iframe 樣式無法配合本站主題、載入慢
+ * 2. 外連讓訂閱流程在 Substack 完成，使用者體驗更順
+ * 3. 未來想換服務只要改 URL 即可
+ *
+ * 設定步驟：docs/newsletter-setup.md
  */
-const BUTTONDOWN_USERNAME = "ciaohuamiaumichiao"; // ← 改成你的 Buttondown 帳號
+const SUBSTACK_URL = "https://ciaohuamiaumichiao.substack.com/subscribe";
 
 export function EmailSubscribe({
   variant = "inline",
 }: {
   variant?: "inline" | "section";
 }) {
-  const action = `https://buttondown.com/api/emails/embed-subscribe/${BUTTONDOWN_USERNAME}`;
-
   if (variant === "section") {
     return (
       <section className="border-y border-border/30 px-6 py-20">
@@ -28,7 +28,7 @@ export function EmailSubscribe({
           <p className="mx-auto mt-4 max-w-md text-sm leading-relaxed text-muted">
             一個月最多兩封信。寫影像、品牌敘事、創作者職涯。不轉賣、不洗版。
           </p>
-          <SubscribeForm action={action} />
+          <SubscribeButton size="lg" />
         </div>
       </section>
     );
@@ -40,32 +40,24 @@ export function EmailSubscribe({
       <p className="mt-2 text-xs leading-relaxed text-muted">
         一個月最多兩封信。寫影像、品牌敘事、創作者職涯。
       </p>
-      <SubscribeForm action={action} />
+      <SubscribeButton size="sm" />
     </div>
   );
 }
 
-function SubscribeForm({ action }: { action: string }) {
+function SubscribeButton({ size }: { size: "sm" | "lg" }) {
+  const padding = size === "lg" ? "px-7 py-3" : "px-5 py-2.5";
   return (
-    <form
-      action={action}
-      method="post"
-      target="popupwindow"
-      className="mt-5 flex flex-col gap-3 sm:flex-row"
+    <a
+      href={SUBSTACK_URL}
+      target="_blank"
+      rel="noopener noreferrer"
+      className={`mt-5 inline-flex items-center gap-2 rounded border border-accent/60 bg-accent/10 ${padding} text-xs uppercase tracking-[0.15em] text-accent transition-colors hover:bg-accent hover:text-background`}
     >
-      <input
-        type="email"
-        name="email"
-        placeholder="your@email.com"
-        required
-        className="flex-1 rounded border border-border/60 bg-transparent px-4 py-2.5 text-sm placeholder:text-muted/60 focus:border-accent focus:outline-none"
-      />
-      <button
-        type="submit"
-        className="rounded border border-accent/60 bg-accent/10 px-5 py-2.5 text-xs uppercase tracking-[0.15em] text-accent transition-colors hover:bg-accent hover:text-background"
-      >
-        訂閱
-      </button>
-    </form>
+      <span>訂閱電子報</span>
+      <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+        <path d="M7 17L17 7M17 7H8M17 7v9" strokeLinecap="round" strokeLinejoin="round" />
+      </svg>
+    </a>
   );
 }
