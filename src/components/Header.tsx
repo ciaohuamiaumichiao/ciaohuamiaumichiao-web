@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import { usePathname } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import { useTheme } from "./ThemeProvider";
 
@@ -10,6 +11,7 @@ const navLinks = [
   { label: "作品", href: "#showreel" },
   { label: "經歷", href: "#exhibitions" },
   { label: "幕後人聚場", href: "#backstage" },
+  { label: "寫作", href: "/writing" },
   { label: "聯絡", href: "#contact" },
 ];
 
@@ -17,6 +19,11 @@ export function Header() {
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const { theme, toggleTheme } = useTheme();
+  const pathname = usePathname();
+  const isHome = pathname === "/";
+
+  const resolveHref = (href: string) =>
+    href.startsWith("#") && !isHome ? `/${href}` : href;
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 40);
@@ -34,7 +41,7 @@ export function Header() {
     >
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-5">
         <a
-          href="#"
+          href="/"
           className="text-xs tracking-[0.2em] text-accent/80 transition-colors hover:text-accent"
         >
           小花貓咪叫
@@ -46,7 +53,7 @@ export function Header() {
             {navLinks.map((link) => (
               <li key={link.href}>
                 <a
-                  href={link.href}
+                  href={resolveHref(link.href)}
                   className="text-[11px] uppercase tracking-[0.12em] text-muted transition-colors hover:text-foreground"
                 >
                   {link.label}
@@ -116,7 +123,7 @@ export function Header() {
                   transition={{ delay: i * 0.05 }}
                 >
                   <a
-                    href={link.href}
+                    href={resolveHref(link.href)}
                     className="block py-2 text-sm text-muted transition-colors hover:text-foreground"
                     onClick={() => setOpen(false)}
                   >

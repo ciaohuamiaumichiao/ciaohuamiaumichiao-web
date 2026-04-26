@@ -44,3 +44,10 @@ next-env.d.ts
 .claude/
 AGENTS.md
 CLAUDE.md
+
+# 大型素材檔（音訊、影片）— 保留逐字稿與 srt 入庫
+content/_sources/**/*.mp3
+content/_sources/**/*.wav
+content/_sources/**/*.mov
+content/_sources/**/*.mp4
+content/_sources/**/*.m4a
