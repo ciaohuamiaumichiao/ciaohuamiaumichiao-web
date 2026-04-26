@@ -5,6 +5,7 @@ import { Services } from "@/components/Services";
 import { Showreel } from "@/components/Showreel";
 import { Exhibitions } from "@/components/Exhibitions";
 import { Backstage } from "@/components/Backstage";
+import { LatestWriting } from "@/components/LatestWriting";
 import { InstagramFeed } from "@/components/InstagramFeed";
 import { Contact } from "@/components/Contact";
 import { Footer } from "@/components/Footer";
@@ -20,6 +21,7 @@ export default function Home() {
         <Showreel />
         <Exhibitions />
         <Backstage />
+        <LatestWriting />
         <InstagramFeed />
         <Contact />
       </main>

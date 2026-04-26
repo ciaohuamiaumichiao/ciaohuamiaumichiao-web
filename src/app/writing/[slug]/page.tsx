@@ -5,6 +5,7 @@ import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { EmailSubscribe } from "@/components/EmailSubscribe";
 import { getAllSlugs, getWriting, formatDate } from "@/lib/writing";
 
 export const dynamicParams = false;
@@ -83,7 +84,11 @@ export default async function WritingPost({
             </ReactMarkdown>
           </div>
 
-          <div className="mt-16 border-t border-border/40 pt-8">
+          <div className="mt-16">
+            <EmailSubscribe />
+          </div>
+
+          <div className="mt-12 border-t border-border/40 pt-8">
             <Link
               href="/writing"
               className="text-[11px] uppercase tracking-[0.2em] text-muted transition-colors hover:text-accent"

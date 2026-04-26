@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { EmailSubscribe } from "@/components/EmailSubscribe";
 import { getAllWritings, formatDate } from "@/lib/writing";
 
 export const metadata: Metadata = {
@@ -73,6 +74,7 @@ export default function WritingIndex() {
           )}
         </div>
       </main>
+      <EmailSubscribe variant="section" />
       <Footer />
     </>
   );

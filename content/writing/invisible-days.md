@@ -102,4 +102,4 @@ tags: [品牌, 創作, 講座筆記]
 
 ---
 
-這三篇是 2026 年 3 月在「Backstage is a WORLD」展覽期間一場講座的整理。如果想跟我聊，[寫信給我](mailto:ciaohuamiaumichiao@gmail.com)，或追蹤 [@ciaohuamiaumichiao](https://www.instagram.com/ciaohuamiaumichiao/)。
+這篇是 2026 年 3 月「Backstage is a WORLD」展覽期間一場講座的整理。如果想跟我聊，[寫信給我](mailto:ciaohuamiaumichiao@gmail.com)，或追蹤 [@ciaohuamiaumichiao](https://www.instagram.com/ciaohuamiaumichiao/)。
