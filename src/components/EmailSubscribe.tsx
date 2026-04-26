@@ -1,14 +1,23 @@
+"use client";
+
+import { useState } from "react";
+
 /**
- * Substack 訂閱按鈕（外連到 Substack 訂閱頁）。
+ * Substack 訂閱表單（自製 inline form）。
  *
- * 為什麼用外連而不是 embed iframe：
- * 1. Substack 的 iframe 樣式無法配合本站主題、載入慢
- * 2. 外連讓訂閱流程在 Substack 完成，使用者體驗更順
- * 3. 未來想換服務只要改 URL 即可
+ * 直接 POST 到 Substack 的訂閱 endpoint，使用者填完 email 不用跳離網站。
+ * Substack 會自動寄確認信給對方完成訂閱（double opt-in）。
  *
- * 設定步驟：docs/newsletter-setup.md
+ * Endpoint：https://[publication].substack.com/api/v1/free
+ * 必要欄位：email
+ *
+ * 由於 Substack 沒有 CORS 標頭，fetch 用 no-cors 模式發送
+ * — 我們收不到回應內容，但請求會送達。送出後就樂觀顯示成功訊息。
+ *
+ * 換 publication：改下方常數即可。
  */
-const SUBSTACK_URL = "https://ciaohuamiaumichiao.substack.com/subscribe";
+const SUBSTACK_PUBLICATION = "ciaohuamiaumichiao";
+const SUBSTACK_API = `https://${SUBSTACK_PUBLICATION}.substack.com/api/v1/free`;
 
 export function EmailSubscribe({
   variant = "inline",
@@ -28,7 +37,7 @@ export function EmailSubscribe({
           <p className="mx-auto mt-4 max-w-md text-sm leading-relaxed text-muted">
             一個月最多兩封信。寫影像、品牌敘事、創作者職涯。不轉賣、不洗版。
           </p>
-          <SubscribeButton size="lg" />
+          <SubscribeForm size="lg" />
         </div>
       </section>
     );
@@ -40,24 +49,80 @@ export function EmailSubscribe({
       <p className="mt-2 text-xs leading-relaxed text-muted">
         一個月最多兩封信。寫影像、品牌敘事、創作者職涯。
       </p>
-      <SubscribeButton size="sm" />
+      <SubscribeForm size="sm" />
     </div>
   );
 }
 
-function SubscribeButton({ size }: { size: "sm" | "lg" }) {
-  const padding = size === "lg" ? "px-7 py-3" : "px-5 py-2.5";
+type Status = "idle" | "loading" | "success";
+
+function SubscribeForm({ size }: { size: "sm" | "lg" }) {
+  const [email, setEmail] = useState("");
+  const [status, setStatus] = useState<Status>("idle");
+
+  async function handleSubmit(e: React.FormEvent) {
+    e.preventDefault();
+    if (!email || status !== "idle") return;
+    setStatus("loading");
+    try {
+      const body = new FormData();
+      body.append("email", email);
+      await fetch(SUBSTACK_API, {
+        method: "POST",
+        mode: "no-cors",
+        body,
+      });
+    } catch {
+      // 即使網路錯誤也樂觀顯示成功——Substack 的確認信會說明真實狀態
+    }
+    setStatus("success");
+    setEmail("");
+  }
+
+  if (status === "success") {
+    return (
+      <div className={`mt-5 flex items-start gap-3 rounded border border-accent/40 bg-accent/5 ${size === "lg" ? "px-5 py-4" : "px-4 py-3"} text-left`}>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="mt-0.5 shrink-0 text-accent">
+          <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" strokeLinecap="round" strokeLinejoin="round" />
+          <polyline points="22 4 12 14.01 9 11.01" strokeLinecap="round" strokeLinejoin="round" />
+        </svg>
+        <div>
+          <p className="text-sm text-foreground">
+            收到了！
+          </p>
+          <p className="mt-1 text-xs leading-relaxed text-muted">
+            請去信箱點 Substack 寄給你的確認信完成訂閱（找不到的話檢查垃圾信件夾）。
+          </p>
+        </div>
+      </div>
+    );
+  }
+
+  const padding = size === "lg" ? "py-3" : "py-2.5";
+  const buttonPadding = size === "lg" ? "px-7 py-3" : "px-5 py-2.5";
+
   return (
-    <a
-      href={SUBSTACK_URL}
-      target="_blank"
-      rel="noopener noreferrer"
-      className={`mt-5 inline-flex items-center gap-2 rounded border border-accent/60 bg-accent/10 ${padding} text-xs uppercase tracking-[0.15em] text-accent transition-colors hover:bg-accent hover:text-background`}
+    <form
+      onSubmit={handleSubmit}
+      className="mt-5 flex flex-col gap-3 sm:flex-row"
     >
-      <span>訂閱電子報</span>
-      <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-        <path d="M7 17L17 7M17 7H8M17 7v9" strokeLinecap="round" strokeLinejoin="round" />
-      </svg>
-    </a>
+      <input
+        type="email"
+        name="email"
+        value={email}
+        onChange={(e) => setEmail(e.target.value)}
+        placeholder="your@email.com"
+        required
+        disabled={status === "loading"}
+        className={`flex-1 rounded border border-border/60 bg-transparent px-4 ${padding} text-sm placeholder:text-muted/60 focus:border-accent focus:outline-none disabled:opacity-50`}
+      />
+      <button
+        type="submit"
+        disabled={status === "loading"}
+        className={`rounded border border-accent/60 bg-accent/10 ${buttonPadding} text-xs uppercase tracking-[0.15em] text-accent transition-colors hover:bg-accent hover:text-background disabled:cursor-wait disabled:opacity-60`}
+      >
+        {status === "loading" ? "送出中⋯" : "訂閱"}
+      </button>
+    </form>
   );
 }
