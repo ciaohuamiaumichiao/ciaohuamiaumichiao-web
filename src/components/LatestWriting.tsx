@@ -1,54 +1,49 @@
 import Link from "next/link";
 import { getAllWritings, formatDate } from "@/lib/writing";
+import { SectionSlate } from "./SectionSlate";
 
 export function LatestWriting() {
   const writings = getAllWritings().slice(0, 3);
   if (writings.length === 0) return null;
 
   return (
-    <section id="writing-preview" className="px-6 py-24 sm:py-32">
-      <div className="mx-auto max-w-5xl">
-        <div className="mb-12 flex flex-col items-baseline justify-between gap-4 sm:flex-row">
-          <div>
-            <p className="mb-3 text-[11px] uppercase tracking-[0.2em] text-accent/80">
-              Writing
-            </p>
-            <h2 className="text-3xl font-light tracking-tight sm:text-4xl">
-              最新寫作
-            </h2>
-          </div>
-          <Link
-            href="/writing"
-            className="text-[11px] uppercase tracking-[0.2em] text-muted transition-colors hover:text-accent"
-          >
-            全部文章 →
-          </Link>
-        </div>
+    <section id="writing-preview" className="border-t border-border px-6 py-28 lg:py-36">
+      <div className="mx-auto max-w-6xl">
+        <SectionSlate index="08" en="Writing" zh="最新寫作" note="SCRIPTS & NOTES" />
 
-        <ul className="divide-y divide-border/40">
+        <ul className="mt-12 divide-y divide-border/40">
           {writings.map((w) => (
-            <li key={w.slug} className="py-6 first:pt-0">
+            <li key={w.slug}>
               <Link
                 href={`/writing/${w.slug}`}
-                className="group block transition-opacity hover:opacity-80"
+                className="group grid gap-2 py-7 transition-colors hover:bg-surface/40 sm:grid-cols-[120px_1fr] sm:gap-8 sm:px-3"
               >
-                <div className="flex flex-col gap-1 sm:flex-row sm:items-baseline sm:justify-between sm:gap-8">
-                  <h3 className="text-lg font-light tracking-tight sm:text-xl">
+                <time className="font-mono text-[10px] leading-6 tracking-wider text-muted">
+                  {formatDate(w.date)}
+                </time>
+                <div>
+                  <h3 className="text-lg tracking-tight transition-colors group-hover:text-accent sm:text-xl">
                     {w.title}
                   </h3>
-                  <time className="shrink-0 font-mono text-[11px] tracking-wider text-muted">
-                    {formatDate(w.date)}
-                  </time>
+                  {w.excerpt && (
+                    <p className="mt-2 line-clamp-2 text-sm leading-relaxed text-muted">
+                      {w.excerpt}
+                    </p>
+                  )}
                 </div>
-                {w.excerpt && (
-                  <p className="mt-2 line-clamp-2 text-sm leading-relaxed text-muted">
-                    {w.excerpt}
-                  </p>
-                )}
               </Link>
             </li>
           ))}
         </ul>
+
+        <div className="mt-8 text-right">
+          <Link
+            href="/writing"
+            className="font-mono text-[10px] uppercase tracking-[0.15em] text-muted transition-colors hover:text-accent"
+          >
+            全部文章 →
+          </Link>
+        </div>
       </div>
     </section>
   );

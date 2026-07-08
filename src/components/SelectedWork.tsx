@@ -1,9 +1,11 @@
 "use client";
 
 import { FadeIn } from "./FadeIn";
+import { SectionSlate } from "./SectionSlate";
 
 const works = [
   {
+    index: "E01",
     year: "2026",
     category: "節目製作",
     title: "Mission On Air 宣教事",
@@ -14,6 +16,7 @@ const works = [
     linkLabel: "missionair.genesis131.com",
   },
   {
+    index: "E02",
     year: "2026",
     category: "節目製作",
     title: "放學後 SHOW",
@@ -24,6 +27,7 @@ const works = [
     linkLabel: "afterschool.genesis131.com",
   },
   {
+    index: "E03",
     year: "2026",
     category: "直播轉播",
     title: "城市禱告會系列轉播",
@@ -34,6 +38,7 @@ const works = [
     linkLabel: null,
   },
   {
+    index: "E04",
     year: "2026",
     category: "攝影・出版",
     title: "遠鄉閃閃《我的攝影不像樣》",
@@ -44,6 +49,7 @@ const works = [
     linkLabel: null,
   },
   {
+    index: "E05",
     year: "2026",
     category: "策展",
     title: "Backstage is a WORLD",
@@ -59,21 +65,17 @@ export function SelectedWork() {
   return (
     <section id="work" className="border-t border-border px-6 py-28 lg:py-36">
       <div className="mx-auto max-w-6xl">
-        <FadeIn>
-          <p className="text-[10px] uppercase tracking-[0.3em] text-accent-dim">
-            Selected Work
-          </p>
-          <h2 className="mt-3 text-4xl tracking-tight lg:text-5xl">今年做的事</h2>
-          <div className="mt-4 h-px w-12 bg-accent/30" />
-        </FadeIn>
+        <SectionSlate index="03" en="Selected Work" zh="今年做的事" note="5 ENTRIES" />
 
-        <div className="mt-16">
+        <div className="mt-14">
           {works.map((work, i) => (
             <FadeIn key={work.title} delay={i * 0.05}>
-              <article className="group grid gap-4 border-b border-border/30 py-10 first:border-t first:border-border/30 lg:grid-cols-[100px_1fr] lg:gap-10">
+              <article className="frame-marks group grid gap-4 border-b border-border/40 py-10 transition-colors hover:bg-surface/40 sm:px-4 lg:grid-cols-[110px_1fr_90px] lg:gap-10">
                 <div>
-                  <p className="font-mono text-[11px] text-accent-dim">{work.year}</p>
-                  <p className="mt-1 text-[10px] uppercase tracking-[0.18em] text-muted">
+                  <p className="font-mono text-xl font-light text-accent-dim transition-colors group-hover:text-accent">
+                    {work.index}
+                  </p>
+                  <p className="mt-2 text-[10px] tracking-[0.18em] text-muted">
                     {work.category}
                   </p>
                 </div>
@@ -81,7 +83,7 @@ export function SelectedWork() {
                   <h3 className="text-2xl tracking-tight transition-colors group-hover:text-accent lg:text-3xl">
                     {work.title}
                   </h3>
-                  <p className="mt-2 text-[11px] tracking-wide text-accent-dim">
+                  <p className="mt-2 font-mono text-[10px] tracking-[0.08em] text-accent-dim">
                     {work.role}
                   </p>
                   <p className="mt-4 text-[14px] leading-[1.85] text-muted">
@@ -92,13 +94,16 @@ export function SelectedWork() {
                       href={work.href}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="mt-4 inline-flex items-center gap-2 font-mono text-[11px] text-accent/60 transition-colors hover:text-accent"
+                      className="mt-4 inline-flex items-center gap-2 font-mono text-[10px] tracking-[0.05em] text-accent/70 transition-colors hover:text-accent"
                     >
                       {work.linkLabel}
                       <span aria-hidden>→</span>
                     </a>
                   )}
                 </div>
+                <p className="hidden text-right font-mono text-[10px] text-muted lg:block">
+                  {work.year}
+                </p>
               </article>
             </FadeIn>
           ))}

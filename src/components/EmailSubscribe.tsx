@@ -28,7 +28,7 @@ export function EmailSubscribe({
     return (
       <section className="border-y border-border/30 px-6 py-20">
         <div className="mx-auto max-w-2xl text-center">
-          <p className="mb-3 text-[11px] uppercase tracking-[0.2em] text-accent/80">
+          <p className="mb-3 font-mono text-[10px] uppercase tracking-[0.2em] text-accent/80">
             Newsletter
           </p>
           <h2 className="text-2xl font-light tracking-tight sm:text-3xl">
@@ -44,7 +44,7 @@ export function EmailSubscribe({
   }
 
   return (
-    <div className="rounded-lg border border-border/40 bg-surface/50 p-6">
+    <div className="frame-marks border border-border/40 bg-surface/50 p-6">
       <h3 className="text-base font-light tracking-tight">新文章上線時通知我</h3>
       <p className="mt-2 text-xs leading-relaxed text-muted">
         一個月最多兩封信。寫影像、品牌敘事、創作者職涯。
@@ -81,7 +81,7 @@ function SubscribeForm({ size }: { size: "sm" | "lg" }) {
 
   if (status === "success") {
     return (
-      <div className={`mt-5 flex items-start gap-3 rounded border border-accent/40 bg-accent/5 ${size === "lg" ? "px-5 py-4" : "px-4 py-3"} text-left`}>
+      <div className={`mt-5 flex items-start gap-3 border border-accent/40 bg-accent/5 ${size === "lg" ? "px-5 py-4" : "px-4 py-3"} text-left`}>
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="mt-0.5 shrink-0 text-accent">
           <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" strokeLinecap="round" strokeLinejoin="round" />
           <polyline points="22 4 12 14.01 9 11.01" strokeLinecap="round" strokeLinejoin="round" />
@@ -114,12 +114,12 @@ function SubscribeForm({ size }: { size: "sm" | "lg" }) {
         placeholder="your@email.com"
         required
         disabled={status === "loading"}
-        className={`flex-1 rounded border border-border/60 bg-transparent px-4 ${padding} text-sm placeholder:text-muted/60 focus:border-accent focus:outline-none disabled:opacity-50`}
+        className={`flex-1 border border-border/60 bg-transparent px-4 ${padding} font-mono text-sm placeholder:text-muted/60 focus:border-accent focus:outline-none disabled:opacity-50`}
       />
       <button
         type="submit"
         disabled={status === "loading"}
-        className={`rounded border border-accent/60 bg-accent/10 ${buttonPadding} text-xs uppercase tracking-[0.15em] text-accent transition-colors hover:bg-accent hover:text-background disabled:cursor-wait disabled:opacity-60`}
+        className={`border border-accent/60 bg-accent/10 ${buttonPadding} font-mono text-xs uppercase tracking-[0.12em] text-accent transition-colors hover:bg-accent hover:text-background disabled:cursor-wait disabled:opacity-60`}
       >
         {status === "loading" ? "送出中⋯" : "訂閱"}
       </button>

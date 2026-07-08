@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect } from "react";
+import { SectionSlate } from "./SectionSlate";
 
 // Behold widget ID — 設定步驟：
 // 1. 前往 https://behold.so 免費註冊
@@ -27,24 +28,9 @@ export function InstagramFeed() {
   }, []);
 
   return (
-    <section id="instagram" className="border-t border-border px-6 py-24 lg:py-32">
+    <section id="instagram" className="border-t border-border px-6 py-28 lg:py-36">
       <div className="mx-auto max-w-6xl">
-        <div className="flex items-end justify-between">
-          <div>
-            <p className="font-mono text-xs tracking-[0.2em] text-accent-dim uppercase">
-              Instagram
-            </p>
-            <h2 className="mt-2 text-3xl font-light tracking-tight">最新動態</h2>
-          </div>
-          <a
-            href="https://www.instagram.com/ciaohuamiaumichiao"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-sm text-muted transition-colors hover:text-accent"
-          >
-            @ciaohuamiaumichiao →
-          </a>
-        </div>
+        <SectionSlate index="09" en="Stills" zh="最新動態" note="@CIAOHUAMIAUMICHIAO" />
 
         <div className="mt-12">
           {BEHOLD_WIDGET_ID ? (
@@ -66,7 +52,7 @@ export function InstagramFeed() {
                 {Array.from({ length: 6 }).map((_, i) => (
                   <div
                     key={i}
-                    className="aspect-square rounded-lg border border-border/50 bg-surface transition-all group-hover:border-accent/30"
+                    className="frame-marks aspect-square border border-border/50 bg-surface transition-all group-hover:border-accent/30"
                   >
                     <div className="flex h-full items-center justify-center">
                       <svg
@@ -91,6 +77,17 @@ export function InstagramFeed() {
               </p>
             </a>
           )}
+        </div>
+
+        <div className="mt-8 text-right">
+          <a
+            href="https://www.instagram.com/ciaohuamiaumichiao"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-mono text-[10px] uppercase tracking-[0.12em] text-muted transition-colors hover:text-accent"
+          >
+            Instagram →
+          </a>
         </div>
       </div>
     </section>

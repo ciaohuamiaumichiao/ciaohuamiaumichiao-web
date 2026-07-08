@@ -21,10 +21,15 @@ export default function WritingIndex() {
       <main className="px-6 pb-24 pt-32 sm:pt-40">
         <div className="mx-auto max-w-3xl">
           <header className="mb-16">
-            <p className="mb-4 text-[11px] uppercase tracking-[0.2em] text-accent/80">
-              Writing
-            </p>
-            <h1 className="text-4xl font-light tracking-tight sm:text-5xl">
+            <div className="flex items-baseline justify-between gap-6 border-b border-border pb-4">
+              <p className="font-mono text-[10px] tracking-[0.15em] text-accent">
+                WRITING<span className="ml-4 hidden uppercase text-muted sm:inline">Scripts & Notes</span>
+              </p>
+              <p className="shrink-0 font-mono text-[9px] uppercase tracking-[0.12em] text-muted">
+                RSS AVAILABLE
+              </p>
+            </div>
+            <h1 className="mt-8 text-4xl tracking-tight sm:text-5xl">
               寫作
             </h1>
             <p className="mt-6 max-w-xl text-sm leading-relaxed text-muted">
@@ -60,7 +65,7 @@ export default function WritingIndex() {
                         {w.tags.map((t) => (
                           <span
                             key={t}
-                            className="text-[10px] uppercase tracking-[0.15em] text-accent/70"
+                            className="font-mono text-[9px] uppercase tracking-[0.1em] text-accent/70"
                           >
                             #{t}
                           </span>

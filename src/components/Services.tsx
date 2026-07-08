@@ -1,10 +1,11 @@
 "use client";
 
 import { FadeIn, FadeInStagger, FadeInItem } from "./FadeIn";
+import { SectionSlate } from "./SectionSlate";
 
 const services = [
   {
-    number: "01",
+    number: "UNIT 01",
     title: "影像製作",
     subtitle: "Film & Video Production",
     description:
@@ -18,10 +19,10 @@ const services = [
       { label: "後期剪輯", desc: "剪接、調色、混音" },
       { label: "交片驗收", desc: "修改確認與檔案交付" },
     ],
-    price: "專案報價 NT$50,000 起",
+    price: "NT$50,000 起",
   },
   {
-    number: "02",
+    number: "UNIT 02",
     title: "節目製作",
     subtitle: "Show & Podcast Production",
     description:
@@ -34,10 +35,10 @@ const services = [
       { label: "後製上架", desc: "剪輯、字幕、各平台發佈" },
       { label: "檢視迭代", desc: "數據回顧與下一季調整" },
     ],
-    price: "以季為單位專案報價",
+    price: "以季報價",
   },
   {
-    number: "03",
+    number: "UNIT 03",
     title: "直播與轉播統籌",
     subtitle: "Live Broadcast",
     description:
@@ -50,10 +51,10 @@ const services = [
       { label: "直播執行", desc: "現場導播與即時監控" },
       { label: "結案交付", desc: "錄影檔與服務紀錄報告" },
     ],
-    price: "單場專案報價 NT$60,000 起",
+    price: "單場 NT$60,000 起",
   },
   {
-    number: "04",
+    number: "UNIT 04",
     title: "創意數位建置",
     subtitle: "Creative Digital Solutions",
     description:
@@ -66,7 +67,7 @@ const services = [
       { label: "測試上線", desc: "功能測試與正式部署" },
       { label: "維護支援", desc: "持續優化與技術支援" },
     ],
-    price: "網站建置 NT$60,000 起 + 維護方案",
+    price: "NT$60,000 起 + 維護方案",
   },
 ];
 
@@ -74,31 +75,24 @@ export function Services() {
   return (
     <section id="services" className="border-t border-border px-6 py-28 lg:py-36">
       <div className="mx-auto max-w-6xl">
-        <FadeIn>
-          <p className="text-[10px] uppercase tracking-[0.3em] text-accent-dim">
-            Services
-          </p>
-          <h2 className="mt-3 text-4xl tracking-tight lg:text-5xl">服務項目</h2>
-          <div className="mt-4 h-px w-12 bg-accent/30" />
-        </FadeIn>
+        <SectionSlate index="04" en="Services" zh="服務項目" note="RATE CARD" />
 
-        <FadeInStagger className="mt-20 grid gap-6 lg:grid-cols-2">
+        <FadeInStagger className="mt-14 grid gap-5 lg:grid-cols-2">
           {services.map((service) => (
             <FadeInItem key={service.number}>
-              <div className="group relative h-full overflow-hidden rounded-2xl border border-border/60 bg-surface p-8 transition-all duration-500 hover:border-accent/30 hover:bg-surface/80">
-                {/* Hover glow */}
-                <div className="pointer-events-none absolute -right-12 -top-12 h-32 w-32 rounded-full bg-accent/0 blur-[60px] transition-all duration-700 group-hover:bg-accent/[0.06]" />
+              <div className="frame-marks group relative h-full overflow-hidden border border-border/60 bg-surface p-8 transition-all duration-500 hover:border-accent/30">
+                <div className="flex items-baseline justify-between gap-4 border-b border-dashed border-border/70 pb-4">
+                  <span className="font-mono text-[10px] tracking-[0.15em] text-accent">
+                    {service.number}
+                  </span>
+                  <span className="font-mono text-[9px] uppercase tracking-[0.1em] text-muted">
+                    {service.subtitle}
+                  </span>
+                </div>
 
-                <span className="font-mono text-[10px] tracking-wider text-accent-dim">
-                  {service.number}
-                </span>
+                <h3 className="mt-6 text-2xl tracking-tight">{service.title}</h3>
 
-                <h3 className="mt-5 text-2xl tracking-tight">{service.title}</h3>
-                <p className="mt-1 text-[10px] uppercase tracking-[0.15em] text-muted">
-                  {service.subtitle}
-                </p>
-
-                <p className="mt-5 text-sm leading-relaxed text-muted">
+                <p className="mt-4 text-sm leading-relaxed text-muted">
                   {service.description}
                 </p>
 
@@ -114,25 +108,22 @@ export function Services() {
                   ))}
                 </ul>
 
-                {/* Service Steps */}
+                {/* Process */}
                 <div className="mt-8 border-t border-border/40 pt-6">
-                  <p className="mb-4 text-[10px] uppercase tracking-[0.2em] text-accent-dim">
+                  <p className="mb-4 font-mono text-[9px] uppercase tracking-[0.2em] text-accent-dim">
                     Process
                   </p>
                   <ol className="relative space-y-0">
                     {service.steps.map((step, i) => (
                       <li key={step.label} className="relative flex gap-3 pb-4 last:pb-0">
-                        {/* Vertical line */}
                         {i < service.steps.length - 1 && (
                           <div className="absolute left-[9px] top-5 h-full w-px bg-border/50" />
                         )}
-                        {/* Step dot */}
-                        <div className="relative z-10 mt-[3px] flex h-[19px] w-[19px] shrink-0 items-center justify-center rounded-full border border-accent/30 bg-surface">
+                        <div className="relative z-10 mt-[3px] flex h-[19px] w-[19px] shrink-0 items-center justify-center border border-accent/30 bg-surface">
                           <span className="font-mono text-[8px] text-accent">
                             {i + 1}
                           </span>
                         </div>
-                        {/* Step content */}
                         <div className="min-w-0">
                           <p className="text-[13px] leading-tight">{step.label}</p>
                           <p className="mt-0.5 text-[11px] leading-snug text-muted">
@@ -144,7 +135,10 @@ export function Services() {
                   </ol>
                 </div>
 
-                <div className="mt-6 border-t border-border/40 pt-5">
+                <div className="mt-6 flex items-baseline justify-between border-t border-border/40 pt-5">
+                  <span className="font-mono text-[9px] uppercase tracking-[0.2em] text-muted">
+                    Rate
+                  </span>
                   <p className="font-mono text-[11px] text-accent">
                     {service.price}
                   </p>
@@ -156,10 +150,13 @@ export function Services() {
 
         {/* 影像與藝術顧問 — 諮詢入口 */}
         <FadeIn delay={0.15}>
-          <div className="mt-6 rounded-2xl border border-border/60 bg-surface/60 p-8 lg:flex lg:items-center lg:justify-between lg:gap-12">
+          <div className="mt-5 border border-border/60 bg-surface/60 p-8 lg:flex lg:items-center lg:justify-between lg:gap-12">
             <div className="max-w-2xl">
-              <h3 className="text-xl tracking-tight">影像與藝術顧問</h3>
-              <p className="mt-1 text-[10px] uppercase tracking-[0.15em] text-muted">
+              <div className="flex items-baseline gap-4">
+                <span className="font-mono text-[10px] tracking-[0.15em] text-accent">UNIT 05</span>
+                <h3 className="text-xl tracking-tight">影像與藝術顧問</h3>
+              </div>
+              <p className="mt-1 font-mono text-[9px] uppercase tracking-[0.1em] text-muted">
                 Film & Art Consulting
               </p>
               <p className="mt-4 text-sm leading-relaxed text-muted">
@@ -175,7 +172,7 @@ export function Services() {
                 href="https://line.me/R/ti/p/@097eutou"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 rounded-full bg-[#06C755] px-7 py-2.5 text-xs uppercase tracking-[0.12em] font-medium text-white transition-opacity hover:opacity-90"
+                className="inline-flex items-center gap-2 bg-[#06C755] px-7 py-3 font-mono text-[10px] uppercase tracking-[0.15em] font-medium text-white transition-opacity hover:opacity-90"
               >
                 LINE 預約諮詢
               </a>

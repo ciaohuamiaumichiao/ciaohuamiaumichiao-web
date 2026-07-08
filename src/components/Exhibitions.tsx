@@ -1,6 +1,7 @@
 "use client";
 
-import { FadeIn, FadeInStagger, FadeInItem } from "./FadeIn";
+import { FadeIn } from "./FadeIn";
+import { SectionSlate } from "./SectionSlate";
 
 const experiences = [
   {
@@ -211,21 +212,15 @@ export function Exhibitions() {
   return (
     <section id="exhibitions" className="border-t border-border px-6 py-28 lg:py-36">
       <div className="mx-auto max-w-6xl">
-        <FadeIn>
-          <p className="text-[10px] uppercase tracking-[0.3em] text-accent-dim">
-            Exhibitions & Projects
-          </p>
-          <h2 className="mt-3 text-4xl tracking-tight lg:text-5xl">經歷與作品</h2>
-          <div className="mt-4 h-px w-12 bg-accent/30" />
-        </FadeIn>
+        <SectionSlate index="06" en="Credits" zh="經歷與作品" note="FULL CREDITS" />
 
         {/* Roles */}
         <FadeIn delay={0.15}>
-          <div className="mt-14 flex flex-wrap gap-2">
+          <div className="mt-12 flex flex-wrap gap-2">
             {roles.map((role) => (
               <span
                 key={role}
-                className="rounded-full border border-border/60 px-4 py-1.5 text-[11px] text-muted"
+                className="border border-border/60 px-4 py-1.5 text-[11px] text-muted"
               >
                 {role}
               </span>
@@ -234,19 +229,24 @@ export function Exhibitions() {
         </FadeIn>
 
         {/* Experience by category */}
-        <div className="mt-20 space-y-20">
-          {experiences.map((group) => (
+        <div className="mt-20 space-y-16">
+          {experiences.map((group, gi) => (
             <FadeIn key={group.category}>
-              <h3 className="text-[11px] uppercase tracking-[0.2em] text-accent">
-                {group.category}
-              </h3>
-              <div className="mt-6 space-y-0">
+              <div className="flex items-baseline gap-4">
+                <span className="font-mono text-[9px] tracking-[0.15em] text-accent-dim">
+                  REEL {String(gi + 1).padStart(2, "0")}
+                </span>
+                <h3 className="text-[12px] tracking-[0.2em] text-accent">
+                  {group.category}
+                </h3>
+              </div>
+              <div className="mt-5 space-y-0">
                 {group.items.map((item, i) => (
                   <div
                     key={i}
-                    className="group grid gap-2 border-b border-border/30 py-5 transition-colors first:border-t first:border-border/30 hover:bg-surface/50 sm:grid-cols-[80px_1fr_auto] sm:px-3"
+                    className="group grid gap-2 border-b border-border/30 py-5 transition-colors first:border-t first:border-border/30 hover:bg-surface/50 sm:grid-cols-[72px_1fr_auto] sm:px-3"
                   >
-                    <span className="font-mono text-[11px] text-accent-dim">
+                    <span className="font-mono text-[10px] text-accent-dim">
                       {item.year}
                     </span>
                     <div>
@@ -257,7 +257,9 @@ export function Exhibitions() {
                     </div>
                     <p className="text-[11px] text-muted sm:text-right">
                       {item.role}
-                      {item.period && ` · ${item.period}`}
+                      {item.period && (
+                        <span className="ml-2 font-mono text-[9px] text-accent-dim">{item.period}</span>
+                      )}
                     </p>
                   </div>
                 ))}
@@ -269,9 +271,12 @@ export function Exhibitions() {
         {/* Clients */}
         <FadeIn>
           <div className="mt-24">
-            <h3 className="text-[11px] uppercase tracking-[0.2em] text-accent">
-              合作客戶
-            </h3>
+            <div className="flex items-baseline gap-4">
+              <span className="font-mono text-[9px] tracking-[0.15em] text-accent-dim">
+                WITH
+              </span>
+              <h3 className="text-[12px] tracking-[0.2em] text-accent">合作客戶</h3>
+            </div>
             <div className="mt-6 flex flex-wrap gap-x-1 gap-y-1">
               {clients.map((client, i) => (
                 <span key={client} className="text-[12px] text-muted">

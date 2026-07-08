@@ -43,19 +43,20 @@ export function Header() {
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-5">
         <a
           href="/"
-          className="text-xs tracking-[0.2em] text-accent/80 transition-colors hover:text-accent"
+          className="group flex items-center gap-2.5 text-xs tracking-[0.2em] text-foreground/90 transition-colors hover:text-accent"
         >
+          <span className="block h-[7px] w-[7px] bg-accent transition-colors group-hover:bg-live" />
           小花貓咪叫
         </a>
 
         <div className="flex items-center gap-6">
           {/* Desktop nav */}
-          <ul className="hidden gap-8 md:flex">
+          <ul className="hidden gap-7 md:flex">
             {navLinks.map((link) => (
               <li key={link.href}>
                 <a
                   href={resolveHref(link.href)}
-                  className="text-[11px] uppercase tracking-[0.12em] text-muted transition-colors hover:text-foreground"
+                  className="font-mono text-[10px] uppercase tracking-[0.1em] text-muted transition-colors hover:text-foreground"
                 >
                   {link.label}
                 </a>
@@ -66,12 +67,12 @@ export function Header() {
           {/* Theme toggle */}
           <button
             onClick={toggleTheme}
-            className="flex h-7 w-7 items-center justify-center rounded-full border border-border/60 text-muted transition-all hover:border-accent/40 hover:text-accent"
+            className="flex h-7 w-7 items-center justify-center border border-border/60 text-muted transition-all hover:border-accent/40 hover:text-accent"
             aria-label="切換明暗模式"
-            title={theme === "dark" ? "切換為明亮模式" : "切換為深色模式"}
+            title={theme === "dark" ? "切換為明亮模式（校樣）" : "切換為深色模式（導播室）"}
           >
             {theme === "dark" ? (
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
                 <circle cx="12" cy="12" r="5" />
                 <line x1="12" y1="1" x2="12" y2="3" />
                 <line x1="12" y1="21" x2="12" y2="23" />
@@ -83,7 +84,7 @@ export function Header() {
                 <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
               </svg>
             ) : (
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
                 <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
               </svg>
             )}
@@ -125,9 +126,12 @@ export function Header() {
                 >
                   <a
                     href={resolveHref(link.href)}
-                    className="block py-2 text-sm text-muted transition-colors hover:text-foreground"
+                    className="flex items-baseline gap-4 py-2 text-sm text-muted transition-colors hover:text-foreground"
                     onClick={() => setOpen(false)}
                   >
+                    <span className="font-mono text-[9px] text-accent-dim">
+                      {String(i + 1).padStart(2, "0")}
+                    </span>
                     {link.label}
                   </a>
                 </motion.li>

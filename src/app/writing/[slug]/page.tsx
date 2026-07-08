@@ -52,7 +52,7 @@ export default async function WritingPost({
           <header className="mb-12 border-b border-border/40 pb-8">
             <Link
               href="/writing"
-              className="mb-6 inline-block text-[11px] uppercase tracking-[0.2em] text-muted transition-colors hover:text-accent"
+              className="mb-8 inline-block font-mono text-[10px] uppercase tracking-[0.15em] text-muted transition-colors hover:text-accent"
             >
               ← 寫作
             </Link>
@@ -60,7 +60,7 @@ export default async function WritingPost({
               {w.title}
             </h1>
             <div className="mt-6 flex items-center gap-4">
-              <time className="font-mono text-[11px] tracking-wider text-muted">
+              <time className="font-mono text-[10px] tracking-wider text-muted">
                 {formatDate(w.date)}
               </time>
               {w.tags && w.tags.length > 0 && (
@@ -68,7 +68,7 @@ export default async function WritingPost({
                   {w.tags.map((t) => (
                     <span
                       key={t}
-                      className="text-[10px] uppercase tracking-[0.15em] text-accent/70"
+                      className="font-mono text-[9px] uppercase tracking-[0.1em] text-accent/70"
                     >
                       #{t}
                     </span>
@@ -91,7 +91,7 @@ export default async function WritingPost({
           <div className="mt-12 border-t border-border/40 pt-8">
             <Link
               href="/writing"
-              className="text-[11px] uppercase tracking-[0.2em] text-muted transition-colors hover:text-accent"
+              className="font-mono text-[10px] uppercase tracking-[0.15em] text-muted transition-colors hover:text-accent"
             >
               ← 回到寫作
             </Link>

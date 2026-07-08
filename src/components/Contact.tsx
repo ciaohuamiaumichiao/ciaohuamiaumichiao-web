@@ -1,6 +1,7 @@
 "use client";
 
 import { FadeIn } from "./FadeIn";
+import { SectionSlate } from "./SectionSlate";
 
 const contactLinks = [
   {
@@ -29,33 +30,34 @@ export function Contact() {
   return (
     <section id="contact" className="border-t border-border px-6 py-28 lg:py-36">
       <div className="mx-auto max-w-6xl">
-        <div className="grid gap-16 lg:grid-cols-[1fr_1fr] lg:gap-24">
+        <SectionSlate index="10" en="Contact" zh="來聊聊" note="ROLL CREDITS" />
+
+        <div className="mt-14 grid gap-14 lg:grid-cols-[1fr_1fr] lg:gap-24">
           <FadeIn>
-            <p className="text-[10px] uppercase tracking-[0.3em] text-accent-dim">
-              Contact
+            <p className="max-w-md text-[15px] leading-[1.9] text-muted">
+              影像、節目、直播、網站，或只是還說不清楚的一個想法，
+              都歡迎來聊。案子是聊出來的。
             </p>
-            <h2 className="mt-3 text-4xl tracking-tight lg:text-5xl">聯絡方式</h2>
-            <div className="mt-4 h-px w-12 bg-accent/30" />
-            <p className="mt-8 text-[15px] leading-[1.85] text-muted">
-              無論是影像製作、藝術顧問或數位建置需求，
-              歡迎透過以下方式聯繫。
+            <p className="mt-6 font-mono text-[9px] uppercase tracking-[0.2em] text-muted/60">
+              Taipei, Taiwan · UTC+8
             </p>
           </FadeIn>
 
+          {/* 片尾字幕卷 */}
           <FadeIn delay={0.2}>
-            <div className="space-y-6">
+            <div>
               {contactLinks.map((link) => (
                 <a
                   key={link.label}
                   href={link.href}
                   target={link.href.startsWith("mailto") ? undefined : "_blank"}
                   rel={link.href.startsWith("mailto") ? undefined : "noopener noreferrer"}
-                  className="group block border-b border-border/30 pb-6 transition-colors last:border-0"
+                  className="group flex items-baseline justify-between gap-6 border-b border-border/30 py-5 transition-colors first:border-t first:border-border/30 hover:bg-surface/40 sm:px-3"
                 >
-                  <p className="text-[10px] uppercase tracking-[0.2em] text-accent-dim transition-colors group-hover:text-accent">
+                  <p className="shrink-0 font-mono text-[9px] uppercase tracking-[0.2em] text-accent-dim transition-colors group-hover:text-accent">
                     {link.label}
                   </p>
-                  <p className="mt-2 text-lg transition-colors group-hover:text-accent">
+                  <p className="text-right text-[15px] transition-colors group-hover:text-accent">
                     {link.value}
                   </p>
                 </a>
