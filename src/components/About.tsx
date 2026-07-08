@@ -28,14 +28,19 @@ export function About() {
                 從導演、企劃、製片規劃到現場統籌與剪輯，作品涵蓋 MV、短片、演唱會及各類展演製作。
                 合作對象橫跨政府機關、國際精品、建設集團到社會企業、公益組織。
               </p>
+              <p>
+                2026 年起我換了一種工作方式：一個導演，加一套自己搭的 AI 協作系統，
+                影像、節目、直播、網站四條線同時交付。上半年就是這樣跑完的，
+                包括兩檔週更節目和三場多平台直播。
+              </p>
             </div>
 
             <FadeInStagger className="mt-12 grid grid-cols-2 gap-8 sm:grid-cols-4">
               {[
                 { value: "15+", label: "年影像經驗" },
                 { value: "30+", label: "音樂 MV" },
-                { value: "策展", label: "展覽策劃" },
-                { value: "全端", label: "數位建置" },
+                { value: "2", label: "檔週更節目" },
+                { value: "3", label: "場多平台直播" },
               ].map((stat) => (
                 <FadeInItem key={stat.label}>
                   <div className="border-l border-accent/20 pl-4">

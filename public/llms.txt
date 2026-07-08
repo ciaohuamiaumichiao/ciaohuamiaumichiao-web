@@ -1,16 +1,28 @@
 # 小花貓咪叫 ciaohuamiaumichiao
 
-> 張正杰 Kimi Chang — 影像導演、策展人。擎光媒體工作室、甚好創意有限公司。提供影像製作、影像與藝術顧問、創意數位建置服務。
+> 張正杰 Kimi Chang — 影像導演、策展人。擎光媒體工作室、甚好創意有限公司。提供影像製作、節目製作（Video Podcast）、直播與轉播統籌、創意數位建置服務。
 
 ## 關於張正杰
 
 張正杰（Cheng Chieh Kimi Chang），品牌名「小花貓咪叫 ciaohuamiaumichiao」。15 年以上影像製作經驗，30+ 支音樂 MV，作品涵蓋 MV、短片、演唱會及各類展演製作。合作對象橫跨政府機關、國際精品、建設集團到社會企業、公益組織。
 
+2026 年起的工作方式：一位導演加一套自建的 AI 協作系統，同時交付影像、節目、直播、網站四條產品線。
+
 ## 服務項目
 
 - [影像製作](https://ciaohuamiaumichiao-web.vercel.app/#services): 企業形象片、紀錄片、展覽紀錄、活動側拍。從前期企劃、現場執導到後期剪輯，完整影像製作服務。專案報價 NT$50,000 起。
-- [影像與藝術顧問](https://ciaohuamiaumichiao-web.vercel.app/#services): 展覽策劃與藝術指導、影像團隊組建與培訓、短影音內容策略顧問（Reels / Shorts / TikTok）、社群團隊成長陪跑顧問、品牌視覺策略。初次諮詢 NT$5,000 + 執行費。
-- [創意數位建置](https://ciaohuamiaumichiao-web.vercel.app/#services): 品牌官網與展覽網站、管理系統與排班平台、影音硬體規劃與建置、直播／錄影系統整合。網站建置 NT$60,000 起 + 維護方案。
+- [節目製作](https://ciaohuamiaumichiao-web.vercel.app/#services): Video Podcast 與系列節目。節目定位、季度企劃、錄影、後製、多平台上架，含節目官網、章節時間碼與各平台社群文案。以季為單位專案報價。
+- [直播與轉播統籌](https://ciaohuamiaumichiao-web.vercel.app/#services): 三機 EFP 現場切換、YouTube／Facebook 等多平台同步直播、備援網路與自建即時訊號監控系統。單場專案報價 NT$60,000 起。
+- [創意數位建置](https://ciaohuamiaumichiao-web.vercel.app/#services): 品牌官網與節目網站、管理系統與排班平台、影音硬體規劃與建置、AI 協作流程導入。網站建置 NT$60,000 起 + 維護方案。
+- [影像與藝術顧問](https://ciaohuamiaumichiao-web.vercel.app/#services): 展覽策劃與藝術指導、影像團隊組建與培訓、短影音內容策略顧問（Reels / Shorts / TikTok）、社群團隊成長陪跑顧問、品牌視覺策略。初次諮詢 NT$5,000。
+
+## 2026 進行中與已交付
+
+- Mission On Air 宣教事（製作統籌，靈糧教牧宣教神學院）: Video Podcast，第一季每週一更新。官網 https://missionair.genesis131.com
+- 放學後 SHOW（節目統籌，自製節目）: 青少年談話節目，2026 年 7 月開播，每週四更新。官網 https://afterschool.genesis131.com
+- 城市禱告會系列轉播（轉播統籌，國度復興傳播基金會）: 三機 EFP、五平台同步直播、自建監控系統。桃園、新竹、台中三場零事故，9 月澎湖場。
+- 遠鄉閃閃 114 攝影合輯《我的攝影不像樣》（影像採訪・書籍設計，文曄教育基金會）: 13 所學校影像採訪、208 頁攝影合輯，2026 年 7 月底於剝皮寮展出。
+- Backstage is a WORLD（策展人）: 2026 年 3 月遠企購物中心攝影展，展後成立「the Backstage 幕後人聚場」社群。
 
 ## 經歷亮點
 
@@ -25,6 +37,10 @@
 
 - [the Backstage 幕後人聚場](https://backstageworld.vercel.app/community.html): 創意產業工作者社群，每週聚會、每月沙龍、雙月工作坊
 
+## 寫作
+
+- [寫作](https://ciaohuamiaumichiao-web.vercel.app/writing): 十餘篇文章，主題含導演 × AI 工作流、個人品牌、創作者心法。RSS: https://ciaohuamiaumichiao-web.vercel.app/rss.xml
+
 ## 聯絡
 
 - Email: ciaohuamiaumichiao@gmail.com
@@ -34,4 +50,5 @@
 
 ## 主要頁面
 
-- [首頁](https://ciaohuamiaumichiao-web.vercel.app/): 個人品牌形象頁，含自我介紹、服務項目、作品影像、經歷、社群、聯絡資訊
+- [首頁](https://ciaohuamiaumichiao-web.vercel.app/): 個人品牌形象頁，含自我介紹、進行中狀態、2026 案例、服務項目、作品影像、經歷、社群、聯絡資訊
+- [寫作](https://ciaohuamiaumichiao-web.vercel.app/writing): 文章列表與電子報訂閱

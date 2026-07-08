@@ -7,6 +7,7 @@ import { useTheme } from "./ThemeProvider";
 
 const navLinks = [
   { label: "關於", href: "#about" },
+  { label: "案例", href: "#work" },
   { label: "服務", href: "#services" },
   { label: "作品", href: "#showreel" },
   { label: "經歷", href: "#exhibitions" },

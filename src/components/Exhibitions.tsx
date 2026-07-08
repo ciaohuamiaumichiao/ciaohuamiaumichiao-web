@@ -16,6 +16,49 @@ const experiences = [
     ],
   },
   {
+    category: "節目製作",
+    items: [
+      {
+        year: "2026",
+        title: "Mission On Air 宣教事",
+        role: "製作統籌",
+        venue: "靈糧教牧宣教神學院・Video Podcast",
+        period: "週更中",
+      },
+      {
+        year: "2026",
+        title: "放學後 SHOW",
+        role: "節目統籌",
+        venue: "自製青少年談話節目",
+        period: "週更中",
+      },
+    ],
+  },
+  {
+    category: "直播轉播",
+    items: [
+      {
+        year: "2026",
+        title: "城市禱告會系列轉播",
+        role: "轉播統籌",
+        venue: "國度復興傳播基金會・桃園／新竹／台中",
+        period: "",
+      },
+    ],
+  },
+  {
+    category: "攝影・出版",
+    items: [
+      {
+        year: "2026",
+        title: "遠鄉閃閃 114 攝影合輯《我的攝影不像樣》",
+        role: "影像採訪・書籍設計",
+        venue: "文曄教育基金會・13 校 208 頁",
+        period: "",
+      },
+    ],
+  },
+  {
     category: "演唱會執行",
     items: [
       {
@@ -134,6 +177,9 @@ const clients = [
   "行政院經濟部",
   "資策會",
   "台灣世界展望會",
+  "國度復興傳播基金會",
+  "文曄教育基金會",
+  "靈糧教牧宣教神學院",
   "AUDI",
   "LVMH",
   "Dior",

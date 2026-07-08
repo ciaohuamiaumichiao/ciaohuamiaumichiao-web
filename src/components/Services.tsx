@@ -22,27 +22,43 @@ const services = [
   },
   {
     number: "02",
-    title: "影像與藝術顧問",
-    subtitle: "Film & Art Consulting",
+    title: "節目製作",
+    subtitle: "Show & Podcast Production",
     description:
-      "從策展規劃到影像團隊的建立與成長陪跑。協助品牌與創作者釐清視覺方向、建立短影音策略，也陪伴新創影像團隊從零開始站穩腳步。",
-    items: ["展覽策劃與藝術指導", "影像團隊組建與培訓", "短影音內容策略顧問", "社群團隊成長陪跑顧問", "品牌視覺策略"],
+      "把一檔節目從零做起來。節目定位、季度企劃、錄影、後製、上架，連官網、章節時間碼、各平台文案都在同一套流程裡。適合想長期經營內容的品牌與機構。",
+    items: ["節目定位與季度企劃", "錄影與現場執導", "剪輯、字幕與多平台上架", "節目官網與集數頁", "社群文案與金句素材"],
     steps: [
-      { label: "初次諮詢", desc: "釐清現況、痛點與目標" },
-      { label: "診斷報告", desc: "團隊與內容健檢分析" },
-      { label: "策略規劃", desc: "視覺方向與內容藍圖" },
-      { label: "陪跑執行", desc: "定期指導與實作回饋" },
-      { label: "階段檢視", desc: "成效評估與策略調整" },
+      { label: "節目定位", desc: "受眾、調性與更新節奏" },
+      { label: "季度企劃", desc: "集數主題與來賓規劃" },
+      { label: "錄影製作", desc: "現場執導與收音" },
+      { label: "後製上架", desc: "剪輯、字幕、各平台發佈" },
+      { label: "檢視迭代", desc: "數據回顧與下一季調整" },
     ],
-    price: "初次諮詢 NT$5,000 + 執行費（可依階段合作）",
+    price: "以季為單位專案報價",
   },
   {
     number: "03",
+    title: "直播與轉播統籌",
+    subtitle: "Live Broadcast",
+    description:
+      "三機 EFP、多平台同步直播，加上備援網路與自建的即時訊號監控系統。2026 年三場城市禱告會轉播零事故。",
+    items: ["三機 EFP 現場切換", "YouTube／Facebook 等多平台直播", "備援網路與即時訊號監控", "直播錄影與檔案交付", "結案數據與服務紀錄"],
+    steps: [
+      { label: "場勘評估", desc: "場地訊號、網路與動線" },
+      { label: "系統規劃", desc: "機位、訊號鏈與備援設計" },
+      { label: "彩排測試", desc: "全鏈路壓力測試" },
+      { label: "直播執行", desc: "現場導播與即時監控" },
+      { label: "結案交付", desc: "錄影檔與服務紀錄報告" },
+    ],
+    price: "單場專案報價 NT$60,000 起",
+  },
+  {
+    number: "04",
     title: "創意數位建置",
     subtitle: "Creative Digital Solutions",
     description:
       "為品牌與機構量身打造網站、數位系統與線上平台，同時提供影音硬體規劃與系統整合，從軟體到硬體一站完成。",
-    items: ["品牌官網與展覽網站", "管理系統與排班平台", "影音硬體規劃與建置", "直播／錄影系統整合", "數位策略顧問"],
+    items: ["品牌官網與節目網站", "管理系統與排班平台", "影音硬體規劃與建置", "AI 協作流程導入", "數位策略顧問"],
     steps: [
       { label: "需求訪談", desc: "功能需求與技術評估" },
       { label: "規劃提案", desc: "架構設計與報價確認" },
@@ -66,7 +82,7 @@ export function Services() {
           <div className="mt-4 h-px w-12 bg-accent/30" />
         </FadeIn>
 
-        <FadeInStagger className="mt-20 grid gap-6 lg:grid-cols-3">
+        <FadeInStagger className="mt-20 grid gap-6 lg:grid-cols-2">
           {services.map((service) => (
             <FadeInItem key={service.number}>
               <div className="group relative h-full overflow-hidden rounded-2xl border border-border/60 bg-surface p-8 transition-all duration-500 hover:border-accent/30 hover:bg-surface/80">
@@ -137,6 +153,35 @@ export function Services() {
             </FadeInItem>
           ))}
         </FadeInStagger>
+
+        {/* 影像與藝術顧問 — 諮詢入口 */}
+        <FadeIn delay={0.15}>
+          <div className="mt-6 rounded-2xl border border-border/60 bg-surface/60 p-8 lg:flex lg:items-center lg:justify-between lg:gap-12">
+            <div className="max-w-2xl">
+              <h3 className="text-xl tracking-tight">影像與藝術顧問</h3>
+              <p className="mt-1 text-[10px] uppercase tracking-[0.15em] text-muted">
+                Film & Art Consulting
+              </p>
+              <p className="mt-4 text-sm leading-relaxed text-muted">
+                不確定該從哪一項開始？很多合作是從一次諮詢談出來的。
+                策展方向、影像團隊建立、短影音策略、社群成長陪跑，都可以先聊。
+              </p>
+              <p className="mt-4 font-mono text-[11px] text-accent">
+                初次諮詢 NT$5,000，聊完給你一份現況診斷與建議
+              </p>
+            </div>
+            <div className="mt-6 shrink-0 lg:mt-0">
+              <a
+                href="https://line.me/R/ti/p/@097eutou"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 rounded-full bg-[#06C755] px-7 py-2.5 text-xs uppercase tracking-[0.12em] font-medium text-white transition-opacity hover:opacity-90"
+              >
+                LINE 預約諮詢
+              </a>
+            </div>
+          </div>
+        </FadeIn>
       </div>
     </section>
   );
