@@ -23,6 +23,15 @@ export function About() {
                 <dd className="text-foreground">甚好創意有限公司</dd>
               </div>
               <div>
+                <dt className="text-[9px] uppercase tracking-[0.15em] text-muted">Education</dt>
+                <dd className="mt-1 text-foreground">世新大學 廣播電視電影學系 電影組</dd>
+                <dd className="text-foreground">靈糧生命培訓學院 第 9 屆</dd>
+              </div>
+              <div>
+                <dt className="text-[9px] uppercase tracking-[0.15em] text-muted">Teaching</dt>
+                <dd className="mt-1 text-foreground">台北基督書院 大傳系 兼任講師</dd>
+              </div>
+              <div>
                 <dt className="text-[9px] uppercase tracking-[0.15em] text-muted">Base</dt>
                 <dd className="mt-1 text-foreground">台北，台灣</dd>
               </div>
@@ -37,9 +46,15 @@ export function About() {
                 合作對象橫跨政府機關、國際精品、建設集團到社會企業、公益組織。
               </p>
               <p>
-                2026 年起我換了一種工作方式：一個導演，加一套自己搭的 AI 協作系統，
-                影像、節目、直播、網站四條線同時交付。上半年就是這樣跑完的，
-                包括兩檔週更節目和三場多平台直播。
+                影像這條路的另一半在教會。世新廣電畢業製作第一次當導演，
+                之後在台北靈糧堂 Holywood 影視團隊服事二十年，
+                也陪十多間教會建立影像媒體團隊。
+                我把業界學到的技術帶回教會，也把教會的創意帶進世界。
+              </p>
+              <p>
+                2026 年上半年，影像、節目、直播、網站四條線同時交付：
+                兩檔週更節目、三場多平台直播零事故，
+                還有一本 208 頁的攝影合輯。
               </p>
             </div>
 

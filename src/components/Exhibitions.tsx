@@ -3,6 +3,48 @@
 import { FadeIn } from "./FadeIn";
 import { SectionSlate } from "./SectionSlate";
 
+const profile = [
+  {
+    label: "Education",
+    zh: "學歷",
+    entries: [
+      { title: "世新大學 廣播電視電影學系 電影組", note: "畢業製作《糖芯蕾》— 第 13 屆畢業影展「腦開花」觀眾票選電影" },
+      { title: "靈糧生命培訓學院 第 9 屆", note: "" },
+    ],
+  },
+  {
+    label: "Teaching",
+    zh: "教學",
+    entries: [
+      { title: "台北基督書院 大傳系 兼任講師", note: "影像媒體實務教學" },
+    ],
+  },
+  {
+    label: "Ministry",
+    zh: "教會媒體服事",
+    entries: [
+      { title: "台北靈糧堂 Holywood 影視團隊", note: "團長・服事逾二十年" },
+      { title: "約書亞樂團 MV 製作", note: "導演・30+ 支" },
+      { title: "國度豐收協會", note: "媒體與特會演出項目製作" },
+    ],
+  },
+];
+
+const churchConsulting = [
+  "台北靈糧堂",
+  "台北真道教會",
+  "夏凱納靈糧堂",
+  "高雄靈糧堂",
+  "台南活水基督教會",
+  "忠勇教會",
+  "鳳山活泉靈糧堂",
+  "珥靈糧堂",
+  "大坪林福音靈糧堂",
+  "台北靈糧堂中山福音中心",
+  "the Hope",
+  "安平靈糧堂",
+];
+
 const experiences = [
   {
     category: "策展",
@@ -204,7 +246,6 @@ const roles = [
   "MOMO TV 『球場第一排』編導",
   "中華基督教福音協進會 專案執行導演",
   "台灣世界展望會 專案執行導演",
-  "台北基督書院 大傳系 講師",
   "第三屆非常短片兩岸華人新銳導演",
 ];
 
@@ -213,6 +254,42 @@ export function Exhibitions() {
     <section id="exhibitions" className="border-t border-border px-6 py-28 lg:py-36">
       <div className="mx-auto max-w-6xl">
         <SectionSlate index="06" en="Credits" zh="經歷與作品" note="FULL CREDITS" />
+
+        {/* Profile — 學歷／教學／教會媒體服事 */}
+        <FadeIn delay={0.1}>
+          <div className="mt-14 border border-border/60 bg-surface p-8">
+            <div className="flex items-baseline justify-between gap-4 border-b border-dashed border-border/70 pb-4">
+              <span className="font-mono text-[10px] tracking-[0.15em] text-accent">
+                PROFILE
+              </span>
+              <span className="font-mono text-[9px] uppercase tracking-[0.1em] text-muted">
+                Chang Cheng Chieh — Kimi
+              </span>
+            </div>
+            <div className="mt-8 grid gap-10 md:grid-cols-3">
+              {profile.map((col) => (
+                <div key={col.label}>
+                  <div className="flex items-baseline gap-3">
+                    <span className="font-mono text-[9px] uppercase tracking-[0.2em] text-accent-dim">
+                      {col.label}
+                    </span>
+                    <h3 className="text-[12px] tracking-[0.2em] text-accent">{col.zh}</h3>
+                  </div>
+                  <ul className="mt-5 space-y-5">
+                    {col.entries.map((entry) => (
+                      <li key={entry.title} className="border-l border-accent/25 pl-4">
+                        <p className="text-[13px] leading-relaxed">{entry.title}</p>
+                        {entry.note && (
+                          <p className="mt-1 text-[11px] leading-relaxed text-muted">{entry.note}</p>
+                        )}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ))}
+            </div>
+          </div>
+        </FadeIn>
 
         {/* Roles */}
         <FadeIn delay={0.15}>
@@ -267,6 +344,25 @@ export function Exhibitions() {
             </FadeIn>
           ))}
         </div>
+
+        {/* 教會影像媒體顧問 */}
+        <FadeIn>
+          <div className="mt-24">
+            <div className="flex items-baseline gap-4">
+              <span className="font-mono text-[9px] tracking-[0.15em] text-accent-dim">
+                CONSULT
+              </span>
+              <h3 className="text-[12px] tracking-[0.2em] text-accent">教會影像媒體與製作諮詢</h3>
+            </div>
+            <div className="mt-6 flex flex-wrap gap-x-1 gap-y-1">
+              {churchConsulting.map((church, i) => (
+                <span key={church} className="text-[12px] text-muted">
+                  {church}{i < churchConsulting.length - 1 && <span className="mx-2 text-border">·</span>}
+                </span>
+              ))}
+            </div>
+          </div>
+        </FadeIn>
 
         {/* Clients */}
         <FadeIn>
