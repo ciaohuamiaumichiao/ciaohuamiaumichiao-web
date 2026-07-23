@@ -2,11 +2,13 @@
 
 import { FadeIn } from "./FadeIn";
 import { SectionSlate } from "./SectionSlate";
+import { IconCap, IconBoard, IconChurch } from "./Icons";
 
 const profile = [
   {
     label: "Education",
     zh: "學歷",
+    icon: IconCap,
     entries: [
       { title: "世新大學 廣播電視電影學系 電影組", note: "畢業製作《糖芯蕾》— 第 13 屆畢業影展「腦開花」觀眾票選電影" },
       { title: "靈糧生命培訓學院 第 9 屆", note: "" },
@@ -15,6 +17,7 @@ const profile = [
   {
     label: "Teaching",
     zh: "教學",
+    icon: IconBoard,
     entries: [
       { title: "台北基督書院 大傳系 兼任講師", note: "影像媒體實務教學" },
     ],
@@ -22,6 +25,7 @@ const profile = [
   {
     label: "Ministry",
     zh: "教會媒體服事",
+    icon: IconChurch,
     entries: [
       { title: "台北靈糧堂 Holywood 影視團隊", note: "團長・服事逾二十年" },
       { title: "約書亞樂團 MV 製作", note: "導演・30+ 支" },
@@ -269,7 +273,8 @@ export function Exhibitions() {
             <div className="mt-8 grid gap-10 md:grid-cols-3">
               {profile.map((col) => (
                 <div key={col.label}>
-                  <div className="flex items-baseline gap-3">
+                  <div className="flex items-center gap-3">
+                    <col.icon className="h-5 w-5 text-accent/60" />
                     <span className="font-mono text-[9px] uppercase tracking-[0.2em] text-accent-dim">
                       {col.label}
                     </span>

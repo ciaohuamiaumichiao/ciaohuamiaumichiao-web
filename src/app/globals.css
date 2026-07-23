@@ -101,6 +101,15 @@ body::before {
 
 /* ————— 導播檯 utilities ————— */
 
+/* Hero 背景照片：暗色如導播室現場，亮色淡成紙上印樣 */
+.hero-photo {
+  opacity: 0.45;
+}
+[data-theme="light"] .hero-photo {
+  opacity: 0.14;
+  filter: grayscale(45%) contrast(0.9);
+}
+
 /* 直排文字（豎排 tagline，如片頭字幕） */
 .v-text {
   writing-mode: vertical-rl;

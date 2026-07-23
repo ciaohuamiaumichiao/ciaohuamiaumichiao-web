@@ -2,10 +2,12 @@
 
 import { FadeIn, FadeInStagger, FadeInItem } from "./FadeIn";
 import { SectionSlate } from "./SectionSlate";
+import { IconCamera, IconMic, IconAntenna, IconMonitor, IconCompass } from "./Icons";
 
 const services = [
   {
     number: "UNIT 01",
+    icon: IconCamera,
     title: "影像製作",
     subtitle: "Film & Video Production",
     description:
@@ -23,6 +25,7 @@ const services = [
   },
   {
     number: "UNIT 02",
+    icon: IconMic,
     title: "節目製作",
     subtitle: "Show & Podcast Production",
     description:
@@ -39,6 +42,7 @@ const services = [
   },
   {
     number: "UNIT 03",
+    icon: IconAntenna,
     title: "直播與轉播統籌",
     subtitle: "Live Broadcast",
     description:
@@ -55,6 +59,7 @@ const services = [
   },
   {
     number: "UNIT 04",
+    icon: IconMonitor,
     title: "創意數位建置",
     subtitle: "Creative Digital Solutions",
     description:
@@ -90,7 +95,11 @@ export function Services() {
                   </span>
                 </div>
 
-                <h3 className="mt-6 text-2xl tracking-tight">{service.title}</h3>
+                <div className="mt-6 flex items-center gap-4">
+                  <service.icon className="h-7 w-7 shrink-0 text-accent/70 transition-colors group-hover:text-accent" />
+                  <h3 className="text-2xl tracking-tight">{service.title}</h3>
+                </div>
+                <service.icon className="pointer-events-none absolute -right-4 -top-2 h-32 w-32 text-accent opacity-[0.04] transition-opacity duration-500 group-hover:opacity-[0.08]" />
 
                 <p className="mt-4 text-sm leading-relaxed text-muted">
                   {service.description}
@@ -152,7 +161,8 @@ export function Services() {
         <FadeIn delay={0.15}>
           <div className="mt-5 border border-border/60 bg-surface/60 p-8 lg:flex lg:items-center lg:justify-between lg:gap-12">
             <div className="max-w-2xl">
-              <div className="flex items-baseline gap-4">
+              <div className="flex items-center gap-4">
+                <IconCompass className="h-6 w-6 shrink-0 text-accent/70" />
                 <span className="font-mono text-[10px] tracking-[0.15em] text-accent">UNIT 05</span>
                 <h3 className="text-xl tracking-tight">影像與藝術顧問</h3>
               </div>

@@ -2,6 +2,7 @@
 
 import { FadeIn, FadeInStagger, FadeInItem } from "./FadeIn";
 import { SectionSlate } from "./SectionSlate";
+import { IconMic, IconChat, IconBook, IconAntenna } from "./Icons";
 
 type Tally = "live" | "standby";
 
@@ -11,6 +12,7 @@ const nowItems: {
   title: string;
   detail: string;
   href: string | null;
+  icon: typeof IconMic;
 }[] = [
   {
     tally: "live",
@@ -18,6 +20,7 @@ const nowItems: {
     title: "Mission On Air 宣教事",
     detail: "Video Podcast 第一季播出中，第二季籌備中",
     href: "https://missionair.genesis131.com",
+    icon: IconMic,
   },
   {
     tally: "live",
@@ -25,6 +28,7 @@ const nowItems: {
     title: "放學後 SHOW",
     detail: "青少年談話節目，七月開播",
     href: "https://afterschool.genesis131.com",
+    icon: IconChat,
   },
   {
     tally: "standby",
@@ -32,6 +36,7 @@ const nowItems: {
     title: "遠鄉閃閃《我的攝影不像樣》",
     detail: "208 頁攝影合輯印製中，剝皮寮展出",
     href: null,
+    icon: IconBook,
   },
   {
     tally: "standby",
@@ -39,6 +44,7 @@ const nowItems: {
     title: "城市禱告會系列轉播",
     detail: "今年第四場，多平台直播統籌",
     href: null,
+    icon: IconAntenna,
   },
 ];
 
@@ -77,7 +83,8 @@ export function Now() {
                     {item.status}
                   </span>
                 </div>
-                <p className="mt-5 text-[14px] leading-snug transition-colors group-hover:text-accent">
+                <item.icon className="mt-5 h-5 w-5 text-accent/50 transition-colors group-hover:text-accent" />
+                <p className="mt-3 text-[14px] leading-snug transition-colors group-hover:text-accent">
                   {item.title}
                 </p>
                 <p className="mt-2 text-[12px] leading-relaxed text-muted">

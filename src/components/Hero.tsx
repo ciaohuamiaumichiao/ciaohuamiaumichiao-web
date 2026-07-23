@@ -1,12 +1,33 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 const ease = [0.25, 0.1, 0, 1] as const;
 
 export function Hero() {
   return (
     <section className="relative flex min-h-screen items-center overflow-hidden px-6">
+      {/* 背景：導播檯工作現場（Backstage is a WORLD 展場控台） */}
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 2, delay: 0.3 }}
+        className="absolute inset-0"
+        aria-hidden
+      >
+        <Image
+          src="/images/backstage-control.jpg"
+          alt=""
+          fill
+          priority
+          sizes="100vw"
+          className="hero-photo object-cover object-center"
+        />
+        <div className="absolute inset-0 bg-gradient-to-r from-background via-background/80 to-background/30" />
+        <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-background/70" />
+      </motion.div>
+
       {/* 四角 safe-area 十字標 */}
       <div className="pointer-events-none absolute inset-0 hidden font-mono text-[11px] text-muted/40 sm:block" aria-hidden>
         <span className="absolute left-5 top-20">+</span>
