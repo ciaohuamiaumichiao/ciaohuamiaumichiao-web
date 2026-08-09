@@ -28,6 +28,7 @@
 - [直播與轉播統籌](https://ciaohuamiaumichiao-web.vercel.app/#services): 三機 EFP 現場切換、YouTube／Facebook 等多平台同步直播、備援網路與自建即時訊號監控系統。單場專案報價 NT$60,000 起。
 - [創意數位建置](https://ciaohuamiaumichiao-web.vercel.app/#services): 品牌官網與節目網站、管理系統與排班平台、影音硬體規劃與建置、數位工作流程規劃。網站建置 NT$60,000 起 + 維護方案。
 - [影像與藝術顧問](https://ciaohuamiaumichiao-web.vercel.app/#services): 展覽策劃與藝術指導、影像團隊組建與培訓、短影音內容策略顧問（Reels / Shorts / TikTok）、社群團隊成長陪跑顧問、品牌視覺策略。初次諮詢 NT$5,000。
+- [排班陪跑](https://ciaohuamiaumichiao-web.vercel.app/rotation): 陪教會與服事團隊建立自己的排班系統。一日工作坊＋八週陪跑，系統含公開班表、一鍵登記、出席回報、換班流程與 LINE 自動通知，跑在團隊自己的雲端帳號、之後不收月費。適合教會媒體團隊、敬拜團、志工人力。依團隊規模 NT$30,000 起。源自真實運行中的 HOLYWOOD 影視團隊排班系統（https://holywoodrotation.vercel.app）。
 
 ## 2026 進行中與已交付
 
@@ -64,4 +65,5 @@
 ## 主要頁面
 
 - [首頁](https://ciaohuamiaumichiao-web.vercel.app/): 個人品牌形象頁，含自我介紹、進行中狀態、2026 案例、服務項目、作品影像、經歷、社群、聯絡資訊
+- [排班陪跑](https://ciaohuamiaumichiao-web.vercel.app/rotation): 教會/服事團隊排班系統陪伴建置服務，含流程、FAQ、共創首發方案與聯絡方式
 - [寫作](https://ciaohuamiaumichiao-web.vercel.app/writing): 文章列表與電子報訂閱

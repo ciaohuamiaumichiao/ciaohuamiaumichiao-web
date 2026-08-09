@@ -3,6 +3,7 @@
 import { FadeIn, FadeInStagger, FadeInItem } from "@/components/FadeIn";
 import { SectionSlate } from "@/components/SectionSlate";
 import { IconBoard, IconChurch, IconChat } from "@/components/Icons";
+import { FAQS } from "./data";
 
 /* 排班陪跑：對外服務頁。
    從 HOLYWOOD Rotation（自己團隊的真實系統）長出來的陪伴建置服務。 */
@@ -39,24 +40,7 @@ const fits = [
   { icon: IconBoard, title: "志工與活動人力", desc: "只要是「一群人輪著來」的服事，這套邏輯都能用" },
 ];
 
-const faqs = [
-  {
-    q: "之後要付月費嗎？",
-    a: "不用。系統跑在你們教會自己的雲端帳號上，小型團隊的用量在免費額度內。我收的是陪跑過程的費用，不是軟體租金。",
-  },
-  {
-    q: "我們沒有工程師怎麼辦？",
-    a: "不需要。日常使用是點按鈕，管理員的操作我會在八週內教到會。真的遇到搬不動的，年度健檢時我會看。",
-  },
-  {
-    q: "跟找廠商做系統差在哪？",
-    a: "廠商交付軟體就走了，團隊會不會用是你們的事。我陪的是「人開始用起來」這段——工具其實是載體，理順的是協作方式。",
-  },
-  {
-    q: "費用怎麼算？",
-    a: "一日工作坊＋八週陪跑，依團隊規模 NT$30,000 起。先聊過、確認合適才報價。",
-  },
-];
+const faqs = FAQS;
 
 export function RotationContent() {
   return (
