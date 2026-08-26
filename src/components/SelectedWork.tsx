@@ -12,7 +12,7 @@ const works = [
     title: "Mission On Air 宣教事",
     role: "製作統籌｜靈糧教牧宣教神學院",
     description:
-      "把「宣教」拉回日常的 Video Podcast。從節目企劃、錄影、後製到多平台上架，含官網、章節時間碼與每集社群文案，整套系統一起交付。第一季每週一更新。",
+      "把「宣教」拉回日常的 Video Podcast。從節目企劃、錄影、後製到多平台上架，含官網、章節時間碼與每集社群文案，整套系統一起交付。第一季每週一更新，第二季製作中。",
     href: "https://missionair.genesis131.com",
     linkLabel: "missionair.genesis131.com",
     image: "/images/mission-on-air.jpg",
@@ -25,7 +25,7 @@ const works = [
     title: "放學後 SHOW",
     role: "節目統籌｜自製節目",
     description:
-      "做給青少年、也做給陪他們長大的大人看的談話節目。品牌定位、集數企劃、錄影剪輯到六個平台上架，七月開播，每週四更新。",
+      "做給青少年、也做給陪他們長大的大人看的談話節目。品牌定位、集數企劃、錄影剪輯到六個平台上架，第一季播出中、每週四更新，第二季製作中。",
     href: "https://afterschool.genesis131.com",
     linkLabel: "afterschool.genesis131.com",
     image: "/images/afterschool-show.jpg",
@@ -38,11 +38,11 @@ const works = [
     title: "城市禱告會系列轉播",
     role: "轉播統籌｜國度復興傳播基金會",
     description:
-      "三機 EFP、五平台同步直播。為了讓導播不用同時盯六個視窗，自己寫了一套即時監控系統，把碼率和掉幀翻成看得懂的應變建議。桃園、新竹、台中三場零事故，九月到澎湖。",
+      "三機 EFP、五平台同步直播。為了讓導播不用同時盯六個視窗，自己寫了一套即時監控系統，把碼率和掉幀翻成看得懂的應變建議。桃園、新竹、台中三場零事故，9/2 前進澎湖。",
     href: null,
     linkLabel: null,
     image: null,
-    slate: "STANDBY — 09.09 澎湖",
+    slate: "STANDBY — 09.02 澎湖",
   },
   {
     index: "E04",
@@ -51,11 +51,11 @@ const works = [
     title: "遠鄉閃閃《我的攝影不像樣》",
     role: "影像採訪・書籍設計｜文曄教育基金會",
     description:
-      "偏鄉攝影教育計畫第五年。走進 13 所學校做影像採訪，把孩子的照片編成 208 頁攝影合輯，七月底於剝皮寮展出。",
-    href: null,
-    linkLabel: null,
+      "偏鄉攝影教育計畫第五年。走進 13 所學校做影像採訪，把孩子的照片編成 208 頁攝影合輯。7/23–8/2 於剝皮寮歷史街區展出，圓滿落幕。",
+    href: "https://youtu.be/V8r-EYUR4iQ",
+    linkLabel: "展覽紀錄影片",
     image: null,
-    slate: "IN PRINT — 208P",
+    slate: "WRAPPED — 208P",
   },
   {
     index: "E05",

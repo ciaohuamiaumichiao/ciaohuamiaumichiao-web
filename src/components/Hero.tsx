@@ -2,8 +2,32 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
+import { useEffect, useState } from "react";
 
 const ease = [0.25, 0.1, 0, 1] as const;
+
+/* 會走的 timecode：從進站那一刻開始跑，25fps */
+function Timecode() {
+  const [tc, setTc] = useState("00:00:00:00");
+  useEffect(() => {
+    const start = performance.now();
+    const id = setInterval(() => {
+      const elapsed = (performance.now() - start) / 1000;
+      const h = Math.floor(elapsed / 3600);
+      const m = Math.floor((elapsed % 3600) / 60);
+      const s = Math.floor(elapsed % 60);
+      const f = Math.floor((elapsed % 1) * 25);
+      const pad = (n: number) => String(n).padStart(2, "0");
+      setTc(`${pad(h)}:${pad(m)}:${pad(s)}:${pad(f)}`);
+    }, 40);
+    return () => clearInterval(id);
+  }, []);
+  return (
+    <p className="font-mono text-[9px] tracking-[0.18em] text-accent/80 tabular-nums">
+      TC {tc}
+    </p>
+  );
+}
 
 export function Hero() {
   return (
@@ -28,8 +52,11 @@ export function Hero() {
         <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-background/70" />
       </motion.div>
 
+      {/* 掃頻線：訊號室的巡場 */}
+      <div className="scan-line" aria-hidden />
+
       {/* 四角 safe-area 十字標 */}
-      <div className="pointer-events-none absolute inset-0 hidden font-mono text-[11px] text-muted/40 sm:block" aria-hidden>
+      <div className="pointer-events-none absolute inset-0 hidden font-mono text-[11px] text-accent/40 sm:block" aria-hidden>
         <span className="absolute left-5 top-20">+</span>
         <span className="absolute right-5 top-20">+</span>
         <span className="absolute bottom-6 left-5">+</span>
@@ -46,7 +73,7 @@ export function Hero() {
       >
         <p>PROD&nbsp;&nbsp;CIAOHUAMIAUMICHIAO</p>
         <p>ROLE&nbsp;&nbsp;DIRECTOR / CURATOR</p>
-        <p>DATE&nbsp;&nbsp;2026.07</p>
+        <p>DATE&nbsp;&nbsp;2026.08</p>
       </motion.div>
 
       {/* 右上：REC */}
@@ -54,11 +81,23 @@ export function Hero() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1, delay: 1.7 }}
-        className="absolute right-6 top-24 flex items-center gap-2 lg:right-10"
+        className="absolute right-6 top-24 flex items-center gap-3 lg:right-10"
         aria-hidden
       >
-        <span className="rec-blink h-2 w-2 rounded-full bg-live" />
-        <span className="font-mono text-[9px] tracking-[0.2em] text-muted">REC</span>
+        {/* VU 訊號柱 */}
+        <span className="flex h-3 items-end gap-[2px]">
+          {[0, 1, 2, 3].map((i) => (
+            <span
+              key={i}
+              className="vu-bar w-[2px] rounded-sm bg-accent/70"
+              style={{ height: `${6 + i * 2}px`, animationDelay: `${i * 0.18}s` }}
+            />
+          ))}
+        </span>
+        <span className="flex items-center gap-2">
+          <span className="rec-blink h-2 w-2 rounded-full bg-live" />
+          <span className="font-mono text-[9px] tracking-[0.2em] text-muted">REC</span>
+        </span>
       </motion.div>
 
       {/* 右緣：直排 tagline（如片頭字幕） */}
@@ -78,7 +117,7 @@ export function Hero() {
           initial={{ opacity: 0, letterSpacing: "0.05em" }}
           animate={{ opacity: 1, letterSpacing: "0.18em" }}
           transition={{ duration: 1.2, delay: 0.2, ease }}
-          className="font-mono text-[10px] uppercase text-accent sm:text-[11px]"
+          className="glow-accent font-mono text-[10px] uppercase text-accent sm:text-[11px]"
         >
           Director · Curator · Digital Creator
         </motion.p>
@@ -156,9 +195,7 @@ export function Hero() {
         transition={{ delay: 2, duration: 1 }}
         className="absolute bottom-8 left-6 right-6 mx-auto flex max-w-6xl items-center justify-between"
       >
-        <p className="font-mono text-[9px] tracking-[0.18em] text-muted/70">
-          TC 00:00:00:00
-        </p>
+        <Timecode />
         <div className="flex items-center gap-3">
           <span className="font-mono text-[9px] uppercase tracking-[0.25em] text-muted/70">
             Scroll

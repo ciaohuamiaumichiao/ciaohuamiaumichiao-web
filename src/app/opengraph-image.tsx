@@ -30,10 +30,10 @@ export default function Image() {
         }}
       >
         {/* 取景框角標 */}
-        <div style={{ ...corner({ top: 36, left: 36 }), borderTop: "2px solid #d8a45c", borderLeft: "2px solid #d8a45c", display: "flex" }} />
-        <div style={{ ...corner({ top: 36, right: 36 }), borderTop: "2px solid #d8a45c", borderRight: "2px solid #d8a45c", display: "flex" }} />
-        <div style={{ ...corner({ bottom: 36, left: 36 }), borderBottom: "2px solid #d8a45c", borderLeft: "2px solid #d8a45c", display: "flex" }} />
-        <div style={{ ...corner({ bottom: 36, right: 36 }), borderBottom: "2px solid #d8a45c", borderRight: "2px solid #d8a45c", display: "flex" }} />
+        <div style={{ ...corner({ top: 36, left: 36 }), borderTop: "2px solid #0d97bb", borderLeft: "2px solid #0d97bb", display: "flex" }} />
+        <div style={{ ...corner({ top: 36, right: 36 }), borderTop: "2px solid #0d97bb", borderRight: "2px solid #0d97bb", display: "flex" }} />
+        <div style={{ ...corner({ bottom: 36, left: 36 }), borderBottom: "2px solid #0d97bb", borderLeft: "2px solid #0d97bb", display: "flex" }} />
+        <div style={{ ...corner({ bottom: 36, right: 36 }), borderBottom: "2px solid #0d97bb", borderRight: "2px solid #0d97bb", display: "flex" }} />
 
         {/* 左上 production meta */}
         <div
@@ -81,7 +81,7 @@ export default function Image() {
           style={{
             fontSize: 17,
             letterSpacing: 7,
-            color: "#d8a45c",
+            color: "#0d97bb",
             textTransform: "uppercase" as const,
             marginBottom: 28,
             display: "flex",
@@ -111,8 +111,8 @@ export default function Image() {
           }}
         >
           <span style={{ fontSize: 24, letterSpacing: 6, color: "#8e939b" }}>KIMI CHANG</span>
-          <div style={{ width: 48, height: 1, background: "#a87b3e", display: "flex" }} />
-          <span style={{ fontSize: 22, letterSpacing: 3, color: "#d8a45c" }}>
+          <div style={{ width: 48, height: 1, background: "#326872", display: "flex" }} />
+          <span style={{ fontSize: 22, letterSpacing: 3, color: "#0d97bb" }}>
             小花貓咪叫 ciaohuamiaumichiao
           </span>
         </div>
@@ -131,11 +131,11 @@ export default function Image() {
           }}
         >
           <span>影像製作</span>
-          <span style={{ color: "#a87b3e" }}>·</span>
+          <span style={{ color: "#326872" }}>·</span>
           <span>節目製作</span>
-          <span style={{ color: "#a87b3e" }}>·</span>
+          <span style={{ color: "#326872" }}>·</span>
           <span>直播轉播</span>
-          <span style={{ color: "#a87b3e" }}>·</span>
+          <span style={{ color: "#326872" }}>·</span>
           <span>創意數位建置</span>
         </div>
 

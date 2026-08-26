@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { ThemeProvider } from "@/components/ThemeProvider";
 import "./globals.css";
 
 const BASE_URL = "https://ciaohuamiaumichiao-web.vercel.app";
@@ -335,12 +334,6 @@ export default function RootLayout({
   return (
     <html lang="zh-Hant" className="h-full antialiased" suppressHydrationWarning>
       <head>
-        {/* Prevent flash: set theme before render */}
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `(function(){try{var t=localStorage.getItem("theme-preference");if(!t){var h=new Date().getHours();t=h>=6&&h<18?"light":"dark"}document.documentElement.setAttribute("data-theme",t)}catch(e){}})()`,
-          }}
-        />
         {/* JSON-LD Structured Data */}
         <script
           type="application/ld+json"
@@ -348,7 +341,7 @@ export default function RootLayout({
         />
       </head>
       <body className="min-h-full flex flex-col font-sans">
-        <ThemeProvider>{children}</ThemeProvider>
+        {children}
       </body>
     </html>
   );

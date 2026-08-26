@@ -63,6 +63,18 @@ const experiences = [
     ],
   },
   {
+    category: "教學",
+    items: [
+      {
+        year: "2026",
+        title: "KUA 跨越敬拜學院",
+        role: "影像媒體部講師",
+        venue: "KUA Global・第一屆",
+        period: "2026.10.19 開學",
+      },
+    ],
+  },
+  {
     category: "節目製作",
     items: [
       {
@@ -100,8 +112,8 @@ const experiences = [
         year: "2026",
         title: "遠鄉閃閃 114 攝影合輯《我的攝影不像樣》",
         role: "影像採訪・書籍設計",
-        venue: "文曄教育基金會・13 校 208 頁",
-        period: "",
+        venue: "文曄教育基金會・剝皮寮歷史街區",
+        period: "2026.7.23 – 8.2",
       },
     ],
   },
