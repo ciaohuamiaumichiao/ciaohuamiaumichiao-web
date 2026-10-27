@@ -2,7 +2,7 @@
 
 import { FadeIn, FadeInStagger, FadeInItem } from "./FadeIn";
 import { SectionSlate } from "./SectionSlate";
-import { IconMic, IconChat, IconCap, IconAntenna } from "./Icons";
+import { IconMic, IconChat, IconCamera, IconCompass } from "./Icons";
 
 type Tally = "live" | "standby";
 
@@ -16,9 +16,9 @@ const nowItems: {
 }[] = [
   {
     tally: "live",
-    status: "每週一更新",
+    status: "每週一 12:00",
     title: "Mission On Air 宣教事",
-    detail: "Video Podcast 第一季播出中，第二季製作中",
+    detail: "第二季 10/26 開播，12 集一路播到明年 1/11，第三季企劃同步在寫",
     href: "https://missionair.genesis131.com",
     icon: IconMic,
   },
@@ -26,25 +26,25 @@ const nowItems: {
     tally: "live",
     status: "每週四更新",
     title: "放學後 SHOW",
-    detail: "青少年談話節目，第一季播出中，第二季製作中",
+    detail: "青少年談話節目持續週更，最近多了西門町街訪",
     href: "https://afterschool.genesis131.com",
     icon: IconChat,
   },
   {
     tally: "standby",
-    status: "9/2 澎湖",
-    title: "城市禱告會系列轉播",
-    detail: "今年第四場，多平台直播統籌",
-    href: null,
-    icon: IconAntenna,
+    status: "EP04 上架準備",
+    title: "跑者肌地 跑步路線系列",
+    detail: "大鹿林道觀霧精剪完成，中英日字幕和 Reels 攻略三部曲一起出",
+    href: "https://www.youtube.com/@RST321go",
+    icon: IconCamera,
   },
   {
     tally: "standby",
-    status: "10/19 開學",
-    title: "KUA 跨越敬拜學院",
-    detail: "影像媒體部講師，第一屆課程招生中",
-    href: "https://www.instagram.com/p/DccoL8dFYdY/",
-    icon: IconCap,
+    status: "12 月",
+    title: "聖誕節遊樂園 開場遊行",
+    detail: "擔任遊行導演，從挪亞方舟走進一座動物童話世界",
+    href: null,
+    icon: IconCompass,
   },
 ];
 
@@ -52,7 +52,7 @@ export function Now() {
   return (
     <section id="now" className="hud-grid border-t border-border px-6 py-20 lg:py-28">
       <div className="mx-auto max-w-6xl">
-        <SectionSlate index="02" en="On Air" zh="進行中" note="2026.08" />
+        <SectionSlate index="02" en="On Air" zh="進行中" note="2026.10" />
 
         <FadeInStagger className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {nowItems.map((item) => {

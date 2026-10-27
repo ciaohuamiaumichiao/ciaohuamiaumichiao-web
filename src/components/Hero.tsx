@@ -73,7 +73,7 @@ export function Hero() {
       >
         <p>PROD&nbsp;&nbsp;CIAOHUAMIAUMICHIAO</p>
         <p>ROLE&nbsp;&nbsp;DIRECTOR / CURATOR</p>
-        <p>DATE&nbsp;&nbsp;2026.08</p>
+        <p>DATE&nbsp;&nbsp;2026.10</p>
       </motion.div>
 
       {/* 右上：REC */}

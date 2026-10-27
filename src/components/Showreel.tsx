@@ -3,6 +3,31 @@
 import { FadeIn } from "./FadeIn";
 import { SectionSlate } from "./SectionSlate";
 
+/* 頻道長片上傳清單 = 頻道 ID 的 UC 換成 UULF（不含 Shorts） */
+const channels = [
+  {
+    title: "Mission On Air 宣教事",
+    status: "每週一",
+    list: "PLflCl-dMmNhXv8gRJi3OCKqLullVfP0t8",
+    href: "https://www.youtube.com/playlist?list=PLflCl-dMmNhXv8gRJi3OCKqLullVfP0t8",
+    linkLabel: "播放清單",
+  },
+  {
+    title: "放學後 SHOW",
+    status: "每週四",
+    list: "UULFG1FdLIGkNCkiRmv3PA1pJg",
+    href: "https://www.youtube.com/@AfterschoolSHOW-yfctw",
+    linkLabel: "頻道",
+  },
+  {
+    title: "跑者肌地",
+    status: "路線系列",
+    list: "UULFKgQdOKto_TWAgLkploswVQ",
+    href: "https://www.youtube.com/@RST321go",
+    linkLabel: "頻道",
+  },
+];
+
 export function Showreel() {
   return (
     <section id="showreel" className="border-t border-border px-6 py-28 lg:py-36">
@@ -49,6 +74,48 @@ export function Showreel() {
                 YouTube 頻道 →
               </a>
             </div>
+          </div>
+        </FadeIn>
+
+        {/* Multiview：正在播的節目與頻道 */}
+        <FadeIn delay={0.25}>
+          <p className="mt-14 font-mono text-[9px] uppercase tracking-[0.2em] text-muted">
+            Multiview — 正在播的節目
+          </p>
+          <div className="mt-4 grid gap-4 md:grid-cols-3">
+            {channels.map((ch, i) => (
+              <div key={ch.title} className="overflow-hidden border border-border/60">
+                <div className="flex items-center justify-between border-b border-border/60 bg-surface px-3 py-1.5">
+                  <span className="font-mono text-[8px] tracking-[0.2em] text-muted">
+                    CAM {String(i + 1).padStart(2, "0")}
+                  </span>
+                  <span className="font-mono text-[8px] tracking-[0.1em] text-accent/80">
+                    {ch.status}
+                  </span>
+                </div>
+                <div className="aspect-video w-full bg-black">
+                  <iframe
+                    src={`https://www.youtube.com/embed/videoseries?list=${ch.list}`}
+                    title={`${ch.title} 播放清單`}
+                    className="h-full w-full"
+                    loading="lazy"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  />
+                </div>
+                <div className="flex items-center justify-between gap-3 border-t border-border/60 bg-surface px-3 py-2">
+                  <span className="truncate text-[12px] text-foreground/90">{ch.title}</span>
+                  <a
+                    href={ch.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="shrink-0 font-mono text-[9px] uppercase tracking-[0.12em] text-accent/70 transition-colors hover:text-accent"
+                  >
+                    {ch.linkLabel} →
+                  </a>
+                </div>
+              </div>
+            ))}
           </div>
         </FadeIn>
 

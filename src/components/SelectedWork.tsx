@@ -12,7 +12,7 @@ const works = [
     title: "Mission On Air 宣教事",
     role: "製作統籌｜靈糧教牧宣教神學院",
     description:
-      "把「宣教」拉回日常的 Video Podcast。從節目企劃、錄影、後製到多平台上架，含官網、章節時間碼與每集社群文案，整套系統一起交付。第一季每週一更新，第二季製作中。",
+      "把「宣教」拉回日常的 Video Podcast。企劃、錄影、後製到多平台上架都在我們這邊，官網、章節時間碼和每集社群文案也一起交。第二季 12 集已全數錄完，10/26 開播，每週一上架到明年 1/11。",
     href: "https://missionair.genesis131.com",
     linkLabel: "missionair.genesis131.com",
     image: "/images/mission-on-air.jpg",
@@ -25,7 +25,7 @@ const works = [
     title: "放學後 SHOW",
     role: "節目統籌｜自製節目",
     description:
-      "做給青少年、也做給陪他們長大的大人看的談話節目。品牌定位、集數企劃、錄影剪輯到六個平台上架，第一季播出中、每週四更新，第二季製作中。",
+      "做給青少年、也做給陪他們長大的大人看的談話節目。7 月開播後每週四沒斷過，聊過容貌焦慮、手機、AI，也聊「他到底喜不喜歡我」。六個平台同步上架。",
     href: "https://afterschool.genesis131.com",
     linkLabel: "afterschool.genesis131.com",
     image: "/images/afterschool-show.jpg",
@@ -38,27 +38,53 @@ const works = [
     title: "城市禱告會系列轉播",
     role: "轉播統籌｜國度復興傳播基金會",
     description:
-      "三機 EFP、五平台同步直播。為了讓導播不用同時盯六個視窗，自己寫了一套即時監控系統，把碼率和掉幀翻成看得懂的應變建議。桃園、新竹、台中三場零事故，9/2 前進澎湖。",
+      "桃園、新竹、台中、台南、澎湖，五場全程沒有中斷。為了讓導播不用同時盯六個視窗，我自己寫了一套監控系統，把碼率和掉幀翻成看得懂的應變建議。澎湖場開播前路由器重開了五次，查出是供電問題，換掉之後一路穩到收播，六個平台同時上線、尖峰 628 人。",
     href: null,
     linkLabel: null,
     image: null,
-    slate: "STANDBY — 09.02 澎湖",
+    slate: "WRAPPED — 5 / 5 ZERO DROP",
   },
   {
     index: "E04",
+    year: "2026",
+    category: "影像製作",
+    title: "跑者肌地 跑步路線系列",
+    role: "企劃・攝影・剪輯｜跑者肌地",
+    description:
+      "跟跑步訓練頻道長期合作的路線片。民權大橋、淡江大橋、大鹿林道一集一條路線，第一句就給結論，數據做成字卡。長片配中英日字幕，另外拆成 Reels 攻略系列，標題和說明欄都照搜尋習慣寫，讓片子放得越久越有人看。",
+    href: "https://youtu.be/mR7K3rPcLaM",
+    linkLabel: "EP02 民權大橋 天際之眼",
+    image: null,
+    slate: "ON AIR — EP02–04",
+  },
+  {
+    index: "E05",
+    year: "2026",
+    category: "後期剪輯",
+    title: "剪輯工作流",
+    role: "剪輯指導｜接案與方法整理",
+    description:
+      "今年接的後期案子有一部 31.5 小時、9 台機器素材的紀錄片長片，也有林口城市禱告影片、銳能獎開場、歸主協會募款邀請片的中英字幕。每跑完一支，我就把流程寫下來，目前整理出十條工作流，之後想變成可以教的東西。",
+    href: null,
+    linkLabel: null,
+    image: null,
+    slate: "W01 – W10",
+  },
+  {
+    index: "E06",
     year: "2026",
     category: "攝影・出版",
     title: "遠鄉閃閃《我的攝影不像樣》",
     role: "影像採訪・書籍設計｜文曄教育基金會",
     description:
-      "偏鄉攝影教育計畫第五年。走進 13 所學校做影像採訪，把孩子的照片編成 208 頁攝影合輯。7/23–8/2 於剝皮寮歷史街區展出，圓滿落幕。",
+      "偏鄉攝影教育計畫第五年。走進 13 所學校做影像採訪，把孩子的照片編成 208 頁攝影合輯。7/23–8/2 在剝皮寮歷史街區展出。",
     href: "https://youtu.be/V8r-EYUR4iQ",
     linkLabel: "展覽紀錄影片",
     image: null,
     slate: "WRAPPED — 208P",
   },
   {
-    index: "E05",
+    index: "E07",
     year: "2026",
     category: "策展",
     title: "Backstage is a WORLD",
@@ -120,7 +146,7 @@ export function SelectedWork() {
   return (
     <section id="work" className="border-t border-border px-6 py-28 lg:py-36">
       <div className="mx-auto max-w-6xl">
-        <SectionSlate index="03" en="Selected Work" zh="今年做的事" note="5 ENTRIES" />
+        <SectionSlate index="03" en="Selected Work" zh="今年做的事" note="7 ENTRIES" />
 
         <div className="mt-14">
           {works.map((work, i) => (
