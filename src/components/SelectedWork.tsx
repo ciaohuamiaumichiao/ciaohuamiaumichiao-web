@@ -8,6 +8,19 @@ const works = [
   {
     index: "E01",
     year: "2026",
+    category: "紀錄片",
+    title: "只為遇見你",
+    role: "導演｜夢想之家教育基金會 20 週年",
+    description:
+      "夢想之家二十週年，文華牧師帶著夥伴從台北西門走到台東，16 天、348 公里，一路經過每一個據點。我們跟著走完全程，九台機器拍回 31.5 小時、兩千多支素材，剪成 60 分鐘的紀錄片，講這二十年是怎麼陪孩子走過來的。11/13 首映。",
+    href: "https://dreams.org.tw/%E5%A4%A2%E6%83%B3%E6%B6%88%E6%81%AF/20%E9%80%B1%E5%B9%B4%E5%8F%AA%E7%82%BA%E9%81%87%E8%A6%8B%E4%BD%A0/",
+    linkLabel: "首映分享場資訊",
+    image: null,
+    slate: "PREMIERE — 11.13",
+  },
+  {
+    index: "E02",
+    year: "2026",
     category: "節目製作",
     title: "Mission On Air 宣教事",
     role: "製作統籌｜靈糧教牧宣教神學院",
@@ -19,7 +32,7 @@ const works = [
     slate: null,
   },
   {
-    index: "E02",
+    index: "E03",
     year: "2026",
     category: "節目製作",
     title: "放學後 SHOW",
@@ -32,7 +45,7 @@ const works = [
     slate: null,
   },
   {
-    index: "E03",
+    index: "E04",
     year: "2026",
     category: "直播轉播",
     title: "城市禱告會系列轉播",
@@ -45,7 +58,7 @@ const works = [
     slate: "WRAPPED — 5 / 5 ZERO DROP",
   },
   {
-    index: "E04",
+    index: "E05",
     year: "2026",
     category: "影像製作",
     title: "跑者肌地 跑步路線系列",
@@ -58,20 +71,20 @@ const works = [
     slate: "ON AIR — EP02–04",
   },
   {
-    index: "E05",
+    index: "E06",
     year: "2026",
     category: "後期剪輯",
     title: "剪輯工作流",
     role: "剪輯指導｜接案與方法整理",
     description:
-      "今年接的後期案子有一部 31.5 小時、9 台機器素材的紀錄片長片，也有林口城市禱告影片、銳能獎開場、歸主協會募款邀請片的中英字幕。每跑完一支，我就把流程寫下來，目前整理出十條工作流，之後想變成可以教的東西。",
+      "今年的後期除了《只為遇見你》，還有林口城市禱告影片、銳能獎開場、歸主協會募款邀請片的中英字幕，也替朋友的婚禮祝福歌剪了一支 MV。每跑完一支，我就把流程寫下來，目前整理出十條工作流，之後想變成可以教的東西。",
     href: null,
     linkLabel: null,
     image: null,
     slate: "W01 – W10",
   },
   {
-    index: "E06",
+    index: "E07",
     year: "2026",
     category: "攝影・出版",
     title: "遠鄉閃閃《我的攝影不像樣》",
@@ -84,7 +97,7 @@ const works = [
     slate: "WRAPPED — 208P",
   },
   {
-    index: "E07",
+    index: "E08",
     year: "2026",
     category: "策展",
     title: "Backstage is a WORLD",
@@ -146,7 +159,7 @@ export function SelectedWork() {
   return (
     <section id="work" className="border-t border-border px-6 py-28 lg:py-36">
       <div className="mx-auto max-w-6xl">
-        <SectionSlate index="03" en="Selected Work" zh="今年做的事" note="7 ENTRIES" />
+        <SectionSlate index="03" en="Selected Work" zh="今年做的事" note="8 ENTRIES" />
 
         <div className="mt-14">
           {works.map((work, i) => (

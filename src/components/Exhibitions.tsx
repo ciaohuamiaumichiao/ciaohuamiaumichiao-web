@@ -166,6 +166,13 @@ const experiences = [
     category: "廣告・紀錄片・節目",
     items: [
       {
+        year: "2026",
+        title: "《只為遇見你》夢想之家 20 週年徒步紀錄片",
+        role: "導演",
+        venue: "夢想之家教育基金會",
+        period: "2026.11.13 首映",
+      },
+      {
         year: "2025",
         title: "馬偕紀念醫院 145 週年院慶形象影片",
         role: "導演",

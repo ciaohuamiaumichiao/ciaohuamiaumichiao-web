@@ -32,10 +32,10 @@ const nowItems: {
   },
   {
     tally: "standby",
-    status: "EP04 上架準備",
-    title: "跑者肌地 跑步路線系列",
-    detail: "大鹿林道觀霧精剪完成，中英日字幕和 Reels 攻略三部曲一起出",
-    href: "https://www.youtube.com/@RST321go",
+    status: "11/13 首映",
+    title: "《只為遇見你》紀錄片",
+    detail: "夢想之家 20 週年徒步 348 公里，60 分鐘長片進入最後精剪",
+    href: "https://dreams.org.tw/%E5%A4%A2%E6%83%B3%E6%B6%88%E6%81%AF/20%E9%80%B1%E5%B9%B4%E5%8F%AA%E7%82%BA%E9%81%87%E8%A6%8B%E4%BD%A0/",
     icon: IconCamera,
   },
   {
