@@ -18,26 +18,26 @@ const TOUR_URL = "https://holywoodrotation.vercel.app/present";
 const steps = [
   {
     label: "先聊一次（免費）",
-    desc: "線上聊半小時。你們現在怎麼排、卡在哪裡。",
+    desc: "線上聊半小時，聽你們現在怎麼排班、卡在哪裡。",
   },
   {
     label: "一日工作坊",
-    desc: "跟核心同工把崗位、流程、規則攤開來。當天就把系統開起來，用你們自己的名字和崗位。",
+    desc: "跟幾個核心同工坐下來，把崗位、流程、規則一條一條攤開，當天就把系統開起來，名字和崗位都用你們自己的。",
   },
   {
     label: "八週陪跑",
-    desc: "每週線上碰一次。前四週練回報、登記、換班，後四週換管理員上手。",
+    desc: "每週線上碰一次。前四週讓大家習慣回報、登記、換班，後四週換管理員自己來，我在旁邊看。",
   },
   {
     label: "交還給你們",
-    desc: "系統在你們自己的帳號上，雲端在免費額度內。之後沒有月費。",
+    desc: "系統放在你們自己的帳號，雲端用量在免費額度內，之後不用再付我月費。",
   },
 ];
 
 const fits = [
-  { icon: IconChurch, title: "教會媒體團隊", desc: "攝影、導播、直播、平面。我自己的團隊就是這樣" },
-  { icon: IconChat, title: "敬拜團", desc: "主領、和聲、樂手輪值，崗位照你們的叫法" },
-  { icon: IconBoard, title: "志工與活動人力", desc: "一群人輪著來的服事，都可以用" },
+  { icon: IconChurch, title: "教會媒體團隊", desc: "攝影、導播、直播、平面都要排，我自己的團隊就是這樣" },
+  { icon: IconChat, title: "敬拜團", desc: "主領、和聲、樂手輪著上，崗位照你們平常的叫法" },
+  { icon: IconBoard, title: "志工與活動人力", desc: "只要是一群人輪流來的服事，大概都用得上" },
 ];
 
 const faqs = FAQS;
@@ -59,13 +59,12 @@ export function RotationContent() {
               把排班這件事理順。
             </h1>
             <p className="mt-8 max-w-xl text-[15px] leading-[1.9] text-muted">
-              每週在群組問「這週誰可以？」
-              翻半天訊息找誰答應過，當天才發現兩個人排同一格。
-              我都經歷過。
-              後來替自己帶的影視團隊寫了一套排班系統，
-              現在大家自己登記、自己回報、自己換班。
+              每個禮拜在群組裡問「這週誰可以？」，翻半天訊息找誰答應過，
+              到了當天才發現兩個人排在同一格。這些我都經歷過。
+              後來我替自己帶的影視團隊寫了一套排班系統，現在大家自己上去登記、回報、換班，
+              我終於不用每週在群組裡追人。
               <br />
-              這次換我陪你的團隊走一遍。
+              這個服務，就是陪你的團隊也走一次。
             </p>
           </FadeIn>
 
@@ -100,14 +99,13 @@ export function RotationContent() {
           <div className="mt-14 grid gap-12 lg:grid-cols-[1fr_1fr] lg:gap-20">
             <FadeIn>
               <p className="text-[15px] leading-[1.9] text-muted">
-                HOLYWOOD 影視服事團隊，導播、四台攝影機、直播、平面攝影，
-                二十多位同工每週輪值。以前排班靠群組接龍。
-                現在打開網頁就看得到哪一場缺人，按一下「我來」就登記好了。
-                排到班 LINE 會通知，前一晚再提醒一次。
+                HOLYWOOD 影視服事團隊有導播、四台攝影機、直播、平面攝影，二十多位同工每週輪值。
+                以前排班靠群組接龍，現在打開網頁就看得到哪一場還缺人，按一下「我來」就登記好了。
+                排到班的人 LINE 會收到通知，服事前一晚再提醒一次。
               </p>
               <p className="mt-5 text-[15px] leading-[1.9] text-muted">
-                還偷偷放了一條成就路線，叫「蒙召的使徒」。
-                從蒙召的漁夫開始，一路服事到「那美好的仗我已經打過了」。
+                我還偷偷放了一條成就路線叫「蒙召的使徒」，從蒙召的漁夫開始，
+                一路服事到「那美好的仗我已經打過了」。
               </p>
               <a
                 href={TOUR_URL}
@@ -159,8 +157,7 @@ export function RotationContent() {
 
           <FadeIn delay={0.2}>
             <p className="mt-8 text-[13px] leading-relaxed text-muted">
-              <span className="text-foreground">系統最後留在你們手上。</span>
-              我陪一段，然後退場。
+              陪跑結束，系統就留在你們手上，我就退場了。
             </p>
           </FadeIn>
         </div>
@@ -215,9 +212,8 @@ export function RotationContent() {
                 正在找第一批共創教會
               </h2>
               <p className="mx-auto mt-6 max-w-md text-[14px] leading-[1.9] text-muted">
-                前兩間教會用共創價。我們一起把陪跑走順，
-                你們願意讓這段過程給別的教會參考。
-                點 LINE 會帶出開場訊息，填上你們的狀況就可以送出。
+                前兩間合作的教會用共創價，條件是願意讓這段過程給之後的教會參考。
+                點下面的 LINE 會帶出一段開場訊息，把你們的狀況填進去送出就可以了。
               </p>
               <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
                 <a

@@ -108,7 +108,7 @@ export function Hero() {
         className="v-text absolute right-10 top-1/2 hidden -translate-y-1/2 font-serif text-sm text-muted lg:block xl:right-16"
         style={{ fontFamily: '"Noto Serif TC", serif' }}
       >
-        以影像說故事，以策展連結人，以數位創造可能。
+        拍了十五年，大部分時間站在幕後。
       </motion.p>
 
       {/* 主構圖：置左 */}
@@ -151,8 +151,8 @@ export function Hero() {
           transition={{ duration: 0.9, delay: 1.05 }}
           className="mt-10 max-w-md text-sm leading-[1.9] text-muted"
         >
-          拍片、做節目、轉直播、寫網站。
-          今年四條線一起跑，大多時候在現場。
+          我是導演，幫教會、公益團體和品牌拍片，
+          也做節目、轉直播，順便寫網站。今年大概都在現場。
         </motion.p>
 
         {/* 直排 tagline 的手機版（橫排） */}
@@ -162,7 +162,7 @@ export function Hero() {
           transition={{ duration: 0.9, delay: 1.2 }}
           className="mt-4 max-w-md text-[13px] leading-relaxed text-muted/80 lg:hidden"
         >
-          以影像說故事，以策展連結人，以數位創造可能。
+          拍了十五年，大部分時間站在幕後。
         </motion.p>
 
         <motion.div

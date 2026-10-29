@@ -68,7 +68,7 @@ const serviceJsonLd = {
     "@type": "Offer",
     price: "30000",
     priceCurrency: "TWD",
-    description: "一日工作坊＋八週陪跑，依團隊規模 NT$30,000 起；系統交還團隊後不收月費。",
+    description: "一日工作坊＋八週陪跑，看團隊大小，NT$30,000 起，系統交還團隊後不收月費。",
   },
 };
 

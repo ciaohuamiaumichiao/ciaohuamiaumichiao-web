@@ -35,7 +35,7 @@ export function EmailSubscribe({
             新文章上線時通知我
           </h2>
           <p className="mx-auto mt-4 max-w-md text-sm leading-relaxed text-muted">
-            一個月最多兩封。寫影像、寫品牌故事、寫做創作這條路。
+            有新文章的時候寄給你，一個月頂多兩封，大多是拍片、上課和做品牌時想到的事。
           </p>
           <SubscribeForm size="lg" />
         </div>
@@ -47,7 +47,7 @@ export function EmailSubscribe({
     <div className="frame-marks border border-border/40 bg-surface/50 p-6">
       <h3 className="text-base font-light tracking-tight">新文章上線時通知我</h3>
       <p className="mt-2 text-xs leading-relaxed text-muted">
-        一個月最多兩封。寫影像、寫品牌故事、寫做創作這條路。
+        有新文章的時候寄給你，一個月頂多兩封，大多是拍片、上課和做品牌時想到的事。
       </p>
       <SubscribeForm size="sm" />
     </div>

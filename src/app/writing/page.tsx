@@ -10,7 +10,7 @@ export const revalidate = 3600;
 export const metadata: Metadata = {
   title: "寫作 Writing",
   description:
-    "張正杰的寫作筆記。拍片、做品牌、在幕後工作的一些想法。",
+    "張正杰的寫作。上課、拍片、跟客戶聊天的時候想到的事。",
   alternates: { canonical: "/writing" },
 };
 
@@ -35,7 +35,7 @@ export default function WritingIndex() {
               寫作
             </h1>
             <p className="mt-6 max-w-xl text-sm leading-relaxed text-muted">
-              拍片、做品牌、在幕後工作的一些筆記。寫得慢，想到才寫。
+              上課、拍片、跟客戶聊天的時候想到的事，有空就寫下來。
             </p>
           </header>
 

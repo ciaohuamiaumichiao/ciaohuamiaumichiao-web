@@ -14,17 +14,14 @@ export function Backstage() {
           <FadeIn>
             <blockquote className="border-l-2 border-accent/30 pl-5">
               <p className="font-serif text-[17px] leading-[1.9] text-foreground/90 italic" style={{ fontFamily: '"Noto Serif TC", serif' }}>
-                給每一個站在別人背後的人。
-                累了可以來坐一下的地方。
+                給那些一直站在別人後面的人。
               </p>
             </blockquote>
 
             <p className="mt-8 text-[13px] leading-[1.9] text-muted">
-              從「Backstage is a WORLD」攝影展長出來，2026 年開始。
-              志工、教會同工、非營利工作者、展演幕後的人，
-              在這裡聊<span className="text-foreground">怎麼不燒完</span>、
-              <span className="text-foreground">怎麼留點力氣</span>，
-              順便<span className="text-foreground">學點新東西</span>。
+              這個社群是從 2026 年「Backstage is a WORLD」攝影展長出來的。
+              來的人有志工、教會同工、非營利工作者，也有在展演現場搬東西、拉線的人。
+              大家聊得最多的，是怎麼不要把自己燒完，順便交換一點技術。
             </p>
 
             {/* CTA */}
@@ -53,24 +50,6 @@ export function Backstage() {
 
           {/* Right */}
           <div className="space-y-10">
-            {/* 核心信念 */}
-            <FadeIn delay={0.15}>
-              <h3 className="font-mono text-[10px] uppercase tracking-[0.2em] text-accent">我們在意的</h3>
-              <ul className="mt-5 space-y-3">
-                {[
-                  "幕後的人，也是主角",
-                  "一直在給的人，也需要被照顧",
-                  "服事有節奏，慢一點走得比較久",
-                  "一起走，比較不孤單",
-                ].map((belief) => (
-                  <li key={belief} className="flex items-start gap-3 text-[13px] text-muted">
-                    <span className="mt-2 h-px w-4 shrink-0 bg-accent/30" />
-                    {belief}
-                  </li>
-                ))}
-              </ul>
-            </FadeIn>
-
             {/* 社群節奏 */}
             <FadeInStagger className="space-y-0">
               <FadeInItem>
@@ -78,9 +57,9 @@ export function Backstage() {
               </FadeInItem>
               <div className="grid grid-cols-2 gap-3">
                 {[
-                  { freq: "每週", content: "幕後人金句或短文" },
+                  { freq: "每週", content: "一則短文或一句話" },
                   { freq: "每月", content: "30 分鐘線上小聚" },
-                  { freq: "每兩月", content: "幕後者故事專訪" },
+                  { freq: "每兩月", content: "訪一位幕後的人" },
                   { freq: "每半年", content: "旗艦聚會與工作坊" },
                 ].map((item) => (
                   <FadeInItem key={item.freq}>
