@@ -5,6 +5,8 @@ import { Footer } from "@/components/Footer";
 import { EmailSubscribe } from "@/components/EmailSubscribe";
 import { getAllWritings, formatDate } from "@/lib/writing";
 
+export const revalidate = 3600;
+
 export const metadata: Metadata = {
   title: "寫作 Writing",
   description:

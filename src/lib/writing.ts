@@ -17,6 +17,17 @@ export type Writing = WritingMeta & {
   content: string;
 };
 
+/* 排程發佈：date 是台北時間當天 00:00 才上線。
+   頁面用 ISR（revalidate）定時重算，日期一到就會出現。 */
+function isPublished(date: unknown): boolean {
+  if (!date) return true;
+  const d = date instanceof Date ? date : new Date(String(date));
+  if (Number.isNaN(d.getTime())) return true;
+  const ymd = d.toISOString().slice(0, 10);
+  const goLive = new Date(`${ymd}T00:00:00+08:00`);
+  return goLive.getTime() <= Date.now();
+}
+
 function readAllFiles(): string[] {
   if (!fs.existsSync(WRITING_DIR)) return [];
   return fs
@@ -40,7 +51,7 @@ export function getAllWritings(): WritingMeta[] {
         draft: data.draft as boolean | undefined,
       };
     })
-    .filter((p) => !p.draft)
+    .filter((p) => !p.draft && isPublished(p.date))
     .sort((a, b) => (a.date < b.date ? 1 : -1));
   return items;
 }
@@ -51,6 +62,7 @@ export function getWriting(slug: string): Writing | null {
   if (!file) return null;
   const raw = fs.readFileSync(path.join(WRITING_DIR, file), "utf-8");
   const { data, content } = matter(raw);
+  if (data.draft || !isPublished(data.date)) return null;
   return {
     slug,
     title: (data.title as string) ?? slug,

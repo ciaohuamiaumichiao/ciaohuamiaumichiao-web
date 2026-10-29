@@ -8,7 +8,9 @@ import { Footer } from "@/components/Footer";
 import { EmailSubscribe } from "@/components/EmailSubscribe";
 import { getAllSlugs, getWriting, formatDate } from "@/lib/writing";
 
-export const dynamicParams = false;
+/* 排程文章到期前不在 build 清單裡，到期後第一次被請求時才生成 */
+export const dynamicParams = true;
+export const revalidate = 3600;
 
 export function generateStaticParams() {
   return getAllSlugs().map((slug) => ({ slug }));
