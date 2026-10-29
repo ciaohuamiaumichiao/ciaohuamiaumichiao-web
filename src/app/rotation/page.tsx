@@ -4,7 +4,7 @@ import { Footer } from "@/components/Footer";
 import { RotationContent } from "./RotationContent";
 import { FAQS, SERVICE_DESCRIPTION } from "./data";
 
-const BASE_URL = "https://ciaohuamiaumichiao-web.vercel.app";
+const BASE_URL = "https://ciaohua.genesis131.com";
 const PAGE_URL = `${BASE_URL}/rotation`;
 
 export const metadata: Metadata = {

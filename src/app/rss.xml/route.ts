@@ -1,6 +1,6 @@
 import { getAllWritings, getWriting } from "@/lib/writing";
 
-const BASE_URL = "https://ciaohuamiaumichiao-web.vercel.app";
+const BASE_URL = "https://ciaohua.genesis131.com";
 
 function escape(s: string) {
   return s
@@ -10,6 +10,8 @@ function escape(s: string) {
     .replace(/"/g, "&quot;")
     .replace(/'/g, "&apos;");
 }
+
+export const revalidate = 3600;
 
 export async function GET() {
   const writings = getAllWritings();

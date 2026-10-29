@@ -34,7 +34,7 @@ git add src/components/EmailSubscribe.tsx && git commit -m "chore: 更新 Substa
 ```
 
 ### 5. 測試
-到 https://ciaohuamiaumichiao-web.vercel.app/writing 滑到底，按「訂閱電子報」，會跳到你的 Substack 訂閱頁。
+到 https://ciaohua.genesis131.com/writing 滑到底，按「訂閱電子報」，會跳到你的 Substack 訂閱頁。
 
 ## 寫第一封信（創刊號）
 

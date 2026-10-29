@@ -1,7 +1,9 @@
 import type { MetadataRoute } from "next";
 import { getAllWritings } from "@/lib/writing";
 
-const BASE_URL = "https://ciaohuamiaumichiao-web.vercel.app";
+const BASE_URL = "https://ciaohua.genesis131.com";
+
+export const revalidate = 3600;
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const writings = getAllWritings().map((w) => ({

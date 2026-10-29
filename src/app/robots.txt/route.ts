@@ -1,4 +1,4 @@
-const BASE_URL = "https://ciaohuamiaumichiao-web.vercel.app";
+const BASE_URL = "https://ciaohua.genesis131.com";
 
 export function GET() {
   const body = `User-agent: *

@@ -2,7 +2,7 @@
 
 張正杰（Kimi Chang）的個人品牌網站。導演、策展人，2026 年起以「一個導演＋AI 協作系統」的方式，同時交付影像、節目、直播、網站四條線。
 
-正式站：https://ciaohuamiaumichiao-web.vercel.app
+正式站：https://ciaohua.genesis131.com
 
 ## 技術
 
