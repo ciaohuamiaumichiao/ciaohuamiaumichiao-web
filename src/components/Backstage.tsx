@@ -14,17 +14,17 @@ export function Backstage() {
           <FadeIn>
             <blockquote className="border-l-2 border-accent/30 pl-5">
               <p className="font-serif text-[17px] leading-[1.9] text-foreground/90 italic" style={{ fontFamily: '"Noto Serif TC", serif' }}>
-                給每一個在某個人的幕後，默默付出的人。
-                一個讓人願意持續留下來的地方。
+                給每一個站在別人背後的人。
+                累了可以來坐一下的地方。
               </p>
             </blockquote>
 
             <p className="mt-8 text-[13px] leading-[1.9] text-muted">
-              源自「Backstage is a WORLD」攝影展，2026 年成立的社群平台。
-              關注志工、教會同工、非營利工作者與展演幕後協作者的
-              <span className="text-foreground">熱情續航</span>、
-              <span className="text-foreground">能量管理</span>與
-              <span className="text-foreground">技能成長</span>。
+              從「Backstage is a WORLD」攝影展長出來，2026 年開始。
+              志工、教會同工、非營利工作者、展演幕後的人，
+              在這裡聊<span className="text-foreground">怎麼不燒完</span>、
+              <span className="text-foreground">怎麼留點力氣</span>，
+              順便<span className="text-foreground">學點新東西</span>。
             </p>
 
             {/* CTA */}
@@ -55,13 +55,13 @@ export function Backstage() {
           <div className="space-y-10">
             {/* 核心信念 */}
             <FadeIn delay={0.15}>
-              <h3 className="font-mono text-[10px] uppercase tracking-[0.2em] text-accent">核心信念</h3>
+              <h3 className="font-mono text-[10px] uppercase tracking-[0.2em] text-accent">我們在意的</h3>
               <ul className="mt-5 space-y-3">
                 {[
-                  "每一個幕後都是主角",
-                  "願意付出的人值得被好好照顧",
-                  "服務是一種節奏，可持續才能走得遠",
-                  "走在一起，看見彼此，走得更遠",
+                  "幕後的人，也是主角",
+                  "一直在給的人，也需要被照顧",
+                  "服事有節奏，慢一點走得比較久",
+                  "一起走，比較不孤單",
                 ].map((belief) => (
                   <li key={belief} className="flex items-start gap-3 text-[13px] text-muted">
                     <span className="mt-2 h-px w-4 shrink-0 bg-accent/30" />

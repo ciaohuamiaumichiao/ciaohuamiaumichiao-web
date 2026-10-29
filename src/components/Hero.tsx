@@ -151,8 +151,8 @@ export function Hero() {
           transition={{ duration: 0.9, delay: 1.05 }}
           className="mt-10 max-w-md text-sm leading-[1.9] text-muted"
         >
-          影像、節目、直播、網站，四條線同時在跑。
-          從企劃、現場到上線，一個導演的製作所。
+          拍片、做節目、轉直播、寫網站。
+          今年四條線一起跑，大多時候在現場。
         </motion.p>
 
         {/* 直排 tagline 的手機版（橫排） */}

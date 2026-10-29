@@ -35,8 +35,8 @@ export function Contact() {
         <div className="mt-14 grid gap-14 lg:grid-cols-[1fr_1fr] lg:gap-24">
           <FadeIn>
             <p className="max-w-md text-[15px] leading-[1.9] text-muted">
-              影像、節目、直播、網站，或只是還說不清楚的一個想法，
-              都歡迎來聊。案子是聊出來的。
+              想拍片、做節目、轉直播、架網站，
+              或只是一個還講不清楚的念頭，都可以先丟過來。
             </p>
             <p className="mt-6 font-mono text-[9px] uppercase tracking-[0.2em] text-muted/60">
               Taipei, Taiwan · UTC+8

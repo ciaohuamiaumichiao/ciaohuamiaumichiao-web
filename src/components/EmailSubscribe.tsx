@@ -35,7 +35,7 @@ export function EmailSubscribe({
             新文章上線時通知我
           </h2>
           <p className="mx-auto mt-4 max-w-md text-sm leading-relaxed text-muted">
-            一個月最多兩封信。寫影像、品牌敘事、創作者職涯。不轉賣、不洗版。
+            一個月最多兩封。寫影像、寫品牌故事、寫做創作這條路。
           </p>
           <SubscribeForm size="lg" />
         </div>
@@ -47,7 +47,7 @@ export function EmailSubscribe({
     <div className="frame-marks border border-border/40 bg-surface/50 p-6">
       <h3 className="text-base font-light tracking-tight">新文章上線時通知我</h3>
       <p className="mt-2 text-xs leading-relaxed text-muted">
-        一個月最多兩封信。寫影像、品牌敘事、創作者職涯。
+        一個月最多兩封。寫影像、寫品牌故事、寫做創作這條路。
       </p>
       <SubscribeForm size="sm" />
     </div>
@@ -91,7 +91,7 @@ function SubscribeForm({ size }: { size: "sm" | "lg" }) {
             收到了！
           </p>
           <p className="mt-1 text-xs leading-relaxed text-muted">
-            請去信箱點 Substack 寄給你的確認信完成訂閱（找不到的話檢查垃圾信件夾）。
+            去信箱點一下 Substack 的確認信就好。沒看到的話，翻一下垃圾信件夾。
           </p>
         </div>
       </div>

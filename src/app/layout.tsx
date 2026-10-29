@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     template: "%s | 小花貓咪叫 ciaohuamiaumichiao",
   },
   description:
-    "張正杰 Kimi Chang——影像導演、策展人。15 年以上影像製作經驗，30+ 音樂 MV，擎光媒體工作室、甚好創意有限公司。提供影像製作、節目製作（Video Podcast）、直播與轉播統籌、創意數位建置服務。",
+    "張正杰 Kimi Chang，影像導演、策展人。拍了 15 年，30+ 支音樂 MV。擎光媒體工作室、甚好創意有限公司。做影像、做節目（Video Podcast）、做直播轉播、做網站與數位系統。",
   keywords: [
     "張正杰",
     "Kimi Chang",
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "小花貓咪叫 ciaohuamiaumichiao — 張正杰｜導演・策展人",
     description:
-      "影像導演、策展人。15 年以上影像製作經驗，30+ 音樂 MV。影像製作、節目製作、直播與轉播統籌、創意數位建置服務。",
+      "影像導演、策展人。拍了 15 年，30+ 支音樂 MV。做影像、做節目、做直播轉播、做網站與數位系統。",
     url: BASE_URL,
     siteName: "小花貓咪叫 ciaohuamiaumichiao",
     locale: "zh_TW",
@@ -69,7 +69,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "小花貓咪叫 ciaohuamiaumichiao — 張正杰",
     description:
-      "影像導演、策展人。影像製作、節目製作、直播與轉播統籌、創意數位建置服務。",
+      "影像導演、策展人。做影像、做節目、做直播轉播、做網站與數位系統。",
     images: [`${BASE_URL}/opengraph-image`],
   },
   alternates: {
@@ -278,7 +278,7 @@ const jsonLd = {
           name: "小花貓咪叫可以做直播或轉播嗎？",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "可以。提供三機 EFP 現場切換、YouTube 與 Facebook 等多平台同步直播、備援網路與自建即時訊號監控系統。2026 年完成桃園、新竹、台中、台南、澎湖五場城市禱告會系列轉播，全程零中斷。單場專案報價 NT$60,000 起。",
+            text: "可以。提供三機 EFP 現場切換、YouTube 與 Facebook 等多平台同步直播、備援網路與自建即時訊號監控系統。2026 年轉播桃園、新竹、台中、台南、澎湖五場城市禱告會，五場都沒有中斷。單場專案報價 NT$60,000 起。",
           },
         },
         {
@@ -286,7 +286,7 @@ const jsonLd = {
           name: "張正杰 2026 年在做什麼？",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "2026 年的工作：夢想之家教育基金會 20 週年徒步紀錄片《只為遇見你》（導演，60 分鐘，11/13 首映）、Video Podcast「Mission On Air 宣教事」第二季 10/26 開播（每週一更新）、青少年談話節目「放學後 SHOW」（每週四更新）、跑步訓練頻道「跑者肌地」路線系列、五場城市禱告會系列轉播（全程零中斷）、遠鄉閃閃 208 頁攝影合輯《我的攝影不像樣》，以及 12 月聖誕節遊樂園開場遊行導演。",
+            text: "2026 年的工作：夢想之家教育基金會 20 週年徒步紀錄片《只為遇見你》（導演，60 分鐘，11/13 首映）、Video Podcast「Mission On Air 宣教事」第二季 10/26 開播（每週一更新）、青少年談話節目「放學後 SHOW」（每週四更新）、跑步訓練頻道「跑者肌地」路線系列、五場城市禱告會系列轉播、遠鄉閃閃 208 頁攝影合輯《我的攝影不像樣》，以及 12 月聖誕節遊樂園開場遊行導演。",
           },
         },
         {

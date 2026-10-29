@@ -122,7 +122,7 @@ export function Showreel() {
         <FadeIn delay={0.3}>
           <div className="mt-16 flex flex-col items-center gap-5 text-center">
             <p className="text-sm text-muted">
-              想了解更多作品或合作洽談？
+              想看更多，或想聊聊合作？
             </p>
             <a
               href="https://line.me/R/ti/p/@097eutou"

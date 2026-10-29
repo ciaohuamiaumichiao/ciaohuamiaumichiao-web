@@ -10,7 +10,7 @@ const PAGE_URL = `${BASE_URL}/rotation`;
 export const metadata: Metadata = {
   title: "排班陪跑 — 陪你的教會把服事排班理順｜小花貓咪叫",
   description:
-    "不是賣你一套軟體，是陪你的團隊把排班這件事理順。一日工作坊＋八週陪跑，系統教到會、之後不用付月費。從 HOLYWOOD 影視團隊的真實系統長出來的服務。NT$30,000 起。",
+    "陪你的團隊把服事排班理順。一日工作坊加八週陪跑，系統留給你們，之後沒有月費。從 HOLYWOOD 影視團隊每週在用的系統長出來。NT$30,000 起。",
   keywords: [
     "教會排班系統",
     "服事排班",
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "排班陪跑 — 陪你的教會把服事排班理順",
     description:
-      "一日工作坊＋八週陪跑，把排班系統教到會。之後不用付月費。從真實運行中的 HOLYWOOD 影視團隊系統長出來的服務。",
+      "一日工作坊加八週陪跑，排班系統留給你們，之後沒有月費。從 HOLYWOOD 影視團隊每週在用的系統長出來。",
     url: PAGE_URL,
     type: "website",
     locale: "zh_TW",
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "排班陪跑 — 陪你的教會把服事排班理順｜小花貓咪叫",
-    description: "一日工作坊＋八週陪跑，把排班系統教到會，之後不用付月費。",
+    description: "一日工作坊加八週陪跑，排班系統留給你們，之後沒有月費。",
   },
 };
 

@@ -8,7 +8,7 @@ import { getAllWritings, formatDate } from "@/lib/writing";
 export const metadata: Metadata = {
   title: "寫作 Writing",
   description:
-    "張正杰的寫作筆記——關於影像、品牌敘事、創意工作者的觀察與思考。",
+    "張正杰的寫作筆記。拍片、做品牌、在幕後工作的一些想法。",
   alternates: { canonical: "/writing" },
 };
 
@@ -33,7 +33,7 @@ export default function WritingIndex() {
               寫作
             </h1>
             <p className="mt-6 max-w-xl text-sm leading-relaxed text-muted">
-              關於影像、品牌敘事、創意工作者的觀察與思考。寫得不快，但盡量寫得真。
+              拍片、做品牌、在幕後工作的一些筆記。寫得慢，想到才寫。
             </p>
           </header>
 

@@ -18,26 +18,26 @@ const TOUR_URL = "https://holywoodrotation.vercel.app/present";
 const steps = [
   {
     label: "先聊一次（免費）",
-    desc: "半小時線上聊，聽你們現在怎麼排班、卡在哪。不合適我會直說。",
+    desc: "線上聊半小時。你們現在怎麼排、卡在哪裡。",
   },
   {
     label: "一日工作坊",
-    desc: "帶核心同工把崗位、流程、規則盤點清楚，當天就把系統開起來——用你們教會自己的名字和崗位。",
+    desc: "跟核心同工把崗位、流程、規則攤開來。當天就把系統開起來，用你們自己的名字和崗位。",
   },
   {
     label: "八週陪跑",
-    desc: "每週一次線上跟進。前四週養習慣（回報、登記、換班），後四週把管理員教到會。",
+    desc: "每週線上碰一次。前四週練回報、登記、換班，後四週換管理員上手。",
   },
   {
     label: "交還給你們",
-    desc: "結案時系統在你們自己的帳號上、雲端費用在免費額度內。之後不用付我月費。",
+    desc: "系統在你們自己的帳號上，雲端在免費額度內。之後沒有月費。",
   },
 ];
 
 const fits = [
-  { icon: IconChurch, title: "教會媒體團隊", desc: "攝影機、導播、直播、平面——就是我自己團隊的原型" },
-  { icon: IconChat, title: "敬拜團", desc: "主領、和聲、樂手輪值，崗位全部照你們的叫法設定" },
-  { icon: IconBoard, title: "志工與活動人力", desc: "只要是「一群人輪著來」的服事，這套邏輯都能用" },
+  { icon: IconChurch, title: "教會媒體團隊", desc: "攝影、導播、直播、平面。我自己的團隊就是這樣" },
+  { icon: IconChat, title: "敬拜團", desc: "主領、和聲、樂手輪值，崗位照你們的叫法" },
+  { icon: IconBoard, title: "志工與活動人力", desc: "一群人輪著來的服事，都可以用" },
 ];
 
 const faqs = FAQS;
@@ -59,12 +59,13 @@ export function RotationContent() {
               把排班這件事理順。
             </h1>
             <p className="mt-8 max-w-xl text-[15px] leading-[1.9] text-muted">
-              每週在群組裡問「這週誰可以？」、翻訊息找誰答應過、
-              當天才發現有人排重——這些我都經歷過。
-              後來我為自己帶的影視服事團隊做了一套排班系統，
-              現在整個團隊在上面自己登記、自己回報、自己換班。
+              每週在群組問「這週誰可以？」
+              翻半天訊息找誰答應過，當天才發現兩個人排同一格。
+              我都經歷過。
+              後來替自己帶的影視團隊寫了一套排班系統，
+              現在大家自己登記、自己回報、自己換班。
               <br />
-              這個服務，是陪你的團隊走一次同樣的路。
+              這次換我陪你的團隊走一遍。
             </p>
           </FadeIn>
 
@@ -94,19 +95,19 @@ export function RotationContent() {
       {/* ── 真實案例 ── */}
       <section className="border-t border-border px-6 py-24 lg:py-32">
         <div className="mx-auto max-w-6xl">
-          <SectionSlate index="01" en="Proof" zh="這不是提案，是正在跑的系統" note="LIVE" />
+          <SectionSlate index="01" en="Proof" zh="已經在跑的系統" note="LIVE" />
 
           <div className="mt-14 grid gap-12 lg:grid-cols-[1fr_1fr] lg:gap-20">
             <FadeIn>
               <p className="text-[15px] leading-[1.9] text-muted">
-                HOLYWOOD 影視服事團隊——導播、四台攝影機、直播、平面攝影，
-                二十多位同工每週輪值。以前排班靠群組接龍，
-                現在打開網頁就知道哪一場缺誰，空位按一顆「我來」就登記完成；
-                排到班 LINE 自動通知，服事前一晚自動提醒。
+                HOLYWOOD 影視服事團隊，導播、四台攝影機、直播、平面攝影，
+                二十多位同工每週輪值。以前排班靠群組接龍。
+                現在打開網頁就看得到哪一場缺人，按一下「我來」就登記好了。
+                排到班 LINE 會通知，前一晚再提醒一次。
               </p>
               <p className="mt-5 text-[15px] leading-[1.9] text-muted">
-                連服事的忠心都看得見：系統裡有一條「蒙召的使徒」成就路線，
-                從蒙召的漁夫，一路服事到「那美好的仗我已經打過了」。
+                還偷偷放了一條成就路線，叫「蒙召的使徒」。
+                從蒙召的漁夫開始，一路服事到「那美好的仗我已經打過了」。
               </p>
               <a
                 href={TOUR_URL}
@@ -158,8 +159,8 @@ export function RotationContent() {
 
           <FadeIn delay={0.2}>
             <p className="mt-8 text-[13px] leading-relaxed text-muted">
-              重點只有一個：<span className="text-foreground">系統最後是你們的，不是我的。</span>
-              我陪跑，然後退場。
+              <span className="text-foreground">系統最後留在你們手上。</span>
+              我陪一段，然後退場。
             </p>
           </FadeIn>
         </div>
@@ -214,9 +215,9 @@ export function RotationContent() {
                 正在找第一批共創教會
               </h2>
               <p className="mx-auto mt-6 max-w-md text-[14px] leading-[1.9] text-muted">
-                前兩個合作的教會用共創價——一起把這套陪跑走順，
-                交換的是你們願意讓過程成為別人的參考。
-                點 LINE 會帶好開場訊息，填上你們的狀況送出就行。
+                前兩間教會用共創價。我們一起把陪跑走順，
+                你們願意讓這段過程給別的教會參考。
+                點 LINE 會帶出開場訊息，填上你們的狀況就可以送出。
               </p>
               <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
                 <a
