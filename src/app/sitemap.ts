@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 import { getAllWritings } from "@/lib/writing";
 
-const BASE_URL = "https://ciaohua.genesis131.com";
+import { BASE_URL } from "@/lib/site";
 
 export const revalidate = 3600;
 

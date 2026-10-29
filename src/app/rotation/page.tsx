@@ -3,12 +3,13 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { RotationContent } from "./RotationContent";
 import { FAQS, SERVICE_DESCRIPTION } from "./data";
+import { PERSON_ID } from "@/lib/site";
 
-const BASE_URL = "https://ciaohua.genesis131.com";
+import { BASE_URL } from "@/lib/site";
 const PAGE_URL = `${BASE_URL}/rotation`;
 
 export const metadata: Metadata = {
-  title: "排班陪跑 — 陪你的教會把服事排班理順｜小花貓咪叫",
+  title: { absolute: "排班陪跑：陪教會把服事排班理順｜小花貓咪叫 張正杰" },
   description:
     "陪你的團隊把服事排班理順。一日工作坊加八週陪跑，系統留給你們，之後沒有月費。從 HOLYWOOD 影視團隊每週在用的系統長出來。NT$30,000 起。",
   keywords: [
@@ -35,7 +36,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "排班陪跑 — 陪你的教會把服事排班理順｜小花貓咪叫",
+    title: "排班陪跑：陪教會把服事排班理順",
     description: "一日工作坊加八週陪跑，排班系統留給你們，之後沒有月費。",
   },
 };
@@ -52,13 +53,10 @@ const serviceJsonLd = {
   availableLanguage: "zh-TW",
   provider: {
     "@type": "Person",
+    "@id": PERSON_ID,
     name: "張正杰",
     alternateName: "小花貓咪叫 ciaohuamiaumichiao",
     url: BASE_URL,
-    sameAs: [
-      "https://www.instagram.com/ciaohuamiaumichiao/",
-      "https://www.youtube.com/@ciaohuamiaumichiao",
-    ],
   },
   audience: {
     "@type": "Audience",

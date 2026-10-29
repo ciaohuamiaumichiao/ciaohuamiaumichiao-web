@@ -1,6 +1,6 @@
 # 小花貓咪叫 ciaohuamiaumichiao
 
-> 張正杰 Kimi Chang — 影像導演、策展人。擎光媒體工作室、甚好創意有限公司。提供影像製作、節目製作（Video Podcast）、直播與轉播統籌、創意數位建置服務。
+> 張正杰（Kimi Chang，小花），台灣影像導演、策展人。做紀錄片、音樂 MV、Video Podcast 節目與多平台直播，也陪教會、學校與公益團體建立自己的影像團隊。2026 年執導夢想之家 20 週年徒步紀錄片《只為遇見你》。案子由他創立的甚好創意有限公司或擎光媒體工作室承接。
 
 ## 關於張正杰
 
@@ -13,6 +13,7 @@
 - 世新大學 廣播電視電影學系 電影組畢業。畢業製作《糖芯蕾》獲第 13 屆畢業影展「腦開花」觀眾票選電影。
 - 靈糧生命培訓學院 第 9 屆。
 - 台北基督書院 大傳系 兼任講師。
+- KUA 跨越敬拜學院 第一屆 藝術部通識講師（2026 年 10 月起，感官認知課）。
 
 ## 教會媒體服事
 
@@ -36,7 +37,8 @@
 - Mission On Air 宣教事（製作統籌，靈糧教牧宣教神學院）: Video Podcast，每週一更新。第二季 12 集 2026/10/26 開播，播到 2027/1/11。官網 https://missionair.genesis131.com
 - 放學後 SHOW（節目統籌，自製節目）: 青少年談話節目，2026 年 7 月開播，每週四更新。官網 https://afterschool.genesis131.com
 - 城市禱告會系列轉播（轉播統籌，國度復興傳播基金會）: 三機 EFP、最多六平台同步直播、自建監控系統。桃園、新竹、台中、台南、澎湖五場，都沒有中斷。
-- 跑者肌地 跑步路線系列（企劃・攝影・剪輯）: 跑步訓練頻道長期合作，民權大橋、淡江大橋、大鹿林道等路線長片，中英日字幕與 Reels 攻略系列。
+- 跑者肌地 跑步路線系列（企劃・攝影・剪輯）: 跑步訓練頻道長期合作，民權大橋、淡江大橋、大鹿林道等路線長片，中英日字幕與 Reels 攻略系列。頻道 https://www.youtube.com/@RST321go
+- 剪輯工作流（剪輯指導）: 林口城市禱告影片、銳能獎開場、歸主協會募款邀請片中英字幕等後期案，每支片的流程整理成十條可重複使用的工作流。
 - 遠鄉閃閃 114 攝影合輯《我的攝影不像樣》（影像採訪・書籍設計，文曄教育基金會）: 13 所學校影像採訪、208 頁攝影合輯，2026 年 7 月底於剝皮寮展出。
 - Backstage is a WORLD（策展人）: 2026 年 3 月遠企購物中心攝影展，展後成立「the Backstage 幕後人聚場」社群。
 
@@ -54,15 +56,12 @@
 
 - [the Backstage 幕後人聚場](https://backstageworld.vercel.app/community.html): 創意產業工作者社群，每週聚會、每月沙龍、雙月工作坊
 
-## 寫作
-
-- [寫作](https://ciaohua.genesis131.com/writing): 十餘篇文章，主題含幕後工作、個人品牌、創作者心法。RSS: https://ciaohua.genesis131.com/rss.xml
-
 ## 聯絡
 
 - Email: ciaohuamiaumichiao@gmail.com
 - LINE: https://line.me/R/ti/p/@097eutou
 - Instagram: https://www.instagram.com/ciaohuamiaumichiao/
+- Threads: https://www.threads.net/@ciaohuamiaumichiao
 - YouTube: https://www.youtube.com/@ciaohuamiaumichiao
 
 ## 主要頁面
@@ -70,3 +69,4 @@
 - [首頁](https://ciaohua.genesis131.com/): 個人品牌形象頁，含自我介紹、進行中狀態、2026 案例、服務項目、作品影像、經歷、社群、聯絡資訊
 - [排班陪跑](https://ciaohua.genesis131.com/rotation): 教會/服事團隊排班系統陪伴建置服務，含流程、FAQ、共創首發方案與聯絡方式
 - [寫作](https://ciaohua.genesis131.com/writing): 文章列表與電子報訂閱
+- [llms-full.txt](https://ciaohua.genesis131.com/llms-full.txt): 本檔加上所有已發佈文章全文

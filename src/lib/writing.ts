@@ -85,3 +85,10 @@ export function formatDate(date: string): string {
     d.getDate(),
   ).padStart(2, "0")}`;
 }
+
+/* frontmatter 的 date 會被 gray-matter 解析成 Date，統一轉成 YYYY-MM-DD */
+export function toYmd(date: unknown): string {
+  if (!date) return "";
+  const d = date instanceof Date ? date : new Date(String(date));
+  return Number.isNaN(d.getTime()) ? String(date) : d.toISOString().slice(0, 10);
+}

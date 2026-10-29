@@ -1,6 +1,6 @@
 import { getAllWritings, getWriting } from "@/lib/writing";
 
-const BASE_URL = "https://ciaohua.genesis131.com";
+import { BASE_URL } from "@/lib/site";
 
 function escape(s: string) {
   return s

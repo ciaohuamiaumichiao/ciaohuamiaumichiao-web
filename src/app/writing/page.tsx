@@ -3,7 +3,8 @@ import Link from "next/link";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { EmailSubscribe } from "@/components/EmailSubscribe";
-import { getAllWritings, formatDate } from "@/lib/writing";
+import { getAllWritings, formatDate, toYmd } from "@/lib/writing";
+import { BASE_URL, PERSON_ID, WEBSITE_ID } from "@/lib/site";
 
 export const revalidate = 3600;
 
@@ -11,14 +12,46 @@ export const metadata: Metadata = {
   title: "寫作 Writing",
   description:
     "張正杰的寫作。上課、拍片、跟客戶聊天的時候想到的事。",
-  alternates: { canonical: "/writing" },
+  alternates: {
+    canonical: `${BASE_URL}/writing`,
+    types: { "application/rss+xml": `${BASE_URL}/rss.xml` },
+  },
+  openGraph: {
+    title: "寫作｜張正杰",
+    description: "上課、拍片、跟客戶聊天的時候想到的事，有空就寫下來。",
+    url: `${BASE_URL}/writing`,
+    type: "website",
+    locale: "zh_TW",
+    siteName: "小花貓咪叫 ciaohuamiaumichiao",
+  },
 };
 
 export default function WritingIndex() {
   const writings = getAllWritings();
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Blog",
+    "@id": `${BASE_URL}/writing#blog`,
+    name: "張正杰的寫作",
+    url: `${BASE_URL}/writing`,
+    inLanguage: "zh-Hant-TW",
+    author: { "@id": PERSON_ID },
+    isPartOf: { "@id": WEBSITE_ID },
+    blogPost: writings.map((w) => ({
+      "@type": "BlogPosting",
+      headline: w.title,
+      url: `${BASE_URL}/writing/${w.slug}`,
+      datePublished: toYmd(w.date),
+      author: { "@id": PERSON_ID },
+    })),
+  };
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <Header />
       <main className="px-6 pb-24 pt-32 sm:pt-40">
         <div className="mx-auto max-w-3xl">

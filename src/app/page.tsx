@@ -11,12 +11,17 @@ import { LatestWriting } from "@/components/LatestWriting";
 import { InstagramFeed } from "@/components/InstagramFeed";
 import { Contact } from "@/components/Contact";
 import { Footer } from "@/components/Footer";
+import { homeJsonLd } from "./home-jsonld";
 
 export const revalidate = 3600;
 
 export default function Home() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(homeJsonLd) }}
+      />
       <Header />
       <main>
         <Hero />

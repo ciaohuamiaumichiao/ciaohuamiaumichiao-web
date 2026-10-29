@@ -6,7 +6,8 @@ import remarkGfm from "remark-gfm";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { EmailSubscribe } from "@/components/EmailSubscribe";
-import { getAllSlugs, getWriting, formatDate } from "@/lib/writing";
+import { getAllSlugs, getWriting, formatDate, toYmd } from "@/lib/writing";
+import { BASE_URL, PERSON_ID, WEBSITE_ID } from "@/lib/site";
 
 /* 排程文章到期前不在 build 清單裡，到期後第一次被請求時才生成 */
 export const dynamicParams = true;
@@ -24,15 +25,28 @@ export async function generateMetadata({
   const { slug } = await params;
   const w = getWriting(slug);
   if (!w) return {};
+  const url = `${BASE_URL}/writing/${slug}`;
   return {
     title: w.title,
     description: w.excerpt,
-    alternates: { canonical: `/writing/${slug}` },
+    keywords: w.tags,
+    authors: [{ name: "張正杰 Kimi Chang", url: BASE_URL }],
+    alternates: { canonical: url },
     openGraph: {
       title: w.title,
       description: w.excerpt,
+      url,
       type: "article",
-      publishedTime: w.date,
+      publishedTime: toYmd(w.date),
+      authors: ["張正杰 Kimi Chang"],
+      tags: w.tags,
+      locale: "zh_TW",
+      siteName: "小花貓咪叫 ciaohuamiaumichiao",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: w.title,
+      description: w.excerpt,
     },
   };
 }
@@ -46,8 +60,44 @@ export default async function WritingPost({
   const w = getWriting(slug);
   if (!w) notFound();
 
+  const url = `${BASE_URL}/writing/${slug}`;
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BlogPosting",
+        "@id": `${url}#article`,
+        headline: w.title,
+        description: w.excerpt,
+        url,
+        mainEntityOfPage: url,
+        datePublished: toYmd(w.date),
+        dateModified: toYmd(w.date),
+        inLanguage: "zh-Hant-TW",
+        keywords: w.tags,
+        image: `${url}/opengraph-image`,
+        author: { "@id": PERSON_ID, "@type": "Person", name: "張正杰", url: BASE_URL },
+        publisher: { "@id": PERSON_ID },
+        isPartOf: { "@id": WEBSITE_ID },
+        wordCount: w.content.replace(/\s/g, "").length,
+      },
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "首頁", item: BASE_URL },
+          { "@type": "ListItem", position: 2, name: "寫作", item: `${BASE_URL}/writing` },
+          { "@type": "ListItem", position: 3, name: w.title, item: url },
+        ],
+      },
+    ],
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <Header />
       <main className="px-6 pb-24 pt-32 sm:pt-40">
         <article className="mx-auto max-w-2xl">
