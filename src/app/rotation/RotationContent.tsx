@@ -35,7 +35,7 @@ const steps = [
 ];
 
 const fits = [
-  { icon: IconChurch, title: "教會媒體團隊", desc: "攝影、導播、直播、平面都要排，我自己的團隊就是這樣" },
+  { icon: IconChurch, title: "教會媒體團隊", desc: "攝影、導播、直播、平面都要排，HOLYWOOD 團隊就是這樣" },
   { icon: IconChat, title: "敬拜團", desc: "主領、和聲、樂手輪著上，崗位照你們平常的叫法" },
   { icon: IconBoard, title: "志工與活動人力", desc: "只要是一群人輪流來的服事，大概都用得上" },
 ];
@@ -61,8 +61,7 @@ export function RotationContent() {
             <p className="mt-8 max-w-xl text-[15px] leading-[1.9] text-muted">
               每個禮拜在群組裡問「這週誰可以？」，翻半天訊息找誰答應過，
               到了當天才發現兩個人排在同一格。這些我都經歷過。
-              後來我替自己帶的影視團隊寫了一套排班系統，現在大家自己上去登記、回報、換班，
-              我終於不用每週在群組裡追人。
+              後來 HOLYWOOD 影視團隊有了一套自己的排班系統，現在大家自己上去登記、回報、換班。
               <br />
               這個服務，就是陪你的團隊也走一次。
             </p>

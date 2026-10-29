@@ -11,12 +11,12 @@ const services = [
     title: "影像製作",
     subtitle: "Film & Video Production",
     description:
-      "形象片、紀錄片、展覽紀錄、活動側拍都接。從一開始聊要拍什麼，到現場、剪接、交片，都是我自己盯。",
+      "形象片、紀錄片、展覽紀錄、活動側拍都接。從一開始聊要拍什麼，到現場、剪接、交片，同一組團隊陪你做完。",
     items: ["企業形象影片", "紀錄片", "展覽紀錄", "活動側拍", "後期剪輯"],
     steps: [
       { label: "先聊", desc: "要拍給誰看、預算抓多少" },
       { label: "寫腳本、找場地、找人", desc: "分鏡和拍攝計畫也在這時候排好" },
-      { label: "拍", desc: "現場我自己導" },
+      { label: "拍", desc: "導演、攝影、燈光、收音一起到現場" },
       { label: "剪接、調色、混音", desc: "改到你點頭，再把檔案交出去" },
     ],
     price: "NT$50,000 起",
@@ -43,13 +43,13 @@ const services = [
     title: "直播與轉播統籌",
     subtitle: "Live Broadcast",
     description:
-      "三台機器現場切，同時推到 YouTube、Facebook 好幾個平台，網路有備援，旁邊還有一套我自己寫的監控系統在看訊號。今年五場城市禱告會都是這樣轉的。",
+      "三台機器現場切，同時推到 YouTube、Facebook 好幾個平台，網路有備援，旁邊還有一套我們自己寫的監控系統在看訊號。今年五場城市禱告會都是這樣轉的。",
     items: ["三機 EFP 現場切換", "YouTube／Facebook 等多平台直播", "備援網路與即時訊號監控", "直播錄影與檔案交付", "結案數據與服務紀錄"],
     steps: [
       { label: "先去場地看", desc: "網路、電、動線" },
       { label: "排機位和訊號", desc: "備援也一起想好" },
       { label: "彩排", desc: "整條訊號從頭跑一次" },
-      { label: "直播當天", desc: "我在現場導播，結束後交錄影檔和紀錄" },
+      { label: "直播當天", desc: "導播和攝影團隊都在現場，結束後交錄影檔和紀錄" },
     ],
     price: "單場 NT$60,000 起",
   },
@@ -65,7 +65,7 @@ const services = [
       { label: "先聊", desc: "想解決什麼問題" },
       { label: "規劃和報價", desc: "要做哪些功能、大概多少錢" },
       { label: "設計、開發", desc: "做到可以用" },
-      { label: "上線", desc: "之後有事找我" },
+      { label: "上線", desc: "之後有問題，隨時找我們" },
     ],
     price: "NT$60,000 起 + 維護方案",
   },
@@ -169,7 +169,7 @@ export function Services() {
                 策展、組影像團隊、短影音、社群經營，都可以問。
               </p>
               <p className="mt-4 font-mono text-[11px] text-accent">
-                初次諮詢 NT$5,000，聊完我會整理一份現況和建議給你
+                初次諮詢 NT$5,000，聊完會整理一份現況和建議給你
               </p>
             </div>
             <div className="mt-6 shrink-0 lg:mt-0">
