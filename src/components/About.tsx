@@ -57,6 +57,12 @@ export function About() {
                 錢少一點真的也沒關係。今年手上有兩檔每週更新的節目、五場多平台直播，
                 還編了一本 208 頁的攝影合輯，說忙是真的忙，但每一件都是我們很想做的事。
               </p>
+              <p>
+                這幾年越來越常做的事，是陪著教會、偏鄉學校、公益團體，把他們自己的故事拍出來，
+                接下來，我想把這件事做得更長久一點，所以開了一頁
+                <a href="/companion" className="text-accent underline-offset-4 hover:underline">影像陪伴計畫</a>
+                ，慢慢往公益協會的方向走。
+              </p>
             </div>
 
             <FadeInStagger className="mt-12 grid grid-cols-2 gap-x-8 gap-y-10 sm:grid-cols-4">

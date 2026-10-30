@@ -152,7 +152,8 @@ export function Hero() {
           className="mt-10 max-w-md text-sm leading-[1.9] text-muted"
         >
           我是導演，跟團隊夥伴們一起幫教會、公益團體還有品牌拍片，
-          也做節目、轉直播、寫網站，今年大部分的時間，我們真的都泡在現場裡。
+          也做節目、轉直播、寫網站，今年大部分的時間，我們真的都泡在現場裡，
+          然後越來越常做的一件事，是陪人把自己的故事拍出來。
         </motion.p>
 
         {/* 直排 tagline 的手機版（橫排） */}
@@ -176,6 +177,12 @@ export function Hero() {
             className="frame-marks border border-accent/30 px-7 py-3 font-mono text-[10px] uppercase tracking-[0.15em] text-accent transition-colors hover:border-accent/60 hover:bg-accent/5"
           >
             今年做的事
+          </a>
+          <a
+            href="/companion"
+            className="frame-marks border border-border px-7 py-3 font-mono text-[10px] uppercase tracking-[0.15em] text-muted transition-colors hover:border-accent/40 hover:text-foreground"
+          >
+            影像陪伴
           </a>
           <a
             href="https://line.me/R/ti/p/@097eutou"

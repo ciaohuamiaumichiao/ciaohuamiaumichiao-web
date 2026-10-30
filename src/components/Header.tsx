@@ -12,6 +12,7 @@ const navLinks = [
   { label: "作品", href: "#showreel" },
   { label: "經歷", href: "#exhibitions" },
   { label: "幕後人聚場", href: "#backstage" },
+  { label: "影像陪伴", href: "/companion" },
   { label: "排班陪跑", href: "/rotation" },
   { label: "寫作", href: "/writing" },
   { label: "聯絡", href: "#contact" },
