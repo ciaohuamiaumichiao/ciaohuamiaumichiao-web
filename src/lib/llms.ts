@@ -12,13 +12,14 @@ function base(): string {
 function writingIndex(): string {
   const items = getAllWritings().map((w) => {
     const date = toYmd(w.date);
-    const excerpt = w.excerpt ? `: ${w.excerpt.replace(/\s+/g, " ")}` : "";
+    const summary = w.description ?? w.excerpt;
+    const excerpt = summary ? `: ${summary.replace(/\s+/g, " ")}` : "";
     return `- [${w.title}](${BASE_URL}/writing/${w.slug})（${date}）${excerpt}`;
   });
   return [
     "## 寫作",
     "",
-    `張正杰的文章，上課、拍片、跟客戶聊天的時候想到的事。共 ${items.length} 篇。RSS: ${BASE_URL}/rss.xml`,
+    `張正杰的文章，上課、拍片、跟客戶聊天的時候想到的事，還有電影心得。共 ${items.length} 篇。RSS: ${BASE_URL}/rss.xml`,
     "",
     ...items,
   ].join("\n");

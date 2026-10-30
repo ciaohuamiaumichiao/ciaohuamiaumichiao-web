@@ -2,14 +2,21 @@
 title: "黑鏡 Crocodile 記憶擷取器實體化!? × Yu Takagi OSAKA UNIVERSITY"
 date: 2023-03-10
 excerpt: "日本大阪大學學者Yu Takagi 等最新研究：透過fMRI將腦內的電子訊號轉換成圖像的方式，透過受試者在實驗前段所特別觀看與記憶的影像，在執行掃描過程中，邀請受試者去回想，透過設備擷取訊號，並試著描繪出樣貌，而在受…"
-tags: ["我陪你閱讀影像", "鱷魚", "超音波", "MRI"]
+tags: ["我陪你閱讀影像", "黑鏡", "Netflix", "影評"]
+seoTitle: "《黑鏡》Crocodile 心得：讀腦成像成真了？"
+description: "《黑鏡》第四季第三集 Crocodile 心得。從大阪大學 Yu Takagi 用 fMRI 腦部訊號還原圖像的研究，聊到劇中的記憶擷取器、鱷魚效應和鱷魚的眼淚，最後推薦幾集我更愛的黑鏡。"
+keywords: ["黑鏡", "Black Mirror", "黑鏡 Crocodile", "黑鏡 第四季", "Crocodile 心得", "fMRI 圖像重建", "Yu Takagi", "大阪大學"]
+about:
+  - type: TVEpisode
+    name: "黑鏡：Crocodile"
+    sameAs: "https://en.wikipedia.org/wiki/Crocodile_(Black_Mirror)"
 source: vocus
 originalUrl: https://vocus.cc/article/640aadd1fd897800012d0a30
 ---
 
 ## 日本大阪大學學者Yu Takagi 等最新研究：透過fMRI 掃描大腦資料，就可以還原我們看到什麼圖像。
 
-![](/writing/vocus/black-mirror-crocodile/01.jpg)
+![Yu Takagi 論文首頁，fMRI 訊號重建圖像對照](/writing/vocus/black-mirror-crocodile/01.jpg)
 
 [論文原文](https://www.biorxiv.org/content/10.1101/2022.11.18.517004v2.full.pdf)
 
@@ -23,7 +30,7 @@ originalUrl: https://vocus.cc/article/640aadd1fd897800012d0a30
 
 身為影迷，這麼近科幻的東西，除了大家一直在推的最高機密動漫之外，當然是要跟大家分享這個技術在未來10年可能達到的狀態，那就是Charlie Brooker製作的黑鏡影集(Black Mirror)SE04EP03 第四季第三集的 Crocodile。
 
-![](/writing/vocus/black-mirror-crocodile/02.jpg)
+![《黑鏡》Crocodile 宣傳海報，女主角臉部特寫](/writing/vocus/black-mirror-crocodile/02.jpg)
 
 事業有成家庭美滿的大眼睛女主拒絕為年少時的錯誤買單，雖然她只是從犯，但她不允許前男友寫懺悔信而毀了這一切。接連一口氣殺了前男友，女保險員一家三口，共四人。就算我們這粗暴地把劇情內容說了出來，卻一點也不影響任何暴雷的程度。
 
@@ -33,7 +40,7 @@ originalUrl: https://vocus.cc/article/640aadd1fd897800012d0a30
 
 這一個裝置和這樣的劇情相互勾搭，衍生出無法收拾的場面，而要捫心自問的，最後還是回到自己內心的大哉問，還有現實世界中法律的制裁。
 
-![](/writing/vocus/black-mirror-crocodile/03.jpg)
+![《黑鏡》Crocodile 劇照，女子提著行李走向雪山](/writing/vocus/black-mirror-crocodile/03.jpg)
 
 配合本集內容的取景看似在極圈附近的國家，冷冽的構圖與配色和氛圍，又再一次拉大這一集所要談論的主題，特別是還用鱷魚來作為本劇的劇名，也是很期待透過具名來跟關中有一些內容的教育。
 

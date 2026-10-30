@@ -2,26 +2,33 @@
 title: "夢想成真的距離,只有一個晚上。 -《勇闖太空》"
 date: 2023-08-10
 excerpt: "『夢想成真的距離，只有一個晚上。』夢想是這麼的近，近到你只要開始去追尋，它就會在隔天來找到你。"
-tags: ["我陪你閱讀影像", "太空", "夢想", "工程師"]
+tags: ["我陪你閱讀影像", "勇闖太空", "影評", "法國電影"]
+seoTitle: "《勇闖太空》影評：夢想成真的距離只有一個晚上"
+description: "《勇闖太空》影評：航太工程師吉姆落選太空人後，找來火藥化學家、退役太空人和祖母，坐自己做的迷你火箭飛上太空。從《十月的天空》聊到追夢中年，也聊這部法國片的攝影與光影。"
+keywords: ["勇闖太空", "勇闖太空 影評", "L'Astronaute", "尼古拉斯吉羅", "十月的天空", "法國電影", "太空電影"]
+about:
+  - type: Movie
+    name: "勇闖太空"
+    sameAs: "https://fr.wikipedia.org/wiki/L%27Astronaute_(film)"
 source: vocus
 originalUrl: https://vocus.cc/article/64d49665fd89780001afadc8
 ---
 
 在還是個追夢少年的年代時，應該都會在學校的場域裡看過《十月的天空》，除了是文學改編之外，同時也是一個真人真事。《十月的天空》裡的[侯麥·希坎姆](https://zh.wikipedia.org/wiki/%E8%8D%B7%E9%BB%98%C2%B7%E5%B8%8C%E5%9D%8E%E5%A7%86)還有這群火箭男孩們，漸漸成為了追夢人生裡的潛意識般存在的人物了。
 
-![](/writing/vocus/one-night-from-dream/01.jpg)
+![《十月的天空》電影橫幅海報，兩人仰望星空與月亮](/writing/vocus/one-night-from-dream/01.jpg)
 
 總想著是不是在青春年華的震盪之後，我們都會各自進入我們的人生，然後懷抱著笑容回味這個一切的年少時光。
 
 二十年過去了，當年的追夢少年也變成了追夢中年；《勇闖太空》裡面的尼古拉斯．吉羅（Nicolas Giraud）在故事裡面也是一個追夢中年。在設定的劇本裡，他是一個太空公司的系統工程師，而他帶著當年沒被徵選上歐洲太空總署太空人的遺憾，一步一步跟著她心裡的小小夢想，成就了自己的太空計劃。
 
-![](/writing/vocus/one-night-from-dream/02.jpg)
+![《勇闖太空》中文版電影海報，太空頭盔裡的臉部特寫](/writing/vocus/one-night-from-dream/02.jpg)
 
 佳映娛樂提供
 
 很難不對太空沒有憧憬，《勇闖太空》裡的航太工程師吉姆（Nicolas Girau飾）一步一步有計劃地想把自己送上太空，集結了業餘社團裡的火藥化學家、退役太空人，同等學力的數學家和自己的祖母，他們一個一個困難解決，以至於終於把夢想實現了。
 
-![](/writing/vocus/one-night-from-dream/03.jpg)
+![《勇闖太空》劇照，五人團隊並肩站著望向前方](/writing/vocus/one-night-from-dream/03.jpg)
 
 佳映娛樂提供
 
@@ -31,7 +38,7 @@ originalUrl: https://vocus.cc/article/64d49665fd89780001afadc8
 
 而實現了夢想之後的反轉，更多於驚喜，也充滿溫馨，讓觀影之後真的有夢想實現之後的充實感。在最後一幕的的太空裡，畫面的呈現讓整個影廳也好像穿越了大氣層，全體關中跟主角躺在地球的懷抱上，這一刻的感受，直到觀影結束久久卻不能散去。
 
-![](/writing/vocus/one-night-from-dream/04.jpg)
+![《勇闖太空》劇照，主角戴著太空頭盔抬頭仰望](/writing/vocus/one-night-from-dream/04.jpg)
 
 佳映娛樂提供
 

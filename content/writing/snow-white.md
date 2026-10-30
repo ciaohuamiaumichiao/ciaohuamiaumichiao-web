@@ -2,7 +2,14 @@
 title: "《白雪公主》:社會隱喻與角色深度剖析"
 date: 2024-09-12
 excerpt: "《白雪公主》是迪士尼1937年的開創性作品，以動畫形式探討了性別角色、權力濫用及世代衝突等深刻社會議題。通過主角白雪公主與壞皇后的對比，揭示了當時社會對女性角色的矛盾期待及外貌至上的扭曲價值觀。色彩運用和角色動作設計…"
-tags: ["我陪你閱讀影像", "角色", "公主", "形象"]
+tags: ["我陪你閱讀影像", "白雪公主", "迪士尼", "動畫"]
+seoTitle: "《白雪公主》1937動畫解析：性別、色彩與角色表演"
+description: "《白雪公主》1937年迪士尼動畫解析：從白雪公主與壞皇后的對比，談性別角色、權力濫用、外貌至上與世代衝突，再看色彩心理學和動作設計怎麼幫角色說話，適合想讀懂這部經典動畫的人。"
+keywords: ["白雪公主", "白雪公主 1937", "Snow White and the Seven Dwarfs", "白雪公主 解析", "迪士尼動畫", "壞皇后", "動畫 色彩心理學"]
+about:
+  - type: Movie
+    name: "白雪公主"
+    sameAs: "https://en.wikipedia.org/wiki/Snow_White_and_the_Seven_Dwarfs_(1937_film)"
 source: vocus
 originalUrl: https://vocus.cc/article/66e2f016fd89780001675f6e
 ---
@@ -11,7 +18,7 @@ originalUrl: https://vocus.cc/article/66e2f016fd89780001675f6e
 
 1937年，迪士尼推出了劃時代之作《白雪公主》，這部全球首部長篇動畫電影不僅在技術層面上突破了界限，更巧妙地將當時社會的諸多隱喻融入其中，成為一面映照社會現實的明鏡。
 
-![](/writing/vocus/snow-white/01.jpg)
+![《白雪公主》動畫海報，白雪公主與七矮人、王子和白馬](/writing/vocus/snow-white/01.jpg)
 
 性別角色與社會期待：傳統與反思的交織
 
@@ -53,9 +60,9 @@ originalUrl: https://vocus.cc/article/66e2f016fd89780001675f6e
 
 相比之下，白雪公主的服裝和周圍環境則大量使用白色和其他明亮的色調。這種色彩選擇不僅象徵了她的純潔和無辜，還暗示了她樂觀向上的性格特質。明亮的色調也為觀眾營造出一種希望和美好的氛圍，強化了白雪公主作為故事中正面角色的形象。
 
-![](/writing/vocus/snow-white/02.jpg)
+![《白雪公主》動畫畫面，白雪公主在森林裡和小動物說話](/writing/vocus/snow-white/02.jpg)
 
-![](/writing/vocus/snow-white/03.jpg)
+![《白雪公主》動畫畫面，壞皇后化身老巫婆拿著毒蘋果](/writing/vocus/snow-white/03.jpg)
 
 ## 表演學在動畫中的體現：動作設計與角色表演的藝術
 

@@ -2,7 +2,14 @@
 title: "如果你有很好的情節,就把他們都串在一起吧! -魔術師的大象"
 date: 2023-03-25
 excerpt: "Netflix 於 2023/3/17 上映的 《魔術師的大象》 直接空降台灣區榜首（兒童專區）完全碾壓所有同榜單上面的神作！加上首頁Banner的露出，如果有在逛兒童專區的朋友們，應該不難點進去看他個3-5分鐘！"
-tags: ["我陪你閱讀影像", "Netflix", "魔術師", "大象"]
+tags: ["我陪你閱讀影像", "魔術師的大象", "Netflix", "動畫"]
+seoTitle: "《魔術師的大象》影評：Netflix 親子共看的動畫"
+description: "Netflix 動畫《魔術師的大象》改編自經典童書，一個男孩要完成國王的三個不可能任務。這篇聊細膩的原畫、每個角色的心境轉變，還有那位愛問 What if 的侍衛隊長，最後附上親子共看可以聊的四個問題。"
+keywords: ["魔術師的大象", "The Magician's Elephant", "魔術師的大象 影評", "Netflix 動畫", "Netflix 動畫電影推薦", "親子共看"]
+about:
+  - type: Movie
+    name: "魔術師的大象"
+    sameAs: "https://en.wikipedia.org/wiki/The_Magician%27s_Elephant_(film)"
 source: vocus
 originalUrl: https://vocus.cc/article/641dd392fd897800012925e9
 ---
@@ -15,19 +22,19 @@ originalUrl: https://vocus.cc/article/641dd392fd897800012925e9
 
 Netflix 於 2023/3/17 上映的 《魔術師的大象》 直接空降台灣區榜首（兒童專區）完全碾壓所有同榜單上面的神作！加上首頁Banner的露出，如果有在逛兒童專區的朋友們，應該不難點進去看他個3-5分鐘！
 
-![](/writing/vocus/the-magicians-elephant/01.jpg)
+![Netflix 台灣兒童專區排行榜，《魔術師的大象》排第一](/writing/vocus/the-magicians-elephant/01.jpg)
 
 ### 細膩入微的原畫功力
 
 不過開始看了可能就會停不下來，只能暗自慶幸這是一部電影，不用追個8-9集耗上一整天！在文本資訊還不足的時候，可以認真看看原畫的功力，主角衣服的質感，風、雲、火、不明物體環境因子的影響，都能夠很細緻的被辨識出來。推薦看這部動畫時可以用上你最高階性能的銀幕，景深感與細膩度會是很可以欣賞的硬體內容！
 
-![](/writing/vocus/the-magicians-elephant/02.jpg)
+![《魔術師的大象》劇照，男孩抱著大象的鼻子](/writing/vocus/the-magicians-elephant/02.jpg)
 
 ### 一起找找到底誰演誰
 
 更遑論每一位角色，我都懷疑是參考Netflix製作中的明星或者線上明星來作畫的，甚至還有有幾位角色讓我聯想到我現實中真實存在的友人呢！好想要辦個活動猜謎，猜猜到底原畫人士會對應哪位明星喔。
 
-![](/writing/vocus/the-magicians-elephant/03.jpg)
+![《魔術師的大象》角色：女孩、男孩與彩繪大象](/writing/vocus/the-magicians-elephant/03.jpg)
 
 ### Make impossible to possible
 
@@ -35,7 +42,7 @@ Netflix 於 2023/3/17 上映的 《魔術師的大象》 直接空降台灣區�
 
 但後來去田野調查了一下才發現，是文學小說來做改編的啊！只能說失敬失敬，改天會找書來看，但肯定會變成這樣的演出狀態，一定是在情節取捨上遇到很艱難的取捨拉扯吧。
 
-![](/writing/vocus/the-magicians-elephant/04.jpg)
+![《魔術師的大象》原著童書英文版封面](/writing/vocus/the-magicians-elephant/04.jpg)
 
 而這我也覺得符合了這部戲的核心理念，”Everything is possible. “
 
@@ -43,7 +50,7 @@ Netflix 於 2023/3/17 上映的 《魔術師的大象》 直接空降台灣區�
 
 一位堅毅的男孩接受國王的挑戰，要完成三個不可能的任務，希望換得一頭有魔法的大象，以及追尋自己天命的機會。
 
-![](/writing/vocus/the-magicians-elephant/05.jpg)
+![《魔術師的大象》Netflix 海報，男孩靠著大象坐](/writing/vocus/the-magicians-elephant/05.jpg)
 
 ### 全員蛻變的神奇文本
 
@@ -67,7 +74,7 @@ Netflix 於 2023/3/17 上映的 《魔術師的大象》 直接空降台灣區�
 
 我自己是認為這角色的人物外表原型是美國前總統歐巴馬吧，一邊看就一邊自己腦補自己的情節。
 
-![](/writing/vocus/the-magicians-elephant/06.jpg)
+![《魔術師的大象》劇照，侍衛隊長手按胸口](/writing/vocus/the-magicians-elephant/06.jpg)
 
 他在劇中是一個侍衛隊長，成為男主角跟城內的管理階層聯繫的橋樑，當然本身就是一個非常重要的推進角色。
 

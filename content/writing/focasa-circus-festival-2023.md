@@ -2,7 +2,13 @@
 title: "夢想 × 馬戲 // FOCASA.ART 2023馬戲藝術節"
 date: 2023-03-08
 excerpt: "他的夢想能夠實現，或者是說特技人的夢想就這樣實現，真的超級振奮，真的很感謝這裡付出的每一位，馬戲特技人用他們的一切，在教會我夢想這件事。"
-tags: ["我陪你閱讀影像", "夢想", "藝術節", "特技"]
+tags: ["我陪你閱讀影像", "馬戲", "藝術節", "親子"]
+seoTitle: "FOCASA 馬戲藝術節 2023 心得：特技人的夢想"
+description: "2023 FOCASA 馬戲藝術節心得。從服替代役時認識的特技演員智偉講起，記下全家在 V13 馬戲棚看天馬戲《誰偷了我的超能力》、看完一整個下午的跳跳糖舞台，帶著 1400 多張照片回台北的那一天。"
+keywords: ["FOCASA", "FOCASA 馬戲藝術節", "馬戲藝術節 2023", "FOCA", "天馬戲", "誰偷了我的超能力", "親子看馬戲"]
+about:
+  - type: Festival
+    name: "FOCASA 馬戲藝術節 2023"
 source: vocus
 originalUrl: https://vocus.cc/article/6408937efd8978000116c0ff
 ---
@@ -15,11 +21,11 @@ originalUrl: https://vocus.cc/article/6408937efd8978000116c0ff
 
 為了這個鑽石的光芒，用僅剩的一天空檔，把身上的錢全都投進這一天的演出，還記得全家人在出發的前一週，看了三次的大娛樂家，但還是很謹慎地跟孩子說，這次去的沒有大象喔！
 
-![](/writing/vocus/focasa-circus-festival-2023/01.jpg)
+![FOCASA 馬戲藝術節夜晚，女子在紅白馬戲帳篷前伸手起舞](/writing/vocus/focasa-circus-festival-2023/01.jpg)
 
 當然一定是進了V13馬戲棚，我們看了 [天馬戲創作劇團Tien Circus Theatre](https://www.facebook.com/Tien.Circus.Theatre)的誰偷了我的超能力，雖然是最邊邊的D區，可是情節與演出，讓我自己都熱淚盈了眶，可能是年紀到了太容易感動的時候了吧，不過我還是順邊拍了幾組強一點的照片，寄給了他們，不曉得符不符合他們的拍照胃口。
 
-![](/writing/vocus/focasa-circus-festival-2023/02.jpg)
+![FOCASA 馬戲藝術節舞台上，三位演員站在聚光燈下](/writing/vocus/focasa-circus-festival-2023/02.jpg)
 
 接著轉戰跳跳糖舞台，我們把2/26下午的每一場跳跳糖都看過了，一樣的技法但卻都有不一樣的詮釋，每一個都有淚點，是夢想實現的淚點，我看見台上閃著淚光的表演，可否表演者也看到台下閃著淚光的被感動者呢～
 
@@ -27,7 +33,7 @@ originalUrl: https://vocus.cc/article/6408937efd8978000116c0ff
 
 於是我暗自許願，期待來次，我能夠有機會一起成為這一個大團隊的一份子，恩，看看我是不是先來練個跳火圈好了......
 
-![](/writing/vocus/focasa-circus-festival-2023/03.jpg)
+![藝術節草地上，兩個孩子抬腿擺出特技姿勢](/writing/vocus/focasa-circus-festival-2023/03.jpg)
 
 他的夢想能夠實現，或者是說特技人的夢想就這樣實現，真的超級振奮，真的很感謝這裡付出的每一位，馬戲特技人用他們的一切，在教會我夢想這件事。
 

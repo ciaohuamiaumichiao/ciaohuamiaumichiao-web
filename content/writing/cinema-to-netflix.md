@@ -2,18 +2,26 @@
 title: "從電影院到Netflix × 葉郎新書發表講座"
 date: 2023-03-10
 excerpt: "葉郎大神從《致蕾絲莉》（To Leslie）的行銷開始談起，順藤摸瓜地帶出了奧斯卡金像獎的行銷季狀態，同時也一起推薦了《OSCAR WAR》這本書讓我們可以一起共讀，而這行銷季的強力發揚者，同時也是在好萊塢製片界中舉…"
-tags: ["我陪你閱讀影像", "Netflix", "講座", "錄影帶"]
+tags: ["我陪你閱讀影像", "葉郎", "電影書", "講座"]
+seoTitle: "《從前，有個錄影帶店》葉郎新書講座心得"
+description: "葉郎新書《從前，有個錄影帶店》講座心得。從《致蕾絲莉》的奧斯卡行銷聊到哈維·韋恩斯坦，再看錄影帶怎麼改變評審看片、演員表演和影迷文化，一路走到 Netflix。"
+keywords: ["從前，有個錄影帶店", "葉郎", "異聞筆記", "錄影帶", "奧斯卡 行銷", "哈維·韋恩斯坦", "Netflix 百視達"]
+about:
+  - type: Book
+    name: "從前，有個錄影帶店"
+  - type: Event
+    name: "從電影院到Netflix：錄影帶不只是錄影帶 新書講座"
 source: vocus
 originalUrl: https://vocus.cc/article/640a7cd8fd897800012a5009
 ---
 
 從去年在 [方格子 vocus](https://www.facebook.com/vocus.cc/)   訂購的『錄影帶生與死』，每個月都引頸期盼的專欄 [葉郎：異聞筆記 / Dr. Strangenote](https://www.facebook.com/Dr.Strangenote)  發表了他的寫作計畫，並且經由 [新經典文化ThinKingDom](https://www.facebook.com/thinkingdom) 出版，將書名潤改為《從前，有個錄影帶店》。
 
-![](/writing/vocus/cinema-to-netflix/01.jpg)
+![《從電影院到Netflix》講座主視覺，葉郎與王師對談](/writing/vocus/cinema-to-netflix/01.jpg)
 
 雖然如約在開始時間就到達了，但真的如同主辦單位說的，場地有限，需要儘早入席。來賓早已把場地坐滿，我只能夠站在後排聆聽兩位大師 葉郎 與 王師 的對談，排隊領書時，看到了書名一時還聯想不起來，到底我是買了『錄影帶的生與死』還是『從前，有個錄影帶店』，還是有個昆丁塔倫提諾在哪裡給我一個黑色幽默(暴力)的爆破！？但這個書名真的要說潤改得恰到好處，上年紀打影痴影迷下年紀攻不識錄影帶的新興人類。雖然我也是少數在現場有揮個手說家裡還有錄影帶的朋友，但還真的距離錄影帶好遠好遠了，看看我這樣有算年輕一點嗎？
 
-![](/writing/vocus/cinema-to-netflix/02.jpg)
+![華山青鳥書店講座現場，兩位講者對談](/writing/vocus/cinema-to-netflix/02.jpg)
 
 葉郎大神從《致蕾絲莉》（To Leslie）的行銷開始談起，順藤摸瓜地帶出了奧斯卡金像獎的行銷季狀態，同時也一起推薦了《OSCAR WAR》這本書讓我們可以一起共讀，而這行銷季的強力發揚者，同時也是在好萊塢製片界中舉足輕重的製片哈維·韋恩斯坦，當然也是 [#metoo](https://www.facebook.com/hashtag/metoo) 運動的風頭浪尖者。
 
@@ -33,7 +41,7 @@ originalUrl: https://vocus.cc/article/640a7cd8fd897800012a5009
 
 除了這些以外，錄影帶載體的演進到了串流，甚至改變的觀影的文化，因為影帶出租而開始可以無限制的重複觀看，導致影迷們可以不斷地在影像中發現更多他們期待發現的內容彩蛋，漸漸的古典影評式微，取代而之的是影迷式的分享內容，影迷社群聚落的形成與自媒體創作者成長，同時也影響了片商選片與創作者思維脈落(到處都是漫威，呵)
 
-![](/writing/vocus/cinema-to-netflix/03.jpg)
+![葉郎在《從前，有個錄影帶店》扉頁的簽名](/writing/vocus/cinema-to-netflix/03.jpg)
 
 其實還有好多讓我會心一笑的內幕和秘辛，Netflix與百視達的各種過往等等⋯⋯我不是要推這一場講座啦，這些內容在葉郎的書中都有，真的真的可以不用錯過！如果你在學電影，或者對電影有興趣，在華語電影界慣有的美學掛帥評論書籍中，真的很難見到這樣的一本綜觀歷史的好書，未來如果我還回到學校教書，我肯定會把這一本書作為指定閱讀內容的。
 
@@ -55,4 +63,4 @@ originalUrl: https://vocus.cc/article/640a7cd8fd897800012a5009
 
 三民│[http://bit.ly/3Yhdqc](https://bit.ly/3Yhdqc)
 
-![](/writing/vocus/cinema-to-netflix/04.jpg)
+![葉郎《從前，有個錄影帶店》書封](/writing/vocus/cinema-to-netflix/04.jpg)

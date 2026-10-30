@@ -8,9 +8,10 @@ export const revalidate = 3600;
 export default function sitemap(): MetadataRoute.Sitemap {
   const writings = getAllWritings().map((w) => ({
     url: `${BASE_URL}/writing/${w.slug}`,
-    lastModified: w.date ? new Date(w.date) : new Date(),
+    lastModified: new Date(w.updated ?? w.date ?? Date.now()),
     changeFrequency: "monthly" as const,
     priority: 0.7,
+    ...(w.cover ? { images: [`${BASE_URL}${w.cover}`] } : {}),
   }));
 
   return [

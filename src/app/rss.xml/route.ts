@@ -18,7 +18,7 @@ export async function GET() {
   const items = writings
     .map((w) => {
       const post = getWriting(w.slug);
-      const desc = w.excerpt ?? post?.content?.slice(0, 200) ?? "";
+      const desc = w.description ?? w.excerpt ?? post?.content?.slice(0, 200) ?? "";
       const pubDate = w.date ? new Date(w.date).toUTCString() : new Date().toUTCString();
       return `    <item>
       <title>${escape(w.title)}</title>

@@ -6,7 +6,7 @@ import remarkGfm from "remark-gfm";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { EmailSubscribe } from "@/components/EmailSubscribe";
-import { getAllSlugs, getWriting, formatDate, toYmd } from "@/lib/writing";
+import { getAllSlugs, getWriting, getRelatedWritings, formatDate, toYmd } from "@/lib/writing";
 import { BASE_URL, PERSON_ID, WEBSITE_ID } from "@/lib/site";
 
 /* 排程文章到期前不在 build 清單裡，到期後第一次被請求時才生成 */
@@ -26,18 +26,21 @@ export async function generateMetadata({
   const w = getWriting(slug);
   if (!w) return {};
   const url = `${BASE_URL}/writing/${slug}`;
+  const title = w.seoTitle ?? w.title;
+  const description = w.description ?? w.excerpt;
   return {
-    title: w.title,
-    description: w.excerpt,
-    keywords: w.tags,
+    title,
+    description,
+    keywords: w.keywords ?? w.tags,
     authors: [{ name: "張正杰 Kimi Chang", url: BASE_URL }],
     alternates: { canonical: url },
     openGraph: {
-      title: w.title,
-      description: w.excerpt,
+      title,
+      description,
       url,
       type: "article",
       publishedTime: toYmd(w.date),
+      modifiedTime: toYmd(w.updated ?? w.date),
       authors: ["張正杰 Kimi Chang"],
       tags: w.tags,
       locale: "zh_TW",
@@ -45,8 +48,8 @@ export async function generateMetadata({
     },
     twitter: {
       card: "summary_large_image",
-      title: w.title,
-      description: w.excerpt,
+      title,
+      description,
     },
   };
 }
@@ -61,6 +64,8 @@ export default async function WritingPost({
   if (!w) notFound();
 
   const url = `${BASE_URL}/writing/${slug}`;
+  const related = getRelatedWritings(slug);
+  const images = [`${url}/opengraph-image`, ...(w.cover ? [`${BASE_URL}${w.cover}`] : [])];
   const jsonLd = {
     "@context": "https://schema.org",
     "@graph": [
@@ -68,14 +73,26 @@ export default async function WritingPost({
         "@type": "BlogPosting",
         "@id": `${url}#article`,
         headline: w.title,
-        description: w.excerpt,
+        ...(w.seoTitle ? { alternativeHeadline: w.seoTitle } : {}),
+        description: w.description ?? w.excerpt,
         url,
         mainEntityOfPage: url,
         datePublished: toYmd(w.date),
-        dateModified: toYmd(w.date),
+        dateModified: toYmd(w.updated ?? w.date),
         inLanguage: "zh-Hant-TW",
-        keywords: w.tags,
-        image: `${url}/opengraph-image`,
+        keywords: w.keywords ?? w.tags,
+        ...(w.tags?.[0] ? { articleSection: w.tags[0] } : {}),
+        image: images,
+        ...(w.about?.length
+          ? {
+              about: w.about.map((a) => ({
+                "@type": a.type,
+                name: a.name,
+                ...(a.sameAs ? { sameAs: a.sameAs } : {}),
+              })),
+            }
+          : {}),
+        ...(w.originalUrl ? { isBasedOn: w.originalUrl } : {}),
         author: { "@id": PERSON_ID, "@type": "Person", name: "張正杰", url: BASE_URL },
         publisher: { "@id": PERSON_ID },
         isPartOf: { "@id": WEBSITE_ID },
@@ -131,7 +148,15 @@ export default async function WritingPost({
           </header>
 
           <div className="prose">
-            <ReactMarkdown remarkPlugins={[remarkGfm]}>
+            <ReactMarkdown
+              remarkPlugins={[remarkGfm]}
+              components={{
+                // eslint-disable-next-line @next/next/no-img-element
+                img: ({ src, alt }) => (
+                  <img src={typeof src === "string" ? src : undefined} alt={alt || w.title} loading="lazy" decoding="async" />
+                ),
+              }}
+            >
               {w.content}
             </ReactMarkdown>
           </div>
@@ -149,6 +174,24 @@ export default async function WritingPost({
               </a>
               。
             </p>
+          )}
+
+          {related.length > 0 && (
+            <nav aria-label="延伸閱讀" className="mt-16 border-t border-border/40 pt-10">
+              <h2 className="font-mono text-[10px] uppercase tracking-[0.15em] text-accent">延伸閱讀</h2>
+              <ul className="mt-6 space-y-5">
+                {related.map((r) => (
+                  <li key={r.slug}>
+                    <Link href={`/writing/${r.slug}`} className="group block">
+                      <p className="text-[15px] leading-snug transition-colors group-hover:text-accent">{r.title}</p>
+                      <time className="mt-1 block font-mono text-[10px] tracking-wider text-muted">
+                        {formatDate(r.date)}
+                      </time>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </nav>
           )}
 
           <div className="mt-16">

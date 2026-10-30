@@ -2,7 +2,14 @@
 title: "幸福怎麼會無聊 — 大娛樂家(The Greatest Showman)"
 date: 2023-03-11
 excerpt: "在劇裡每個人都達到了他的幸福，可是在現實，我們卻還是痛苦著，你怎能不愛電影？他帶你進入到夢裡面，然後把它化為真實，在這120分鐘裡，你可以翱翔在這一個電影世界裡。 電影總會結束，我們也終必面對現實的挑戰，你有沒有在電…"
-tags: ["我陪你閱讀影像", "Disney+", "娛樂", "大娛樂家"]
+tags: ["我陪你閱讀影像", "大娛樂家", "歌舞電影", "親子觀影"]
+seoTitle: "《大娛樂家》影評：幸福怎麼會無聊"
+description: "七天內三刷《大娛樂家》，從 Zendaya、Zac Efron 親自上陣的空中飛人，聊到 This Is Me 與 P. T. Barnum 的美國夢，也聊為什麼這部片適合當電影素養教育的入門。"
+keywords: ["大娛樂家", "大娛樂家 影評", "The Greatest Showman", "This Is Me", "休傑克曼", "Zendaya", "歌舞電影推薦"]
+about:
+  - type: Movie
+    name: "大娛樂家"
+    sameAs: "https://en.wikipedia.org/wiki/The_Greatest_Showman"
 source: vocus
 originalUrl: https://vocus.cc/article/640be6e2fd8978000139201f
 ---
@@ -11,7 +18,7 @@ originalUrl: https://vocus.cc/article/640be6e2fd8978000139201f
 
 七天內三刷的電影，拜 Disney+ 所賜，能夠這樣與家人無限制的不斷不斷重溫這部經典好片。因為孩子的成果發表會即將演唱 The Greatest Showman Cast 以及 This Is Me 這兩首經典與震撼到不行的舞台萬用歌曲，那就直接來看電影好了！
 
-![](/writing/vocus/the-greatest-showman/01.jpg)
+![《大娛樂家》劇照，馬戲團主持人與團員齊聚舞台](/writing/vocus/the-greatest-showman/01.jpg)
 
 ## 預期之外的票房
 
@@ -19,7 +26,7 @@ originalUrl: https://vocus.cc/article/640be6e2fd8978000139201f
 
 這同時也是 Michael Gracey 的第一部執導電影，在這之前除了是許多電影的特效師之外，本身也很擅長在MV與廣告製作，2012開始福斯聘來製作這一部影片，整體呈現真的非常成熟，對於我本人來說，可以說是非常致敬與敬佩，基本上你可以想像這是一部非常順暢的MV大匯集電影，但很不幸的，是好萊塢電影工業等級的MV匯集，所以有最頂尖的真演員，真歌舞劇演出者，真舞者們，當然還有極為強大的編劇與策劃製片團隊，噢對了，還有真空中飛人！
 
-![](/writing/vocus/the-greatest-showman/02.jpg)
+![《大娛樂家》劇照，粉紅髮的空中飛人在半空飛躍](/writing/vocus/the-greatest-showman/02.jpg)
 
 ## 怎能不愛這部片的真
 
@@ -76,8 +83,8 @@ P. T. Barnum馬戲團的結果就很如同現實一樣，可以看看參考的�
 
 幸福哪有那麼無聊？實現幸福的過程可是很刺激的呢！
 
-![](/writing/vocus/the-greatest-showman/03.jpg)
+![《大娛樂家》劇照，一對男女在屋頂床單間牽手起舞](/writing/vocus/the-greatest-showman/03.jpg)
 
-![](/writing/vocus/the-greatest-showman/04.jpg)
+![《大娛樂家》黑白劇照，一對男女在繩索旁對望](/writing/vocus/the-greatest-showman/04.jpg)
 
 > Since when has happiness ever been boring? -Charity

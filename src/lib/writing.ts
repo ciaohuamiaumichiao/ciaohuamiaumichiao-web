@@ -4,6 +4,13 @@ import matter from "gray-matter";
 
 const WRITING_DIR = path.join(process.cwd(), "content", "writing");
 
+export type WritingAbout = {
+  /* schema.org 類型：Movie、Book、Event、TVSeries… */
+  type: string;
+  name: string;
+  sameAs?: string;
+};
+
 export type WritingMeta = {
   slug: string;
   title: string;
@@ -13,6 +20,16 @@ export type WritingMeta = {
   draft?: boolean;
   /* 從方格子等外部平台搬回來的文章，標註原文位置 */
   originalUrl?: string;
+  /* SEO：<title> 用的短標題、搜尋結果摘要、搜尋關鍵字。沒填就退回 title／excerpt／tags */
+  seoTitle?: string;
+  description?: string;
+  keywords?: string[];
+  /* 內容大改過的日期，給 dateModified 與 sitemap */
+  updated?: string;
+  /* 文章在談的作品（影評、書評），給結構化資料 */
+  about?: WritingAbout[];
+  /* 內文第一張圖，自動抓 */
+  cover?: string;
 };
 
 export type Writing = WritingMeta & {
@@ -37,43 +54,60 @@ function readAllFiles(): string[] {
     .filter((f) => f.endsWith(".md") || f.endsWith(".mdx"));
 }
 
-export function getAllWritings(): WritingMeta[] {
-  const files = readAllFiles();
-  const items = files
-    .map((file) => {
-      const slug = file.replace(/\.(md|mdx)$/, "");
-      const raw = fs.readFileSync(path.join(WRITING_DIR, file), "utf-8");
-      const { data } = matter(raw);
-      return {
-        slug,
-        title: (data.title as string) ?? slug,
-        date: (data.date as string) ?? "",
-        excerpt: data.excerpt as string | undefined,
-        tags: data.tags as string[] | undefined,
-        draft: data.draft as boolean | undefined,
-      };
-    })
-    .filter((p) => !p.draft && isPublished(p.date))
-    .sort((a, b) => (a.date < b.date ? 1 : -1));
-  return items;
-}
-
-export function getWriting(slug: string): Writing | null {
-  const files = readAllFiles();
-  const file = files.find((f) => f.replace(/\.(md|mdx)$/, "") === slug);
-  if (!file) return null;
+function parse(file: string): Writing {
+  const slug = file.replace(/\.(md|mdx)$/, "");
   const raw = fs.readFileSync(path.join(WRITING_DIR, file), "utf-8");
   const { data, content } = matter(raw);
-  if (data.draft || !isPublished(data.date)) return null;
+  const cover = content.match(/!\[[^\]]*\]\((\/[^)\s]+)\)/)?.[1];
   return {
     slug,
     title: (data.title as string) ?? slug,
     date: (data.date as string) ?? "",
     excerpt: data.excerpt as string | undefined,
     tags: data.tags as string[] | undefined,
+    draft: data.draft as boolean | undefined,
     originalUrl: data.originalUrl as string | undefined,
+    seoTitle: data.seoTitle as string | undefined,
+    description: data.description as string | undefined,
+    keywords: data.keywords as string[] | undefined,
+    updated: data.updated as string | undefined,
+    about: data.about as WritingAbout[] | undefined,
+    cover,
     content,
   };
+}
+
+export function getAllWritings(): WritingMeta[] {
+  return readAllFiles()
+    .map(parse)
+    .map(({ content: _content, ...meta }) => meta)
+    .filter((p) => !p.draft && isPublished(p.date))
+    .sort((a, b) => (a.date < b.date ? 1 : -1));
+}
+
+export function getWriting(slug: string): Writing | null {
+  const file = readAllFiles().find((f) => f.replace(/\.(md|mdx)$/, "") === slug);
+  if (!file) return null;
+  const w = parse(file);
+  if (w.draft || !isPublished(w.date)) return null;
+  return w;
+}
+
+/* 延伸閱讀：同 tag 越多越前面，平手取日期近的 */
+export function getRelatedWritings(slug: string, limit = 3): WritingMeta[] {
+  const all = getAllWritings();
+  const me = all.find((w) => w.slug === slug);
+  if (!me) return all.slice(0, limit);
+  const myTags = new Set([...(me.tags ?? []), ...(me.keywords ?? [])]);
+  return all
+    .filter((w) => w.slug !== slug)
+    .map((w) => ({
+      w,
+      score: [...(w.tags ?? []), ...(w.keywords ?? [])].filter((t) => myTags.has(t)).length,
+    }))
+    .sort((a, b) => b.score - a.score || (a.w.date < b.w.date ? 1 : -1))
+    .slice(0, limit)
+    .map((x) => x.w);
 }
 
 export function getAllSlugs(): string[] {

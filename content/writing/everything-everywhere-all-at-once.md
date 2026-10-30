@@ -2,7 +2,14 @@
 title: "[媽的多重宇宙]Everything Everywhere All at Once − 我整部影片都在等待多重宇宙是什麼"
 date: 2023-03-13
 excerpt: "所有宇宙中最珍貴的，就是流逝的時間，你無法回溯，只能殘酷的忍辱前行，在這麼有限的時間裡，我們的選擇，成就了怎樣的『自己』。"
-tags: ["我陪你閱讀影像", "媽的多重宇宙", "楊紫瓊", "孩子"]
+tags: ["我陪你閱讀影像", "媽的多重宇宙", "影評", "家庭"]
+seoTitle: "《媽的多重宇宙》影評：我整部片都在等多重宇宙"
+description: "《媽的多重宇宙》影評。用片名的三幕 Everything、Everywhere、All at Once 拆解楊紫瓊飾演的秀蓮，聊平行宇宙和多重宇宙的差別、功夫宇宙裡的港片回憶，還有華人家庭那種讓人窒息的愛。"
+keywords: ["媽的多重宇宙", "媽的多重宇宙 影評", "Everything Everywhere All at Once", "楊紫瓊", "多重宇宙", "三幕劇", "關繼威"]
+about:
+  - type: Movie
+    name: "媽的多重宇宙"
+    sameAs: "https://en.wikipedia.org/wiki/Everything_Everywhere_All_at_Once"
 source: vocus
 originalUrl: https://vocus.cc/article/640e9197fd89780001516cac
 ---
@@ -11,7 +18,7 @@ originalUrl: https://vocus.cc/article/640e9197fd89780001516cac
 
 55歲的美國華裔移民秀蓮（楊紫瓊飾）家庭事業兩崩潰。在老爸爸（吳漢章飾）生日大壽這天，除了要阻止女兒（史蒂芬妮許）暴走出櫃、替無用丈夫（關繼威）擦屁股，還得去稅務局向古板大嬸（潔米李寇帝絲）解釋不太妙的稅務問題。甫踏進大樓電梯，軟爛丈夫竟搖身一變演起駭客任務，聲稱自己是另一個宇宙的版本，而艾芙琳也是千萬宇宙裡的其中一個。還來不及理解，邪惡勢力已在多元宇宙中蔓延，世界即將毀滅，只有在這它媽的宇宙裡、一無是處的艾芙琳才能拯救世界…
 
-![](/writing/vocus/everything-everywhere-all-at-once/01.jpg)
+![《媽的多重宇宙》海報，女主角擺出功夫架式](/writing/vocus/everything-everywhere-all-at-once/01.jpg)
 
 ## 人生，常常就是這樣的無奈。
 

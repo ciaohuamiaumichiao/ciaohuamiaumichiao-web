@@ -2,7 +2,14 @@
 title: "《看不見的國家》:當世界終於看見台灣,我們也重新看見了自己"
 date: 2025-05-20
 excerpt: "《看不見的國家》是一部由美籍導演葛靜文拍攝、以總統蔡英文為主角的紀錄片，從貼身的角度出發，溫柔而克制地描繪出台灣在國際中的處境與民主價值。本文以觀影者身為導演的個人視角出發，分析這部片如何讓我們重新認識自己，也讓世界…"
-tags: ["我陪你閱讀影像", "蔡英文", "台灣人", "看不見的國家"]
+tags: ["我陪你閱讀影像", "看不見的國家", "紀錄片", "影評"]
+seoTitle: "《看不見的國家》影評：世界看見台灣，我們也看見自己"
+description: "《看不見的國家》影評：美國導演葛靜文花七年貼身拍蔡英文，用克制的鏡頭談台灣民主與國際處境。我從導演的角度聊這部紀錄片怎麼說故事、怎麼對照香港，以及它為什麼讓台灣人重新看見自己。"
+keywords: ["看不見的國家", "看不見的國家 影評", "Invisible Nation", "葛靜文", "Vanessa Hope", "蔡英文 紀錄片", "台灣紀錄片"]
+about:
+  - type: Movie
+    name: "看不見的國家"
+    sameAs: "https://en.wikipedia.org/wiki/Invisible_Nation"
 source: vocus
 originalUrl: https://vocus.cc/article/682c6cc2fd8978000138b5e9
 ---
@@ -15,7 +22,7 @@ Can a documentary change the way you see the world? For me, **Invisible Nation**
 
 This isn’t the kind of documentary you casually half-watch while scrolling your phone. It’s quiet but powerful, restrained but emotionally resonant. It made me slow down, listen, and reflect. As I sat in the darkened theater, I realized that while we often say we want the world to “see Taiwan,” perhaps what we truly need is to better see ourselves.
 
-![](/writing/vocus/invisible-nation/01.jpg)
+![《看不見的國家》中文版電影海報，人物與台灣山海城市拼貼](/writing/vocus/invisible-nation/01.jpg)
 
 ## 從一個導演的視角看一位總統
 
@@ -131,4 +138,4 @@ It might not make you march in the streets, but it could make you look at your p
 
 And maybe that’s where change begins.
 
-![](/writing/vocus/invisible-nation/02.jpg)
+![《看不見的國家》放映後，講者站在銀幕前拿麥克風分享](/writing/vocus/invisible-nation/02.jpg)

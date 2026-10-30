@@ -2,14 +2,21 @@
 title: "粉紅色的愛麗絲夢遊仙境:你或許以為的胡鬧,但根本就是一本新寓言故事《Barbie》"
 date: 2023-07-29
 excerpt: "我想很多人喊著說這是一部女性主義影片，可是在我看來，『女性主義』可能只是現實無能為力的真實世界的解藥吧。當女性可以被解放地做自己，好好當個人，追尋她的夢想、成就、能量的釋放，那這個真實又無能為力的世界才有機會前進到下…"
-tags: ["我陪你閱讀影像", "Barbie", "芭比", "奧本海默"]
+tags: ["我陪你閱讀影像", "Barbie", "影評", "女性主義"]
+seoTitle: "《Barbie芭比》影評：粉紅色的愛麗絲夢遊仙境"
+description: "《Barbie芭比》看起來像胡鬧，其實是一則新寓言。我拿它對照《愛麗絲夢遊仙境》，聊 Barbie 的眼淚和「我是誰」，也聊女性主義、華納少了諾蘭之後的芭本海默效應，還有 Ken 發現自己價值的那一刻。"
+keywords: ["Barbie芭比", "芭比 影評", "Barbie 電影", "葛莉塔潔薇", "瑪格羅比", "雷恩葛斯林", "芭本海默", "愛麗絲夢遊仙境"]
+about:
+  - type: Movie
+    name: "Barbie芭比"
+    sameAs: "https://en.wikipedia.org/wiki/Barbie_(film)"
 source: vocus
 originalUrl: https://vocus.cc/article/64c3f3abfd897800015fcc6a
 ---
 
 ## Barbie is me!
 
-![](/writing/vocus/barbie-new-fable/01.jpg)
+![瑪格·羅比穿粉紅禮服登上 Vogue 夏季號封面](/writing/vocus/barbie-new-fable/01.jpg)
 
 Robbie stars in the Greta Gerwig–directed Barbie, due in theaters in July. Versace dress. Chopard Haute Joaillerie earring. Fashion Editor: Gabriella Karefa-Johnson.  
   
@@ -27,7 +34,7 @@ Photographed by Ethan James Green, Vogue, Summer 2023.
 
 ## 粉紅色的愛麗絲夢遊仙境
 
-![](/writing/vocus/barbie-new-fable/02.jpg)
+![《Barbie》片場合照，導演與演員穿粉紅連身衣](/writing/vocus/barbie-new-fable/02.jpg)
 
 “Barbie” director Greta Gerwig says she was surprised by the conservative takedown of her feminist feature, but she hopes everyone who sees it can get some “relief.” (Jaap Buitendijk / Warner Bros. Pictures)
 
@@ -38,7 +45,7 @@ Photographed by Ethan James Green, Vogue, Summer 2023.
 
 Barbie會哭、愛麗絲也會哭，愛麗絲經歷了變大又變小的路途，最後她變得好小好小，才可以乘著眼淚進到了奇幻世界；我會記得Barbie的眼淚，當它出現在Margot Robbie精緻的臉上時，好像開啟了一個新的開關。要知道眼淚是進入世界的鑰匙，每滴淚水都在告訴你，你是誰。Greta Gerwig說她在導戲的時候也會哭，當我突然知道這部電影是個寓言的時候，我也哭。Ken發現自己價值的時候，我記得他也哭了。
 
-![](/writing/vocus/barbie-new-fable/03.jpg)
+![《愛麗絲夢遊仙境》動畫裡的紫郡貓](/writing/vocus/barbie-new-fable/03.jpg)
 
 愛麗絲夢遊仙境劇照
 
@@ -58,7 +65,7 @@ Barbie會哭、愛麗絲也會哭，愛麗絲經歷了變大又變小的路途�
 
 這個夏天，我們有幸都在歷史當中佔了腳步，諾蘭的傳世歷史傳記片《Oppenheimer》、Margot Robbie寓言童話《Barbie》，這個夏天同時可以有兩部名留電影史的鉅片，還不看起來！
 
-![](/writing/vocus/barbie-new-fable/04.jpg)
+![芭本海默示意圖，《奧本海默》與《Barbie》合成海報](/writing/vocus/barbie-new-fable/04.jpg)
 
 芭比海默示意圖
 

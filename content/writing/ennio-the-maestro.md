@@ -2,14 +2,21 @@
 title: "ENNIO:THE MAESTRO 《配樂大師顏尼歐》 // 試片影感"
 date: 2023-03-16
 excerpt: "Giuseppe Tornatore 導演的新片，並順利完全訪到 Ennio 本人，你可以從各個殿堂級導演的口中聊到Ennio對於他們的影響與啟發，不小心會發現每一個導演其實都有被Ennio調教過，在合作過程當中，甚…"
-tags: ["我陪你閱讀影像", "大師", "Ennio", "電影院"]
+tags: ["我陪你閱讀影像", "配樂大師顏尼歐", "紀錄片", "電影配樂"]
+seoTitle: "《配樂大師顏尼歐》試片心得：面對白紙的配樂人生"
+description: "《配樂大師顏尼歐》是托納多雷替 Ennio Morricone 拍的紀錄片，王家衛監製。從李昂尼西部片的口哨、《海上的鋼琴師》到《八惡人》拿下奧斯卡，我把他的一生分成三部曲，也記下試片那晚的笑聲。"
+keywords: ["配樂大師顏尼歐", "Ennio: The Maestro", "配樂大師顏尼歐 心得", "Ennio Morricone", "朱賽佩托納多雷", "Giuseppe Tornatore", "電影配樂", "音樂紀錄片"]
+about:
+  - type: Movie
+    name: "配樂大師顏尼歐"
+    sameAs: "https://en.wikipedia.org/wiki/Ennio_(film)"
 source: vocus
 originalUrl: https://vocus.cc/article/6411e0ebfd89780001a9af5f
 ---
 
 Giuseppe Tornatore （[朱賽佩托納多雷](https://zh.wikipedia.org/wiki/%E6%9C%B1%E5%A1%9E%E4%BD%A9%C2%B7%E6%89%98%E7%B4%8D%E5%A4%9A%E9%9B%B7)）在他38歲的時候完成了影響世界的巨作《[新天堂樂園](https://zh.wikipedia.org/wiki/%E5%A4%A9%E5%A0%82%E7%94%B5%E5%BD%B1%E9%99%A2)》（Nuovo cinema Paradiso），從此他以晉升名人堂的姿態繼續闖蕩他的電影夢，而接連著他要準備拍攝《[海上的鋼琴師](https://zh.wikipedia.org/wiki/%E6%B5%B7%E4%B8%8A%E9%8B%BC%E7%90%B4%E5%B8%AB)》（The Legend of 1900）時，因緣結識到了[Ennio Morricone](https://zh.wikipedia.org/wiki/%E6%81%A9%E5%B0%BC%E5%A5%A5%C2%B7%E8%8E%AB%E9%87%8C%E7%A7%91%E5%86%85) 並開啟了他們的合作之路，完成了經典的海上鋼琴師，而那時候的Ennio，其實只是完成他人生500部電影配樂中的350部而已。
 
-![](/writing/vocus/ennio-the-maestro/01.jpg)
+![《配樂大師顏尼歐》橫幅海報，顏尼歐在堆滿樂譜的書房指揮](/writing/vocus/ennio-the-maestro/01.jpg)
 
 昨晚臨時接到導演前輩的邀約，問問我是否有空一起去看一部試片，這種（對我而言）千載難逢的機會，怎能不出發呢？這一次能夠參與到的，竟然就是配樂大師顏尼歐的紀錄影片，當然滿心充滿期待這一個開創及賦予『電影配樂』這個職位無上意義的大師的一生電影史，但一看到導演的名字，我只警覺膀胱要有力一點了。
 
@@ -57,7 +64,7 @@ Ennio最後分享著：『剛開始只是有個想法，面對著白紙，我完
 
 真心推薦，3/17可以大看一場這部片了！感謝王家衛監製了這部片，感謝[海鵬影業](https://www.facebook.com/swfilms)誠意滿滿地把這部片端進來台灣！
 
-![](/writing/vocus/ennio-the-maestro/02.jpg)
+![《配樂大師顏尼歐》試片拿到的海報與明信片](/writing/vocus/ennio-the-maestro/02.jpg)
 
 北市｜真善美戲院、光點華山電影館、誠品電影院、Muvie Cinemas、喜樂時代影城南港店
 
