@@ -11,6 +11,8 @@ export type WritingMeta = {
   excerpt?: string;
   tags?: string[];
   draft?: boolean;
+  /* 從方格子等外部平台搬回來的文章，標註原文位置 */
+  originalUrl?: string;
 };
 
 export type Writing = WritingMeta & {
@@ -69,6 +71,7 @@ export function getWriting(slug: string): Writing | null {
     date: (data.date as string) ?? "",
     excerpt: data.excerpt as string | undefined,
     tags: data.tags as string[] | undefined,
+    originalUrl: data.originalUrl as string | undefined,
     content,
   };
 }

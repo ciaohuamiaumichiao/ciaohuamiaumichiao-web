@@ -136,6 +136,21 @@ export default async function WritingPost({
             </ReactMarkdown>
           </div>
 
+          {w.originalUrl && (
+            <p className="mt-12 font-mono text-[10px] tracking-wider text-muted">
+              這篇最早寫在方格子沙龍〈我陪你閱讀影像〉，
+              <a
+                href={w.originalUrl}
+                target="_blank"
+                rel="noopener"
+                className="underline underline-offset-4 transition-colors hover:text-accent"
+              >
+                原文在這裡
+              </a>
+              。
+            </p>
+          )}
+
           <div className="mt-16">
             <EmailSubscribe />
           </div>
