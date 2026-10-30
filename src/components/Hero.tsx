@@ -151,8 +151,8 @@ export function Hero() {
           transition={{ duration: 0.9, delay: 1.05 }}
           className="mt-10 max-w-md text-sm leading-[1.9] text-muted"
         >
-          我是導演，跟團隊夥伴一起幫教會、公益團體和品牌拍片，
-          也做節目、轉直播、寫網站。今年大部分時間，我們都在現場。
+          我是導演，跟團隊夥伴們一起幫教會、公益團體還有品牌拍片，
+          也做節目、轉直播、寫網站，今年大部分的時間，我們真的都泡在現場裡。
         </motion.p>
 
         {/* 直排 tagline 的手機版（橫排） */}

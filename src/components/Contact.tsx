@@ -35,8 +35,8 @@ export function Contact() {
         <div className="mt-14 grid gap-14 lg:grid-cols-[1fr_1fr] lg:gap-24">
           <FadeIn>
             <p className="max-w-md text-[15px] leading-[1.9] text-muted">
-              有案子想聊，或只是腦中有個還講不清楚的念頭，
-              直接傳 LINE 給我就好。很多合作一開始也是這樣聊出來的。
+              有案子想聊，或者只是腦中有個還講不太清楚的念頭，
+              都可以直接傳 LINE 給我，很多合作一開始，也都是這樣聊著聊著就聊出來的。
             </p>
             <p className="mt-6 font-mono text-[9px] uppercase tracking-[0.2em] text-muted/60">
               Taipei, Taiwan · UTC+8

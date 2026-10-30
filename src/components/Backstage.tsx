@@ -19,9 +19,9 @@ export function Backstage() {
             </blockquote>
 
             <p className="mt-8 text-[13px] leading-[1.9] text-muted">
-              這個社群是從 2026 年「Backstage is a WORLD」攝影展長出來的。
-              來的人有志工、教會同工、非營利工作者，也有在展演現場搬東西、拉線的人。
-              大家聊得最多的，是怎麼不要把自己燒完，順便交換一點技術。
+              這個社群是從 2026 年「Backstage is a WORLD」攝影展裡長出來的，
+              來的人有志工、教會同工、非營利工作者，也有在展演現場搬東西、拉線的人，
+              大家聊得最多的，其實是怎麼不要把自己燒完，然後順便交換一點技術。
             </p>
 
             {/* CTA */}

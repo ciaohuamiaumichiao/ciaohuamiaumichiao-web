@@ -11,7 +11,7 @@ const services = [
     title: "影像製作",
     subtitle: "Film & Video Production",
     description:
-      "形象片、紀錄片、展覽紀錄、活動側拍都接。從一開始聊要拍什麼，到現場、剪接、交片，同一組團隊陪你做完。",
+      "形象片、紀錄片、展覽紀錄、活動側拍都接，從一開始坐下來聊要拍什麼，到拍攝現場、剪接、交片，都是同一組團隊陪著你一路做完，不會中途換人喔。",
     items: ["企業形象影片", "紀錄片", "展覽紀錄", "活動側拍", "後期剪輯"],
     steps: [
       { label: "先聊", desc: "要拍給誰看、預算抓多少" },
@@ -27,7 +27,7 @@ const services = [
     title: "節目製作",
     subtitle: "Show & Podcast Production",
     description:
-      "想做一檔長期的節目，可以從零開始一起做。要給誰看、一季聊什麼、找誰來，錄影、剪接、上架，官網和每集文案也可以一起包。Mission On Air 和放學後 SHOW 都是這樣做出來的。",
+      "想做一檔長期的節目，我們可以從零開始一起做，要給誰看、一季要聊什麼、找誰來，然後錄影、剪接、上架，連官網跟每一集的文案也可以一起包。Mission On Air 跟放學後 SHOW，都是這樣一集一集做出來的。",
     items: ["節目定位與季度企劃", "錄影與現場執導", "剪輯、字幕與多平台上架", "節目官網與集數頁", "社群文案與金句素材"],
     steps: [
       { label: "定調", desc: "給誰看、多久更新一次" },
@@ -43,7 +43,7 @@ const services = [
     title: "直播與轉播統籌",
     subtitle: "Live Broadcast",
     description:
-      "三台機器現場切，同時推到 YouTube、Facebook 好幾個平台，網路有備援，旁邊還有一套我們自己寫的監控系統在看訊號。今年五場城市禱告會都是這樣轉的。",
+      "三台機器現場切，同時推到 YouTube、Facebook 好幾個平台，網路有備援，旁邊還有一套我們自己寫的監控系統一直盯著訊號，今年五場城市禱告會，就是這樣一場一場轉過來的。",
     items: ["三機 EFP 現場切換", "YouTube／Facebook 等多平台直播", "備援網路與即時訊號監控", "直播錄影與檔案交付", "結案數據與服務紀錄"],
     steps: [
       { label: "先去場地看", desc: "網路、電、動線" },
@@ -59,7 +59,7 @@ const services = [
     title: "創意數位建置",
     subtitle: "Creative Digital Solutions",
     description:
-      "網站、管理系統、排班平台都在寫，你現在看的這個網站也是。影音硬體要怎麼買、怎麼接，也可以一起規劃。",
+      "網站、管理系統、排班平台我們都在寫，你現在正在看的這個網站也是喔！影音硬體要怎麼買、怎麼接，也都可以一起規劃。",
     items: ["品牌官網與節目網站", "管理系統與排班平台", "影音硬體規劃與建置", "數位工作流程規劃", "數位策略顧問"],
     steps: [
       { label: "先聊", desc: "想解決什麼問題" },
@@ -165,8 +165,8 @@ export function Services() {
                 Film & Art Consulting
               </p>
               <p className="mt-4 text-sm leading-relaxed text-muted">
-                還不知道要從哪裡開始的話，先約一次聊聊。
-                策展、組影像團隊、短影音、社群經營，都可以問。
+                如果還不知道要從哪裡開始，那就先約一次聊聊吧，
+                策展、組影像團隊、短影音、社群經營，什麼都可以問。
               </p>
               <p className="mt-4 font-mono text-[11px] text-accent">
                 初次諮詢 NT$5,000，聊完會整理一份現況和建議給你

@@ -59,9 +59,9 @@ export function RotationContent() {
               把排班這件事理順。
             </h1>
             <p className="mt-8 max-w-xl text-[15px] leading-[1.9] text-muted">
-              每個禮拜在群組裡問「這週誰可以？」，翻半天訊息找誰答應過，
-              到了當天才發現兩個人排在同一格。這些我都經歷過。
-              後來 HOLYWOOD 影視團隊有了一套自己的排班系統，現在大家自己上去登記、回報、換班。
+              每個禮拜在群組裡問「這週誰可以？」，然後翻了半天訊息，找誰到底答應過了沒，
+              結果到了當天才發現，兩個人排在同一格⋯⋯這些我真的都經歷過，而且不只一次。
+              後來 HOLYWOOD 影視團隊有了一套自己的排班系統，現在大家都自己上去登記、回報、換班了。
               <br />
               這個服務，就是陪你的團隊也走一次。
             </p>
@@ -98,13 +98,13 @@ export function RotationContent() {
           <div className="mt-14 grid gap-12 lg:grid-cols-[1fr_1fr] lg:gap-20">
             <FadeIn>
               <p className="text-[15px] leading-[1.9] text-muted">
-                HOLYWOOD 影視服事團隊有導播、四台攝影機、直播、平面攝影，二十多位同工每週輪值。
-                以前排班靠群組接龍，現在打開網頁就看得到哪一場還缺人，按一下「我來」就登記好了。
-                排到班的人 LINE 會收到通知，服事前一晚再提醒一次。
+                HOLYWOOD 影視服事團隊有導播、四台攝影機、直播、平面攝影，二十多位同工每週輪值，
+                以前排班全靠群組接龍，現在打開網頁，就看得到哪一場還缺人，按一下「我來」就登記好了，
+                排到班的人 LINE 會收到通知，服事前一晚還會再提醒一次。
               </p>
               <p className="mt-5 text-[15px] leading-[1.9] text-muted">
-                我還偷偷放了一條成就路線叫「蒙召的使徒」，從蒙召的漁夫開始，
-                一路服事到「那美好的仗我已經打過了」。
+                然後我還偷偷放了一條成就路線，叫做「蒙召的使徒」，從蒙召的漁夫開始，
+                一路服事到「那美好的仗我已經打過了」，有沒有很熱血！
               </p>
               <a
                 href={TOUR_URL}
@@ -156,7 +156,7 @@ export function RotationContent() {
 
           <FadeIn delay={0.2}>
             <p className="mt-8 text-[13px] leading-relaxed text-muted">
-              陪跑結束，系統就留在你們手上，我就退場了。
+              陪跑結束之後，系統就留在你們手上，我呢，就功成身退啦。
             </p>
           </FadeIn>
         </div>
@@ -211,8 +211,8 @@ export function RotationContent() {
                 正在找第一批共創教會
               </h2>
               <p className="mx-auto mt-6 max-w-md text-[14px] leading-[1.9] text-muted">
-                前兩間合作的教會用共創價，條件是願意讓這段過程給之後的教會參考。
-                點下面的 LINE 會帶出一段開場訊息，把你們的狀況填進去送出就可以了。
+                前兩間合作的教會用共創價，唯一的條件，是願意讓這段過程給之後的教會參考。
+                點下面的 LINE 會帶出一段開場訊息，把你們的狀況填進去送出就可以了，我會盡快回你。
               </p>
               <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
                 <a

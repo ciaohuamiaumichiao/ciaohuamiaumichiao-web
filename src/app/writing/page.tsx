@@ -11,14 +11,14 @@ export const revalidate = 3600;
 export const metadata: Metadata = {
   title: "寫作 Writing",
   description:
-    "張正杰的寫作。上課、拍片、跟客戶聊天的時候想到的事。",
+    "張正杰的寫作。上課、拍片、跟客戶聊天的時候想到的事，還有看完電影的心得。",
   alternates: {
     canonical: `${BASE_URL}/writing`,
     types: { "application/rss+xml": `${BASE_URL}/rss.xml` },
   },
   openGraph: {
     title: "寫作｜張正杰",
-    description: "上課、拍片、跟客戶聊天的時候想到的事，有空就寫下來。",
+    description: "上課、拍片、跟客戶聊天的時候想到的事，還有看完電影久久散不去的心得，有空就寫下來。",
     url: `${BASE_URL}/writing`,
     type: "website",
     locale: "zh_TW",
@@ -68,7 +68,8 @@ export default function WritingIndex() {
               寫作
             </h1>
             <p className="mt-6 max-w-xl text-sm leading-relaxed text-muted">
-              上課、拍片、跟客戶聊天的時候想到的事，有空就寫下來。
+              上課、拍片、跟客戶聊天的時候想到的事，還有看完電影久久散不去的心得，有空就寫下來，
+              2023 年以前的影評，原本寫在方格子〈我陪你閱讀影像〉，現在也都搬回來這裡了。
             </p>
           </header>
 
