@@ -6,7 +6,7 @@ import { BASE_URL, PERSON_ID, WEBSITE_ID } from "@/lib/site";
 
 const PAGE_URL = `${BASE_URL}/companion`;
 const DESCRIPTION =
-  "張正杰的影像陪伴計畫：陪教會、偏鄉學校、公益團體和幕後的人，把自己的故事拍出來。遠鄉閃閃、十多間教會影像團隊、KUA 與台北基督書院課堂、《只為遇見你》都收在這裡，未來想慢慢走成公益協會。";
+  "張正杰的影像陪伴計畫：陪教會、偏鄉學校、公益團體和幕後的人，把自己的故事拍出來。遠鄉閃閃、十多間教會影像團隊、KUA 與台北基督書院課堂、《只為遇見你》、跑者肌地的影像策略陪跑都收在這裡，未來想慢慢走成公益協會。";
 
 export const metadata: Metadata = {
   title: { absolute: "影像陪伴計畫：陪你把自己的故事拍出來｜小花貓咪叫 張正杰" },

@@ -46,6 +46,13 @@ const works: {
     desc: "夢想之家二十週年，我們跟著從台北西門走到台東，16 天、348 公里，九台機器拍回 31.5 小時，剪成 60 分鐘，講的就是他們這二十年，怎麼一路陪著孩子長大。",
   },
   {
+    icon: IconCamera,
+    who: "跑步品牌",
+    title: "跑者肌地的影像策略與行銷陪跑",
+    desc: "陪這個台北的跑步訓練品牌一起想影像和行銷怎麼走，今年 7 月底開始一條路一條路拍長片，路線是教練去踩，架構和拍攝我來，再拆成 Shorts 和 Reels，連標題都照大家會怎麼搜尋來下，Adios Pro 5 實測那集，到現在看了三萬多次了。",
+    href: "https://www.youtube.com/@RST321go",
+  },
+  {
     icon: IconChat,
     who: "幕後的人",
     title: "the Backstage 幕後人聚場",
@@ -103,7 +110,7 @@ export function CompanionContent() {
       {/* ── 陪過的人 ── */}
       <section id="now" className="border-t border-border px-6 py-24 lg:py-32">
         <div className="mx-auto max-w-6xl">
-          <SectionSlate index="01" en="Alongside" zh="這幾年在陪的人" note="5 CREWS" />
+          <SectionSlate index="01" en="Alongside" zh="這幾年在陪的人" note="6 CREWS" />
 
           <FadeInStagger className="mt-14 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {works.map((w) => {
@@ -119,7 +126,11 @@ export function CompanionContent() {
               );
               return (
                 <FadeInItem key={w.title}>
-                  {w.href ? (
+                  {w.href?.startsWith("http") ? (
+                    <a href={w.href} target="_blank" rel="noopener noreferrer" className="block h-full">
+                      {card}
+                    </a>
+                  ) : w.href ? (
                     <Link href={w.href} className="block h-full">
                       {card}
                     </Link>
