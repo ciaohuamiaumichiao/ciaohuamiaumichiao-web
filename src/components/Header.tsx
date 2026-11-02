@@ -15,6 +15,7 @@ const navLinks = [
   { label: "影像陪伴", href: "/companion" },
   { label: "排班陪跑", href: "/rotation" },
   { label: "寫作", href: "/writing" },
+  { label: "工具", href: "/tools" },
   { label: "聯絡", href: "#contact" },
 ];
 

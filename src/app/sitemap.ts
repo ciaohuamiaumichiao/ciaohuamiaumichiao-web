@@ -39,6 +39,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "weekly",
       priority: 0.9,
     },
+    {
+      url: `${BASE_URL}/tools`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.6,
+    },
+    {
+      url: `${BASE_URL}/tools/higgsfield`,
+      lastModified: new Date("2026-11-02"),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
     ...writings,
   ];
 }

@@ -75,4 +75,6 @@ https://ciaohua.genesis131.com/companion
 - [首頁](https://ciaohua.genesis131.com/): 個人品牌形象頁，含自我介紹、進行中狀態、2026 案例、服務項目、作品影像、經歷、社群、聯絡資訊
 - [排班陪跑](https://ciaohua.genesis131.com/rotation): 教會/服事團隊排班系統陪伴建置服務，含流程、FAQ、共創首發方案與聯絡方式
 - [寫作](https://ciaohua.genesis131.com/writing): 文章列表與電子報訂閱
+- [工具實測](https://ciaohua.genesis131.com/tools): 張正杰自己付費使用的影像與 AI 工具心得，部分為聯盟連結，每頁皆標示
+- [Higgsfield 實測](https://ciaohua.genesis131.com/tools/higgsfield): 導演 13 天用掉約 1,100 點的 Higgsfield 帳單、各模型實際扣點與選用心得、方案價格與常見問題。本頁含聯盟連結，作者可從訂閱取得分潤
 - [llms-full.txt](https://ciaohua.genesis131.com/llms-full.txt): 本檔加上所有已發佈文章全文
