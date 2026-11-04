@@ -19,7 +19,16 @@ export function About() {
               </div>
               <div>
                 <dt className="text-[9px] uppercase tracking-[0.15em] text-muted">Unit</dt>
-                <dd className="mt-1 text-foreground">擎光媒體工作室</dd>
+                <dd className="mt-1 text-foreground">
+                  <a
+                    href="https://uls.com.tw"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="underline decoration-accent/40 underline-offset-4 transition-colors hover:text-accent"
+                  >
+                    擎光媒體工作室 ↗
+                  </a>
+                </dd>
                 <dd className="text-foreground">甚好創意有限公司</dd>
               </div>
               <div>

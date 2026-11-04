@@ -67,6 +67,8 @@ export const orgNodes = [
     "@type": "Organization",
     "@id": CHINGKUANG_ID,
     name: "擎光媒體工作室",
+    alternateName: "UltraLight Studio",
+    url: "https://uls.com.tw",
     founder: { "@id": PERSON_ID },
   },
 ];
