@@ -61,7 +61,12 @@ const works = [
     eventStatus: "https://schema.org/EventScheduled",
     location: { "@type": "Place", name: "遠企購物中心", address: "台北市大安區" },
     organizer: director,
-    url: "https://backstageworld.vercel.app",
+    url: "https://backstage.genesis131.com",
+    subjectOf: {
+      "@type": "ImageGallery",
+      name: "Backstage is a WORLD 線上展",
+      url: "https://backstage.genesis131.com/online/",
+    },
   },
 ];
 

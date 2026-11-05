@@ -6,6 +6,7 @@ import { SelectedWork } from "@/components/SelectedWork";
 import { Services } from "@/components/Services";
 import { Showreel } from "@/components/Showreel";
 import { Exhibitions } from "@/components/Exhibitions";
+import { OnlineExhibition } from "@/components/OnlineExhibition";
 import { Backstage } from "@/components/Backstage";
 import { LatestWriting } from "@/components/LatestWriting";
 import { InstagramFeed } from "@/components/InstagramFeed";
@@ -31,6 +32,7 @@ export default function Home() {
         <Services />
         <Showreel />
         <Exhibitions />
+        <OnlineExhibition />
         <Backstage />
         <LatestWriting />
         <InstagramFeed />

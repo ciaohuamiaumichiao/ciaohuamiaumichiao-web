@@ -30,7 +30,7 @@ export function Contact() {
   return (
     <section id="contact" className="border-t border-border px-6 py-28 lg:py-36">
       <div className="mx-auto max-w-6xl">
-        <SectionSlate index="10" en="Contact" zh="來聊聊" note="ROLL CREDITS" />
+        <SectionSlate index="11" en="Contact" zh="來聊聊" note="ROLL CREDITS" />
 
         <div className="mt-14 grid gap-14 lg:grid-cols-[1fr_1fr] lg:gap-24">
           <FadeIn>

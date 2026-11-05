@@ -30,7 +30,7 @@ export function InstagramFeed() {
   return (
     <section id="instagram" className="border-t border-border px-6 py-28 lg:py-36">
       <div className="mx-auto max-w-6xl">
-        <SectionSlate index="09" en="Stills" zh="最新動態" note="@CIAOHUAMIAUMICHIAO" />
+        <SectionSlate index="10" en="Stills" zh="最新動態" note="@CIAOHUAMIAUMICHIAO" />
 
         <div className="mt-12">
           {BEHOLD_WIDGET_ID ? (

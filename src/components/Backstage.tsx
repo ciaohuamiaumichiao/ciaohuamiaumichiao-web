@@ -7,7 +7,7 @@ export function Backstage() {
   return (
     <section id="backstage" className="border-t border-border px-6 py-28 lg:py-36">
       <div className="mx-auto max-w-6xl">
-        <SectionSlate index="07" en="Community" zh="the Backstage 幕後人聚場" note="ACCESS — ALL AREAS" />
+        <SectionSlate index="08" en="Community" zh="the Backstage 幕後人聚場" note="ACCESS — ALL AREAS" />
 
         <div className="mt-14 grid gap-14 lg:grid-cols-[1fr_1fr] lg:gap-24">
           {/* Left */}
@@ -27,7 +27,7 @@ export function Backstage() {
             {/* CTA */}
             <div className="mt-10 flex flex-col gap-3 sm:flex-row">
               <a
-                href="https://backstageworld.vercel.app/community.html"
+                href="https://backstage.genesis131.com/community.html"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="frame-marks border border-accent/30 px-7 py-3 text-center font-mono text-[10px] uppercase tracking-[0.12em] text-accent transition-colors hover:border-accent/60 hover:bg-accent/5"

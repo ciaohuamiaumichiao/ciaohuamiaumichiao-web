@@ -103,9 +103,9 @@ const works = [
     title: "Backstage is a WORLD",
     role: "策展人｜遠企購物中心",
     description:
-      "在幕後拍了二十年的照片，第一次掛到牆上給大家看，在遠企展了四週，展完之後，竟然留下了一群人，後來就變成了 the Backstage 幕後人聚場。",
-    href: "https://backstageworld.vercel.app",
-    linkLabel: "backstageworld.vercel.app",
+      "在幕後拍了二十年的照片，第一次掛到牆上給大家看，在遠企展了四週，展完之後，竟然留下了一群人，後來就變成了 the Backstage 幕後人聚場，現在這個展也搬到線上了，可以從手機慢慢逛喔。",
+    href: "https://backstage.genesis131.com/online/",
+    linkLabel: "逛線上展",
     image: "/images/backstage-control.jpg",
     slate: null,
   },

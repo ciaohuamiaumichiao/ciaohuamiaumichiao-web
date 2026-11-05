@@ -46,7 +46,7 @@ https://ciaohua.genesis131.com/companion
 - 跑者肌地 跑步路線系列（企劃・攝影・剪輯）: 跑步訓練頻道長期合作，民權大橋、淡江大橋、大鹿林道等路線長片，中英日字幕與 Reels 攻略系列。頻道 https://www.youtube.com/@RST321go
 - 剪輯工作流（剪輯指導）: 林口城市禱告影片、銳能獎開場、歸主協會募款邀請片中英字幕等後期案，每支片的流程整理成十條可重複使用的工作流。
 - 遠鄉閃閃 114 攝影合輯《我的攝影不像樣》（影像採訪・書籍設計，文曄教育基金會）: 13 所學校影像採訪、208 頁攝影合輯，2026 年 7 月底於剝皮寮展出。
-- Backstage is a WORLD（策展人）: 2026 年 3 月遠企購物中心攝影展，展後成立「the Backstage 幕後人聚場」社群。
+- Backstage is a WORLD（策展人）: 2026 年 3 月遠企購物中心攝影展，展後成立「the Backstage 幕後人聚場」社群。線上展：https://backstage.genesis131.com/online/
 
 ## 經歷亮點
 
@@ -60,7 +60,7 @@ https://ciaohua.genesis131.com/companion
 
 ## 社群
 
-- [the Backstage 幕後人聚場](https://backstageworld.vercel.app/community.html): 創意產業工作者社群，每週聚會、每月沙龍、雙月工作坊
+- [the Backstage 幕後人聚場](https://backstage.genesis131.com/community.html): 創意產業工作者社群，每週聚會、每月沙龍、雙月工作坊
 
 ## 聯絡
 

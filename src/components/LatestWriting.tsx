@@ -9,7 +9,7 @@ export function LatestWriting() {
   return (
     <section id="writing-preview" className="border-t border-border px-6 py-28 lg:py-36">
       <div className="mx-auto max-w-6xl">
-        <SectionSlate index="08" en="Writing" zh="最新寫作" note="SCRIPTS & NOTES" />
+        <SectionSlate index="09" en="Writing" zh="最新寫作" note="SCRIPTS & NOTES" />
 
         <ul className="mt-12 divide-y divide-border/40">
           {writings.map((w) => (

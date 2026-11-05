@@ -18,6 +18,7 @@ const works: {
   title: string;
   desc: string;
   href?: string;
+  extra?: { href: string; label: string };
 }[] = [
   {
     icon: IconBook,
@@ -56,8 +57,9 @@ const works: {
     icon: IconChat,
     who: "幕後的人",
     title: "the Backstage 幕後人聚場",
-    desc: "從 Backstage is a WORLD 攝影展長出來的社群，志工、教會同工、非營利工作者、在現場拉線搬東西的人都在，大家最常聊的，是怎麼不要把自己燒完。",
+    desc: "從 Backstage is a WORLD 攝影展長出來的社群，志工、教會同工、非營利工作者、在現場拉線搬東西的人都在，大家最常聊的，是怎麼不要把自己燒完。這個展現在也有線上版了，有空可以去逛逛。",
     href: "/#backstage",
+    extra: { href: "https://backstage.genesis131.com/online/", label: "逛線上展 →" },
   },
 ];
 
@@ -136,6 +138,16 @@ export function CompanionContent() {
                     </Link>
                   ) : (
                     card
+                  )}
+                  {w.extra && (
+                    <a
+                      href={w.extra.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="mt-3 inline-block font-mono text-[10px] tracking-[0.15em] text-accent transition-colors hover:text-foreground"
+                    >
+                      {w.extra.label}
+                    </a>
                   )}
                 </FadeInItem>
               );
