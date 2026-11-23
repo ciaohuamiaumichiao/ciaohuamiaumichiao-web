@@ -38,9 +38,9 @@ export function renderOg({
   footer: string[];
   timecode?: string;
 }) {
-  /* 標題越長字越小，最多三行 */
+  /* 標題越長字越小，最多三行（方格子搬回來的舊標題會到 60 字） */
   const len = [...title].length;
-  const titleSize = len <= 4 ? 104 : len <= 14 ? 76 : len <= 22 ? 62 : 52;
+  const titleSize = len <= 4 ? 104 : len <= 14 ? 76 : len <= 22 ? 62 : len <= 32 ? 52 : 44;
 
   return new ImageResponse(
     (
@@ -117,17 +117,22 @@ export function renderOg({
             bottom: 62,
             left: 96,
             display: "flex",
+            alignItems: "center",
             gap: 22,
             fontSize: 17,
             color: C.muted,
             letterSpacing: 2,
           }}
         >
+          {/* 分隔點用畫的：中文字型的「·」會浮在上半格，跟文字對不齊 */}
           {footer.flatMap((f, i) =>
             i === 0
               ? [<span key={f}>{f}</span>]
               : [
-                  <span key={`d${i}`} style={{ color: C.peacock }}>·</span>,
+                  <div
+                    key={`d${i}`}
+                    style={{ width: 4, height: 4, borderRadius: 999, background: C.peacock, display: "flex" }}
+                  />,
                   <span key={f}>{f}</span>,
                 ]
           )}

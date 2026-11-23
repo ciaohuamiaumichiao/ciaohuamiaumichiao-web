@@ -65,7 +65,7 @@ export default async function WritingPost({
 
   const url = `${BASE_URL}/writing/${slug}`;
   const related = getRelatedWritings(slug);
-  const images = [`${url}/opengraph-image`, ...(w.cover ? [`${BASE_URL}${w.cover}`] : [])];
+  const images = [`${url}/opengraph-image/card`, ...(w.cover ? [`${BASE_URL}${w.cover}`] : [])];
   const jsonLd = {
     "@context": "https://schema.org",
     "@graph": [
