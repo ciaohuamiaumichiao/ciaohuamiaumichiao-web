@@ -19,6 +19,7 @@ export const SAME_AS = [
   "https://www.threads.net/@ciaohuamiaumichiao",
   "https://www.youtube.com/@ciaohuamiaumichiao",
   "https://line.me/R/ti/p/@097eutou",
+  "https://www.linkedin.com/in/chengchieh-chang-0296aa35/",
 ];
 
 export const personNode = {

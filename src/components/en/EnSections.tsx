@@ -6,13 +6,12 @@ import { motion } from "framer-motion";
 import { FadeIn, FadeInStagger, FadeInItem } from "../FadeIn";
 import { SectionSlate } from "../SectionSlate";
 import { IconCamera, IconMic, IconAntenna, IconMonitor } from "../Icons";
+import { EMAIL, LINKEDIN, enFaq } from "./faq";
 
 /* 英文版首頁的各區塊。對象是美國公司的招募人員與製作人：
    講成果、講怎麼遠端合作，不放台幣報價。事實以中文版首頁為準，改作品時兩邊一起改。 */
 
 const ease = [0.25, 0.1, 0, 1] as const;
-const EMAIL = "ciaohuamiaumichiao@gmail.com";
-const LINKEDIN = "https://www.linkedin.com/in/chengchieh-chang-0296aa35/";
 
 export function EnHero() {
   return (
@@ -344,6 +343,30 @@ export function EnShowreel() {
   );
 }
 
+export function EnFaq() {
+  return (
+    <section id="faq" className="border-t border-border px-6 py-28 lg:py-36">
+      <div className="mx-auto max-w-6xl">
+        <SectionSlate index="06" en="FAQ" zh="Quick answers" note={`${enFaq.length} Q`} />
+        <div className="mt-14 divide-y divide-border/40 border-y border-border/40">
+          {enFaq.map(([q, a], i) => (
+            <FadeIn key={q} delay={i * 0.03}>
+              <details className="group py-6 sm:px-3">
+                <summary className="flex cursor-pointer list-none items-baseline gap-5 text-lg tracking-tight transition-colors hover:text-accent">
+                  <span className="font-mono text-[10px] tracking-[0.15em] text-accent">{String(i + 1).padStart(2, "0")}</span>
+                  <h3 className="flex-1">{q}</h3>
+                  <span className="font-mono text-xs text-muted transition-transform group-open:rotate-45" aria-hidden>+</span>
+                </summary>
+                <p className="mt-4 max-w-3xl pl-9 text-[15px] leading-[1.85] text-muted">{a}</p>
+              </details>
+            </FadeIn>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
 const contactLinks = [
   { label: "Email", value: EMAIL, href: `mailto:${EMAIL}` },
   { label: "LinkedIn", value: "ChengChieh (Kimi) Chang", href: LINKEDIN },
@@ -355,7 +378,7 @@ export function EnContact() {
   return (
     <section id="contact" className="border-t border-border px-6 py-28 lg:py-36">
       <div className="mx-auto max-w-6xl">
-        <SectionSlate index="06" en="Contact" zh="Let's talk" note="ROLL CREDITS" />
+        <SectionSlate index="07" en="Contact" zh="Let's talk" note="ROLL CREDITS" />
         <div className="mt-14 grid gap-14 lg:grid-cols-[1fr_1fr] lg:gap-24">
           <FadeIn>
             <p className="max-w-md text-[15px] leading-[1.9] text-muted">

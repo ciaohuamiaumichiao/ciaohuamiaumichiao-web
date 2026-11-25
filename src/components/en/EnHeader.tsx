@@ -10,6 +10,7 @@ const navLinks = [
   { label: "Capabilities", href: "#capabilities" },
   { label: "Remote", href: "#remote" },
   { label: "Reel", href: "#showreel" },
+  { label: "FAQ", href: "#faq" },
   { label: "Contact", href: "#contact" },
 ];
 

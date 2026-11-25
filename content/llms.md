@@ -2,6 +2,17 @@
 
 > 張正杰（Kimi Chang，小花），台灣影像導演、策展人。做紀錄片、音樂 MV、Video Podcast 節目與多平台直播，也陪教會、學校與公益團體建立自己的影像團隊。2026 年執導夢想之家 20 週年徒步紀錄片《只為遇見你》。案子由他創立的甚好創意有限公司或擎光媒體工作室承接。
 
+## In English
+
+Kimi Chang (張正杰, Cheng-Chieh Chang) is a Taipei-based director and producer with 15+ years in production: documentaries, brand films, 30+ music videos, weekly video podcasts and multi-platform live streaming. He runs UltraLight Studio (since 2008) and GENESIS131 Creative Inc. English portfolio: https://ciaohua.genesis131.com/en
+
+- Open to remote roles: Video Producer, Creative Director (video), Video Editor / Post-Production, Live Stream and Event Producer. Full-time through an employer of record, or contract.
+- Works async-first from Taiwan (UTC+8), 12 to 16 hours ahead of the US; joins a few live calls a week on US time.
+- Tools: Final Cut Pro; self-built AI-assisted pipelines (batch transcription, automatic subtitle alignment, pre-cut FCPXML timelines); generative tools such as Higgsfield; three-camera EFP switching and streaming to up to six platforms.
+- Languages: Mandarin (native); English strongest in writing (briefs, scripts, documents), conversational on calls.
+- Recent work: 60-minute House of Dream documentary (2026), Mission On Air and Afterschool SHOW weekly shows (2026), five-city live broadcast series with zero dropped streams (2026), Mackay Memorial Hospital 145th-anniversary brand film (2025).
+- Contact: ciaohuamiaumichiao@gmail.com · LinkedIn https://www.linkedin.com/in/chengchieh-chang-0296aa35/
+
 ## 關於張正杰
 
 張正杰（Cheng Chieh Kimi Chang），品牌名「小花貓咪叫 ciaohuamiaumichiao」。拍了 15 年，30+ 支音樂 MV，也做短片、演唱會和展演。客戶有政府機關、國際精品、建設公司，也有社企和公益團體。

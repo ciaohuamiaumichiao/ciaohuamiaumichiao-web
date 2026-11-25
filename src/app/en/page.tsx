@@ -6,11 +6,13 @@ import {
   EnCapabilities,
   EnRemote,
   EnShowreel,
+  EnFaq,
   EnContact,
   EnFooter,
 } from "@/components/en/EnSections";
 import { SelectedWork, type Work } from "@/components/SelectedWork";
-import { BASE_URL, PERSON_ID } from "@/lib/site";
+import { BASE_URL, PERSON_ID, SAME_AS } from "@/lib/site";
+import { EMAIL, LINKEDIN, enFaq } from "@/components/en/faq";
 
 /* 英文版首頁：給美國公司的招募人員看。
    根 layout 是 zh-Hant，這頁用外層 lang="en" ＋ hreflang 互指標示語言（不另開 root layout，避免動 next.config）。 */
@@ -22,6 +24,18 @@ const description =
 export const metadata: Metadata = {
   title: { absolute: title },
   description,
+  keywords: [
+    "Kimi Chang",
+    "video producer",
+    "creative director",
+    "remote video editor",
+    "documentary director Taiwan",
+    "live streaming producer",
+    "AI-assisted post-production",
+    "Final Cut Pro editor",
+    "Taipei filmmaker",
+  ],
+  authors: [{ name: "Kimi Chang", url: `${BASE_URL}/en` }],
   alternates: {
     canonical: "/en",
     languages: { "zh-Hant": "/", en: "/en", "x-default": "/" },
@@ -145,20 +159,84 @@ const works: Work[] = [
   },
 ];
 
+/* 結構化資料（英文）：個人檔案頁、人物、作品清單、FAQ。內容與頁面上看得到的文字一致 */
+const person = {
+  "@id": PERSON_ID,
+  "@type": "Person",
+  name: "Kimi Chang",
+  alternateName: ["張正杰", "Cheng-Chieh Chang", "ChengChieh Chang"],
+  jobTitle: "Video Producer and Creative Director",
+  description,
+  url: `${BASE_URL}/en`,
+  email: `mailto:${EMAIL}`,
+  homeLocation: { "@type": "Place", name: "Taipei, Taiwan" },
+  knowsLanguage: [
+    { "@type": "Language", name: "Mandarin Chinese", alternateName: "zh" },
+    { "@type": "Language", name: "English", alternateName: "en" },
+  ],
+  knowsAbout: [
+    "Documentary directing",
+    "Brand film production",
+    "Music video directing",
+    "Video podcast production",
+    "Multi-platform live streaming",
+    "Multi-camera EFP switching",
+    "Final Cut Pro editing",
+    "AI-assisted post-production",
+    "Automatic subtitle alignment",
+    "Generative video tools",
+  ],
+  alumniOf: { "@type": "CollegeOrUniversity", name: "Shih Hsin University", department: "Radio, Television and Film" },
+  worksFor: [
+    { "@type": "Organization", name: "UltraLight Studio" },
+    { "@type": "Organization", name: "GENESIS131 Creative Inc." },
+  ],
+  sameAs: [LINKEDIN, ...SAME_AS.filter((u) => u !== LINKEDIN)],
+};
+
 const jsonLd = {
   "@context": "https://schema.org",
-  "@type": "ProfilePage",
-  "@id": `${BASE_URL}/en#profile`,
-  url: `${BASE_URL}/en`,
-  name: title,
-  inLanguage: "en",
-  mainEntity: {
-    "@id": PERSON_ID,
-    name: "Kimi Chang",
-    jobTitle: "Video Producer and Creative Director",
-    workLocation: { "@type": "Place", name: "Taipei, Taiwan (remote)" },
-    knowsLanguage: ["zh-Hant", "en"],
-  },
+  "@graph": [
+    {
+      "@type": "ProfilePage",
+      "@id": `${BASE_URL}/en#profile`,
+      url: `${BASE_URL}/en`,
+      name: title,
+      inLanguage: "en",
+      mainEntity: { "@id": PERSON_ID },
+      dateModified: "2026-11-25",
+    },
+    person,
+    {
+      "@type": "ItemList",
+      "@id": `${BASE_URL}/en#work`,
+      name: "Kimi Chang: selected work",
+      itemListElement: works.map((w, i) => ({
+        "@type": "ListItem",
+        position: i + 1,
+        item: {
+          "@type": "CreativeWork",
+          name: w.title,
+          genre: w.category,
+          dateCreated: w.year,
+          description: w.description,
+          creator: { "@id": PERSON_ID },
+          inLanguage: "zh-Hant",
+          ...(w.href ? { url: w.href } : {}),
+        },
+      })),
+    },
+    {
+      "@type": "FAQPage",
+      "@id": `${BASE_URL}/en#faq`,
+      inLanguage: "en",
+      mainEntity: enFaq.map(([q, a]) => ({
+        "@type": "Question",
+        name: q,
+        acceptedAnswer: { "@type": "Answer", text: a },
+      })),
+    },
+  ],
 };
 
 export default function EnglishHome() {
@@ -173,6 +251,7 @@ export default function EnglishHome() {
         <EnCapabilities />
         <EnRemote />
         <EnShowreel />
+        <EnFaq />
         <EnContact />
       </main>
       <EnFooter />
