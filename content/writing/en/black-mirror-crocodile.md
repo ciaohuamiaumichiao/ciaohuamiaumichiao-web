@@ -28,7 +28,7 @@ In other words, as a director, I won't have to draw storyboards by hand anymore!
 
 ## The memory reader: Black Mirror, "Crocodile"
 
-As a film fan, when something this close to science fiction shows up, then besides the anime *Top Secret* (*Himitsu*) that everyone keeps recommending, of course I have to share where this technology might be in ten years. And that's *Black Mirror*, Charlie Brooker's series, Season 4, Episode 3: "Crocodile."
+As a film fan, when something this close to science fiction shows up, then besides the anime *Top Secret: The Revelation* (*Himitsu*) that everyone keeps recommending, of course I have to share where this technology might be in ten years. And that's *Black Mirror*, Charlie Brooker's series, Season 4, Episode 3: "Crocodile."
 
 ![Promotional poster for Black Mirror "Crocodile," a close-up of the lead actress](/writing/vocus/black-mirror-crocodile/02.jpg)
 

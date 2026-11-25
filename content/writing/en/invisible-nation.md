@@ -1,7 +1,7 @@
 ---
 title: "Invisible Nation: When the World Finally Sees Taiwan, We See Ourselves Again"
 date: 2025-05-20
-excerpt: "Invisible Nation is a documentary by American director Vanessa Hope with President Tsai Ing-wen at its center. Shot up close, it portrays Taiwan's place in the world and its democratic values gently and with restraint. Watching it as a director, I look at how the film helps us see ourselves again, and lets the world see us too."
+excerpt: "Can a documentary change the way you see the world? For me, Invisible Nation did exactly that."
 tags: [Film notes, Documentary, Taiwan]
 seoTitle: "Invisible Nation Review: Tsai Ing-wen, Taiwan and Democracy on Film"
 description: "A review of Invisible Nation, in which American director Vanessa Hope spent seven years filming Tsai Ing-wen up close and talks about Taiwan's democracy and international position through restrained camerawork. A director's look at how the documentary tells its story, how it sets Taiwan against Hong Kong, and why it made Taiwanese viewers see themselves again."
@@ -14,76 +14,76 @@ about:
 originalUrl: https://vocus.cc/article/682c6cc2fd8978000138b5e9
 ---
 
-Can a documentary change the way a person sees the world? For me, *Invisible Nation* (看不見的國家) did. This isn't the kind of documentary you watch while eating popcorn and glancing at your phone. It's a film that makes you go quiet, pay attention, feel it, and keep thinking about it afterwards. It's gentle but firm, restrained but powerful, and it made me realize for the first time that while we keep saying we hope the world will see Taiwan, maybe what we need more is to see ourselves first.
+Can a documentary change the way you see the world? For me, **Invisible Nation** did exactly that.
+
+This isn’t the kind of documentary you casually half-watch while scrolling your phone. It’s quiet but powerful, restrained but emotionally resonant. It made me slow down, listen, and reflect. As I sat in the darkened theater, I realized that while we often say we want the world to “see Taiwan,” perhaps what we truly need is to better see ourselves.
 
 ![Chinese-language poster for Invisible Nation, a collage of figures with Taiwan's mountains, sea and cities](/writing/vocus/invisible-nation/01.jpg)
 
 ## A president, seen through a director's eyes
 
-*Invisible Nation* is directed by American filmmaker Vanessa Hope. She isn't Taiwanese, yet she spent seven years filming Tsai Ing-wen, Taiwan's first woman president, up close as she governed. Those years happen to cover the most turbulent and most critical stretch Taiwan has been through recently: the Hong Kong protests against the extradition bill, COVID-19, China's escalating military threats, and a world order shifting fast.
+**Invisible Nation** is directed by American filmmaker Vanessa Hope, who spent seven years documenting President Tsai Ing-wen—Taiwan’s first female president—through some of the country’s most tumultuous years: from the Hong Kong protests and the pandemic to China’s escalating military threats and Taiwan’s growing global presence.
 
-As someone who studied film, I care a lot about how a director tells a story. This film has no fiery narration and no editing designed to manufacture conflict. It chooses a very steady approach: let the images speak, let the camera quietly observe. The camera gets close, close enough that you see President Tsai on the sofa playing with her cat, handling government business in the Presidential Office, talking with her staff on the presidential plane. That kind of close filming neither intrudes nor builds a myth. If anything, it gives you a feeling of honesty and trust.
+As someone with a background in filmmaking, I pay attention to how stories are told through images. This film doesn’t rely on dramatic narration or sensational edits. Instead, the camera quietly observes. It follows President Tsai closely—on planes, inside the Presidential Office, at press briefings, and even during her quiet moments at home with her cat. These scenes are intimate yet respectful. They don’t idolize her, but they invite us to see her as she is.
 
-I was actually surprised that the film doesn't go into much detail about how Tsai makes decisions. The director isn't promoting her record. She gets us to know Tsai another way: how she treats visiting journalists, how she talks, how she listens, how she responds in different settings. Those small things are what helped me understand what kind of person she is. Gentle, measured, never rash, able to make her position clear without saying very much.
+What surprised me most is that this film doesn’t focus on Tsai’s political decisions. It doesn’t enumerate her policies or accomplishments. Instead, it shows who she is in the in-between moments: how she treats journalists, how she speaks, how she listens, how she carries herself. Through these soft, unguarded gestures, I began to understand her—not just as a politician, but as a person.
 
-I started to wonder if it's exactly those qualities that made the world finally a little more willing to listen to Taiwan.
+And perhaps it’s exactly this calm, composed, and gentle demeanor that made it possible for the world to begin understanding Taiwan.
 
 ## This isn't a film about whether Taiwan should be independent
 
-I think this point matters. Taiwan's issues get flattened very easily into picking one of two political sides, but *Invisible Nation* isn't asking whether you support independence. What it cares about is how we understand democracy.
+Taiwan’s story is often reduced to a yes-or-no question about independence. But **Invisible Nation** avoids that binary trap. This isn’t a film about taking sides—it’s about exploring what democracy really means.
 
-In this film, Taiwan is a country working hard to hold on to the way it chose to live. We chose an open society, free speech, and a system where people choose their leaders, and to some powerful countries, that choice is a threat.
+In the film, Taiwan is portrayed as a nation that has chosen to be open, to be free, to let its people decide their leaders and shape their future. And that choice—simple as it may sound—is threatening to some powers in the world.
 
-One scene stuck with me. When Tsai says that China doesn't want the world to hear Taiwan's story, the silence in that moment hits harder than any narration could. Nobody shouts a slogan, nobody is trying to make the audience cry. It just makes you start asking yourself: so what is Taiwan's story? Do I really understand it?
+One moment that stayed with me was when President Tsai said, “China doesn’t want the world to hear Taiwan’s story.” She says it softly, without fanfare, but the weight of her words lingers. The film doesn’t try to stir emotions with music or drama. It just lets that sentence hang in the air, making you think: “Do I really understand what Taiwan is trying to say?”
 
-That was one of the biggest things I took away from the film. I got to know Taiwan again, not through the noise of our political talk shows, but through a foreign director telling you, quietly and clearly: the place you live really is special.
+That, for me, was the turning point. I wasn’t just watching a documentary—I was beginning to rethink what it means to be from this place, and what it means to speak for ourselves.
 
 ## When the world sees Taiwan, we see ourselves
 
-A lot of people say *Invisible Nation* is a film made for foreigners, because it spends quite a bit of time explaining Taiwan's history, its political system, and its relationship with China. That's true. If you grew up in Taiwan, you might feel you already know all of it.
+Some have said this film was made for foreign audiences because it spends time explaining Taiwan’s political history, its complicated status, and its relationship with China. And they’re right—it does.
 
-But I'd argue it's precisely because this material is told in a language meant for the world to understand that we realize: oh, so this is where we stand in other people's eyes.
+But that’s precisely why it’s so powerful. Because when you see yourself through the eyes of someone who cares enough to listen and understand, you start seeing yourself differently too.
 
-We tend to think of "Taiwan isn't a country" as a technicality of international law, but in reality it affects how we take part in the Olympics, how we handle diplomatic allies, how we get a voice in the World Health Organization. We've gotten too used to being isolated, too used to the "well, that's just how it is" attitude. *Invisible Nation* showed me that there are people out there trying to understand us and listen to us. We're usually just too busy arguing among ourselves to stop and notice anyone looking in from outside.
+**Invisible Nation** reminds us that Taiwan’s international isolation isn’t just about being left out of organizations like the UN or the WHO. It affects how we see our place in the world—and how often we’ve internalized being “unseen” as normal.
 
-In that moment I felt that this quality is how Taiwan has survived this long.
+It struck me deeply. That moment captured how Taiwan has made it this far—not by shouting, but by staying steady.
 
 ## Next to Hong Kong, we understand better what we're protecting
 
-Everyone has watched what happened in Hong Kong these past few years. *Invisible Nation* doesn't actually talk about Hong Kong much, but the director uses a few well-paced sequences to draw the comparison: as Hong Kong's freedoms are taken back one by one, Taiwan's existence becomes even more precious.
+The film doesn’t focus on Hong Kong, but the comparison is impossible to ignore. As we watch the collapse of freedom in Hong Kong, Taiwan’s democratic resilience feels all the more urgent.
 
-One thought kept coming back to me: if we don't treasure the freedom we have now, what will we turn into?
+Watching **Invisible Nation**, I kept thinking: If we don’t protect our freedom now, what will we become?
 
-That's what I think the film does best. It isn't asking you to stand up and do something right away. It just starts you thinking about whether you're willing to take responsibility for the way you live.
+That’s what I admire most about this film—it doesn’t pressure you to act, but it plants a seed. It quietly asks: Are you ready to take responsibility for the life you want to live?
 
-The film is calm, maybe even too calm. There's no dramatic climax and no rousing score, but that's exactly why it lets things settle in you. It's not the kind of work that sets your emotions on fire. It's more the kind of film that has you reflecting on the MRT on the way home.
+The film doesn’t overwhelm you with emotion. Instead, it invites reflection. It’s not a battle cry—it’s a conversation. And maybe that’s exactly what we need.
 
 ## Gentleness isn't compromise, it's a deep kind of statement
 
-The Tsai Ing-wen in this film is very different from the kind of leader we're used to. She isn't loud, she isn't emotional, she doesn't push her own presence, and she even speaks softly.
+Tsai Ing-wen’s leadership style stands in stark contrast to what we usually expect from political figures. She’s not loud. She doesn’t seek attention. She doesn’t try to dominate the room. Her words are measured, her actions composed.
 
-Some people might say that isn't tough enough. I actually think that gentleness comes from a deep belief: in democracy, in dialogue, in the power of choice.
+Some may see this as weakness. But I see it as conviction.
 
-She never makes a speech to the camera, but everything she does says: we'll walk our own road.
+To me, her quiet strength shows a deep trust in democracy and dialogue. She doesn’t need to scream because she knows where she stands. And she’s inviting the world to understand that, too.
 
-I think that posture is what finally let the world really understand Taiwan. In a world full of shouting, confrontation and division, a country that chooses to keep going steadily and calmly in the direction it picked is making a very clear statement just by doing that.
-
-It reminded me of a saying: gentle people must have a lot of strength inside. And I believe Taiwan's strength is exactly this kind of persistence that still has warmth in it.
+In a global environment full of shouting and division, Taiwan’s calm perseverance is not just a strategy—it’s a statement.
 
 ## Why you should go see it in a theater
 
-The film doesn't really hand you a clear conclusion, and it doesn't tell you that you have to take a position. But it makes you rethink a lot of things you took for granted. Why is our country so hard to recognize? Why does our president act the way she does? What does our future actually look like?
+**Invisible Nation** doesn’t give you easy answers. It doesn’t tell you what to believe. What it does is something more valuable—it helps you ask better questions.
 
-If you're curious about the world, if freedom means something to you, if you still have hope for the future, then you should go see this film.
+Why is it so hard for Taiwan to be recognized? Why do our choices feel so constrained? What future do we want, and what are we willing to do for it?
 
-Not only because it's about Taiwan, but because it reminds us that we still have choices.
+If you’re curious about the world, if you care about freedom, if you still believe in the power of telling your own story—then this is a film worth watching.
 
-Maybe after the film you won't immediately head out into the streets. But maybe you'll be more willing to learn a little more about this country, or start valuing the ballot in your hand, or say "I'm Taiwanese" a little more clearly.
+It might not make you march in the streets, but it could make you look at your passport differently. Or speak the words “I am Taiwanese” with more clarity.
 
-That's enough.
+And maybe that’s where change begins.
 
 ![After a screening of Invisible Nation, the speaker stands in front of the screen holding a microphone](/writing/vocus/invisible-nation/02.jpg)
 
 ---
 
-*Translated from the [Mandarin original](/writing/invisible-nation).*
+*I wrote this piece in both Mandarin and English, and this is my own English version. Read the [Mandarin original](/writing/invisible-nation).*
