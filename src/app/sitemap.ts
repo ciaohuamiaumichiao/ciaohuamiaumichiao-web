@@ -46,13 +46,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: `${BASE_URL}/tools`,
-      lastModified: new Date("2026-11-02"),
+      lastModified: new Date("2026-11-25"),
       changeFrequency: "monthly",
       priority: 0.6,
     },
     {
       url: `${BASE_URL}/tools/higgsfield`,
       lastModified: new Date("2026-11-02"),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: `${BASE_URL}/tools/etherfi`,
+      lastModified: new Date("2026-11-25"),
       changeFrequency: "monthly",
       priority: 0.8,
     },

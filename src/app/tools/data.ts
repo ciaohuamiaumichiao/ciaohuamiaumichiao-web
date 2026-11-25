@@ -104,3 +104,87 @@ export const faqs = [
     a: "有。從這頁的連結訂閱，我可以拿到分潤，官方寫的是最高 25%，最長 12 個月，退款的訂單不算。Higgsfield 沒有看過這篇，內容是我自己寫的。",
   },
 ];
+
+/* ───────────── ether.fi Cash ─────────────
+   我的數字：ether.fi 匯出的交易紀錄 CSV（2026-05-01 到 2026-11-01），會員頁的累積回饋與推薦收入（2026-11-25 看）。
+   官方規則：help.ether.fi 說明中心與 App 內的會員頁、推薦頁，同日查的。規則變動很快，更新時連日期一起改。 */
+
+export const ETHERFI_URL = "https://www.ether.fi/@ciaohua";
+export const ETHERFI_HELP = {
+  countries: "https://help.ether.fi/en/articles/758780-in-which-countries-is-the-ether-fi-card-available",
+  cashback: "https://help.ether.fi/en/articles/262374-how-does-cashback-work",
+  fx: "https://help.ether.fi/en/articles/304414-what-s-the-foreign-exchange-fx-rate-used-on-cash-transactions",
+  membership: "https://help.ether.fi/en/articles/303625-how-do-membership-levels-work",
+  affiliate: "https://help.ether.fi/en/articles/304984-affiliate-program",
+  declined: "https://help.ether.fi/en/articles/262393-why-did-my-transaction-get-declined",
+  excluded: "https://help.ether.fi/en/articles/882488-which-transactions-don-t-earn-cashback",
+};
+export const ETHERFI_CHECKED_DATE = "2026 年 11 月 25 日";
+export const ETHERFI_PUBLISHED_ISO = "2026-11-25";
+
+export const etherfiStats = [
+  { value: "1,353", unit: "美元", label: "5 月到 10 月刷掉的錢" },
+  { value: "37.6", unit: "美元", label: "同一段時間拿到的回饋" },
+  { value: "44", unit: "筆", label: "成功扣款" },
+  { value: "47", unit: "次", label: "被拒絕，比成功還多" },
+];
+
+export const etherfiMonths = [
+  { month: "5 月", spend: 213.0, cashback: 3.39 },
+  { month: "6 月", spend: 138.94, cashback: 4.17 },
+  { month: "7 月", spend: 251.47, cashback: 7.54 },
+  { month: "8 月", spend: 212.72, cashback: 6.38 },
+  { month: "9 月", spend: 213.16, cashback: 6.39 },
+  { month: "10 月", spend: 324.48, cashback: 9.73 },
+];
+
+export const etherfiMerchants = [
+  { name: "AI 助理與生成工具", count: 20, spend: 735.57, note: "其中一筆 100 美元沒有回饋" },
+  { name: "直播推流與 Podcast 剪輯", count: 12, spend: 468.0, note: "全部美元計價" },
+  { name: "影音與閱讀訂閱", count: 12, spend: 150.2, note: "大部分台幣計價" },
+];
+
+export const etherfiTiers = [
+  { name: "Core", price: "免費", unlock: "註冊就是", band: "每月前 2,000 美元 3%", fx: "0.5%" },
+  { name: "Luxe", price: "US$199／年", unlock: "或每月 5,000 點", band: "每月前 10,000 美元 3%", fx: "0.25%" },
+  { name: "Pinnacle", price: "US$999／年", unlock: "或每月 25,000 點", band: "每月前 50,000 美元 3%", fx: "不加收" },
+];
+
+export const etherfiFaqs = [
+  {
+    q: "ether.fi Cash 卡台灣可以辦嗎？",
+    a: `可以。官方說明中心的國家清單裡，台灣在虛擬卡和實體卡都能辦的那一區，我${ETHERFI_CHECKED_DATE}查的時候是這樣。要先通過身分驗證，清單也會變，申請前再看一次官方頁面比較保險。`,
+  },
+  {
+    q: "回饋是現金嗎？",
+    a: "不是台幣，也不是美元。回饋先用美元算，消費清算之後換成 ETHFI 代幣，鎖 7 天，可領的金額超過 5 美元才能領出來。ETHFI 的價格會漲也會跌，所以你領到的時候值多少，跟刷卡當下算的不一定一樣。",
+  },
+  {
+    q: "要年費嗎？",
+    a: "最基本的 Core 不用錢，我現在就是 Core。Luxe 一年 199 美元、Pinnacle 一年 999 美元，也可以靠每個月的點數升級，刷卡是每 1,000 美元換 1,000 點，Luxe 要每個月 5,000 點，以我一個月刷兩百多美元的程度，是不可能的啦。",
+  },
+  {
+    q: "刷台幣會被收手續費嗎？",
+    a: "要換匯的消費，官方寫的加收上限是 Core 0.5%、Luxe 0.25%，Pinnacle 以上不加。我有幾個訂閱是台幣計價，帳上會先換成美元再算 3% 回饋，扣掉這 0.5%，最差大概剩 2.5%。",
+  },
+  {
+    q: "台灣要怎麼儲值？",
+    a: "官方列的法幣入金方式裡沒有台幣，所以在台灣基本上要用加密貨幣儲值。我這半年 15 次儲值全部都是 USDT，加起來 1,496 美元。如果你手上完全沒有加密貨幣，光是先去買 USDT 再轉過去，就多了好幾個步驟和手續費，這點要先想好。",
+  },
+  {
+    q: "為什麼你被拒絕了 47 次？",
+    a: "對照時間來看，幾乎都是餘額不夠。我習慣等到扣款失敗才去儲值，訂閱的商家又會隔一兩天重扣一次，所以光是一個直播工具的訂閱，10 月就被拒了 6 次，每次儲值完，通常幾分鐘內就扣成功了。官方說明中心也把餘額不足列成最常見的原因，拿它付訂閱的話，記得月初先放一點錢進去。",
+  },
+  {
+    q: "哪些消費沒有回饋？",
+    a: "官方列了一串，像 ATM 提款、轉帳、博弈、禮物卡、儲值這類都沒有，個別商家也可能被排除。我自己有一筆 5 月 100 美元的訂閱，扣款成功但回饋是 0，同一個服務其他月份都有 3%，原因我還沒去問客服。",
+  },
+  {
+    q: "從你的連結註冊，會多拿到什麼嗎？",
+    a: "不會。我的邀請頁寫的就是一般的「最高 3% 回饋」，跟你直接去官網註冊拿到的一樣，沒有額外加碼。差別只在我這邊會拿到推薦獎勵，下一題講。",
+  },
+  {
+    q: "你推薦 ether.fi 有拿錢嗎？",
+    a: "有。依官方的推薦計畫，你用我的連結註冊、開卡，而且刷滿 100 美元之後，我會拿到 10 美元的新會員獎勵，之後你刷卡的 0.1%、實體卡費用的 20%、發卡費的 50% 也會分給我，用 USDC 每個月 15 號發。寫這篇的時候我的推薦收入是 0 美元，ether.fi 也沒有看過這篇。",
+  },
+];

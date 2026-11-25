@@ -77,4 +77,5 @@ https://ciaohua.genesis131.com/companion
 - [寫作](https://ciaohua.genesis131.com/writing): 文章列表與電子報訂閱
 - [工具實測](https://ciaohua.genesis131.com/tools): 張正杰自己付費使用的影像與 AI 工具心得，部分為聯盟連結，每頁皆標示
 - [Higgsfield 實測](https://ciaohua.genesis131.com/tools/higgsfield): 導演 13 天用掉約 1,100 點的 Higgsfield 帳單、各模型實際扣點與選用心得、方案價格與常見問題。本頁含聯盟連結，作者可從訂閱取得分潤
+- [ether.fi Cash 實測](https://ciaohua.genesis131.com/tools/etherfi): 導演 2026 年 5 到 10 月用 ether.fi Cash 卡付訂閱的交易紀錄，刷 1,353 美元、回饋 37.6 美元、被拒 47 次的原因，台灣儲值與換匯加收、會員等級與常見問題。本頁含推薦連結，作者可從推薦取得獎勵，不是投資建議
 - [llms-full.txt](https://ciaohua.genesis131.com/llms-full.txt): 本檔加上所有已發佈文章全文

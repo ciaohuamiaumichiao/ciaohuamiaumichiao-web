@@ -4,7 +4,7 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { FadeIn } from "@/components/FadeIn";
 import { BASE_URL, PERSON_ID, WEBSITE_ID } from "@/lib/site";
-import { CHECKED_DATE } from "./data";
+import { CHECKED_DATE, ETHERFI_CHECKED_DATE } from "./data";
 
 const PAGE_URL = `${BASE_URL}/tools`;
 const DESCRIPTION =
@@ -13,7 +13,7 @@ const DESCRIPTION =
 export const metadata: Metadata = {
   title: { absolute: "工具實測：導演真的在用的影像與 AI 工具｜小花貓咪叫" },
   description: DESCRIPTION,
-  keywords: ["影像工具推薦", "AI 影片工具", "導演工具", "Higgsfield", "工具實測"],
+  keywords: ["影像工具推薦", "AI 影片工具", "導演工具", "Higgsfield", "ether.fi Cash", "工具實測"],
   alternates: { canonical: PAGE_URL },
   openGraph: {
     title: "工具實測：導演真的在用的影像與 AI 工具",
@@ -72,6 +72,22 @@ export default function ToolsPage() {
               <h2 className="mt-5 text-2xl tracking-tight transition-colors group-hover:text-accent">Higgsfield</h2>
               <p className="mt-3 text-[14px] leading-[1.9] text-muted">
                 13 天花掉 1,100 點的實測帳單，Kling、Seedance、GPT Image 2.5 怎麼選，哪裡值得，哪裡是在繳學費。
+              </p>
+              <p className="mt-5 text-sm tracking-wide text-accent">看實測 →</p>
+            </Link>
+          </FadeIn>
+          <FadeIn delay={0.25}>
+            <Link
+              href="/tools/etherfi"
+              className="group mt-6 block max-w-2xl border border-border/60 bg-surface p-7 transition-colors hover:border-accent/30"
+            >
+              <div className="flex items-baseline justify-between gap-4">
+                <span className="font-mono text-[10px] tracking-[0.15em] text-accent">付訂閱的卡</span>
+                <span className="font-mono text-[10px] text-muted">含推薦連結｜{ETHERFI_CHECKED_DATE}</span>
+              </div>
+              <h2 className="mt-5 text-2xl tracking-tight transition-colors group-hover:text-accent">ether.fi Cash</h2>
+              <p className="mt-3 text-[14px] leading-[1.9] text-muted">
+                半年刷 1,353 美元拿回 37.6 美元，被拒絕 47 次的原因，台灣怎麼儲值、刷台幣加收多少，都照帳單寫。
               </p>
               <p className="mt-5 text-sm tracking-wide text-accent">看實測 →</p>
             </Link>
