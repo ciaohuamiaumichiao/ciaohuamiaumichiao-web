@@ -3,8 +3,8 @@ title: "Someone Asked Me to Teach His Son Photography. I Said No, and Watched Ne
 date: 2026-03-23
 excerpt: "A dad asked if I could teach his 11-year-old son to take pictures. I said no. Then I went to their house two hours a week, watched Netflix with the kid, and asked him one question afterwards. We kept that up for three years."
 tags: [Photography, Teaching, Lecture notes]
-seoTitle: "Teaching a Kid Photography? Start by Watching Movies Together"
-description: "A dad asked me to teach his 11-year-old son photography. I said no, and instead watched Netflix with him two hours a week, asking just one question afterwards: what did you feel? Why learning to feel comes before learning photography, and why almost every photo in my exhibition was shot on an iPhone."
+seoTitle: "Teaching a Kid Photography by Watching Movies"
+description: "A dad asked me to teach his son photography. We watched Netflix weekly for three years instead, and I asked one question: what did you feel?"
 keywords: ["teaching kids photography", "how to learn photography", "iPhone photography", "watching movies with kids", "homeschool art education", "photography and emotion"]
 source: photography-is-feeling
 updated: 2026-10-30

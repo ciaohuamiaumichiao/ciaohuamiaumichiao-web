@@ -3,8 +3,8 @@ title: "BIG: Keeping a Film Alive, and Letting Films and Real Life Work Together
 date: 2024-01-14
 excerpt: "Director Wei Te-sheng cleverly combines emotion and marketing, so the film isn't just a piece of work but a Christmas gift for 2023 and a warm source of strength in everyday life. With heartfelt performances, precise casting and textbook-level character relationships, its emotional pull on the audience is hard to ignore."
 tags: [Film notes, Taiwanese cinema, Film marketing]
-seoTitle: "BIG (2023) Review: How Wei Te-sheng Took a Film Beyond the Theater"
-description: "A review of BIG, Wei Te-sheng's film about childhood cancer, which weaves character arcs for six families and nearly 20 characters in Ward 816. From Pets Tseng's performance and how dialogue lands on screen, to more than 600 private screenings with talks and real-world brand partnerships: how a Taiwanese film connected itself to real life."
+seoTitle: "Wei Te-sheng's BIG Review: A Film Beyond Theaters"
+description: "A review of BIG, Wei Te-sheng's film about kids with cancer in Ward 816: six families, the acting, and how 600+ screenings tied it to real life."
 keywords: ["BIG 2023 film", "BIG movie review", "Wei Te-sheng", "Taiwanese cinema", "childhood cancer movie", "Ward 816", "film marketing Taiwan"]
 source: big-keep-films-alive
 about:

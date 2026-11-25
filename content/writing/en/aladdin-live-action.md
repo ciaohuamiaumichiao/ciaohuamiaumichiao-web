@@ -3,8 +3,8 @@ title: "Live-Action Aladdin: A Lovely Family Movie Night and a Talk About Women 
 date: 2024-10-01
 excerpt: "Disney's 2019 live-action Aladdin brings back the magic of the classic story and goes deeper into women's autonomy. Jasmine has a strong sense of her own will. She's no longer waiting to be rescued: she wants to rule, takes part in running the kingdom and chooses her own marriage."
 tags: [Film notes, Family movie night, Disney]
-seoTitle: "Aladdin (2019) Review: Princess Jasmine and Questions to Discuss With Kids"
-description: "A family movie night with Disney's 2019 live-action Aladdin, where Jasmine wants to be sultan, chooses her own marriage and sings Speechless about refusing to be silenced. Ends with eight discussion questions for talking with kids about gender equality, courage and leadership."
+seoTitle: "Aladdin (2019) Review and Questions for Kids"
+description: "A family movie night with Disney's 2019 live-action Aladdin, where Jasmine wants to rule and sings Speechless, plus discussion questions for kids."
 keywords: ["Aladdin 2019 review", "live-action Aladdin", "Princess Jasmine", "Speechless Aladdin", "family movie discussion questions", "Will Smith Genie", "movies about gender equality for kids"]
 source: aladdin-live-action
 about:

@@ -3,8 +3,8 @@ title: "If I Ran the Indigenous Peoples Cultural Foundation, Could Moana 2 Get U
 date: 2024-12-04
 excerpt: "If I were the Indigenous Peoples Cultural Foundation, could I put part of the budget into Moana 2? The reason is simple: if the goal is helping the general public get to know the Austronesian peoples, this film's potential influence is far bigger than we imagine."
 tags: [Film notes, Animation, Indigenous culture]
-seoTitle: "Moana 2 Review: Austronesian Roots, Taiwan, and the Meaning of Tattoos"
-description: "A Moana 2 review from someone who has worked with Taiwan's Indigenous cultures for years: the Austronesian world on screen, the Moana and Maui double act, what tattoos mean for a warrior, the Indigenous Mandarin voice cast versus The Rock in English, and watching it in in89's LUXE hall."
+seoTitle: "Moana 2 Review: Austronesian Roots and Taiwan"
+description: "A Moana 2 review from someone who works with Taiwan's Indigenous cultures: the Austronesian world on screen, tattoos, and the Indigenous Mandarin cast."
 keywords: ["Moana 2 review", "Moana 2", "Austronesian peoples", "Taiwan Indigenous culture", "Polynesian tattoo meaning", "Dwayne Johnson Maui", "in89 LUXE Taipei"]
 source: moana-2-austronesian
 about:

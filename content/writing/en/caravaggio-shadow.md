@@ -3,8 +3,8 @@ title: "\"Your Work Sows Doubt, When They Should Simply Believe\": Caravaggio's 
 date: 2023-05-23
 excerpt: "In Caravaggio's Shadow, a dashing Louis Garrel plays a secret agent in black who sits outside the Church's normal chain of command. Carrying the Church's files, he visits each of the key people in them who crossed paths with Caravaggio. Through his reading of those files (or ours, as the audience)…"
 tags: [Film notes, Art, Faith]
-seoTitle: "Caravaggio's Shadow Review: Light, Faith and the Painter's Saints"
-description: "In Caravaggio's Shadow, Louis Garrel plays a Vatican investigator digging into Caravaggio's life. How the film's light and shadow pay tribute to Caravaggio's paintings, and how he painted prostitutes and the homeless as saints, handing the meaning of the faith back to ordinary people."
+seoTitle: "Caravaggio's Shadow Review: Light and Faith"
+description: "A review of Caravaggio's Shadow, with Louis Garrel as a Vatican investigator: how its light honors a painter who made prostitutes and the poor into saints."
 keywords: ["Caravaggio's Shadow", "Caravaggio's Shadow review", "L'ombra di Caravaggio", "Caravaggio movie", "Louis Garrel", "Caravaggio chiaroscuro", "Caravaggio religious paintings"]
 source: caravaggio-shadow
 about:

@@ -3,8 +3,8 @@ title: "No Budget for a Director: The One Instruction I Gave My Camera Crew"
 date: 2026-11-02
 excerpt: "A worship concert, three cameras, no switcher, headsets with no audio. Before we rolled I gave one instruction: we're here to worship, we just happen to be holding cameras."
 tags: [Live production, Directing, Lecture notes]
-seoTitle: "How to Shoot a Worship Concert With Three Cameras and No Live Director"
-description: "XEK's worship concert couldn't afford a live director, so three cameras shot on their own. The one instruction I gave the crew, the book that shaped how I shoot church events, and what changed when I compared an AI edit with my own."
+seoTitle: "Shooting a Worship Concert With No Live Director"
+description: "A worship concert, three cameras and no live director. The one instruction I gave the crew, the book behind how I shoot church events, and an AI edit."
 keywords: ["worship concert video", "multi-camera shoot", "live event directing", "church media", "AI editing vs human editing", "documentary camera direction"]
 source: three-cameras-one-cue
 ---

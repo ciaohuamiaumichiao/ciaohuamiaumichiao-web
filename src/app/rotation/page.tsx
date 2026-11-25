@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { BreadcrumbJsonLd } from "@/components/BreadcrumbJsonLd";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { RotationContent } from "./RotationContent";
@@ -83,6 +84,7 @@ const faqJsonLd = {
 export default function RotationPage() {
   return (
     <>
+      <BreadcrumbJsonLd items={[["首頁", "/"], ["排班陪跑", "/rotation"]]} />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceJsonLd) }}

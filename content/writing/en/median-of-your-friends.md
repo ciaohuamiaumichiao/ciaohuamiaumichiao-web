@@ -3,8 +3,8 @@ title: "My Wife Sent Me a Health Article, and I Realized the Algorithm Had Alrea
 date: 2026-03-28
 excerpt: "There's a saying that your income is roughly the median of your five closest friends. I always thought it was something artsy types said to insult people, until one day I watched two videos about brain fog, and for the next few days our phones fed my wife and me a whole stream of health content."
 tags: [Branding, Social media, Creative work]
-seoTitle: "How Social Media Algorithms Shape Your Personal Brand: You Get Shown to Who You Engage With"
-description: "They say your income is the median of your five closest friends, and social media algorithms magnify that. Starting from the stream of health content that got pushed to my wife and me, how Instagram, Facebook and TikTok tie you to the people you interact with most, and how to choose who you engage with when you're building a brand."
+seoTitle: "How Algorithms Shape Your Personal Brand"
+description: "Two brain fog videos later, health content flooded my phone and my wife's. How algorithms tie you to who you engage with, and what that means for a brand."
 keywords: ["social media algorithm", "Instagram algorithm", "personal brand", "average of your five friends", "social media strategy", "brand building"]
 source: median-of-your-friends
 updated: 2026-10-30

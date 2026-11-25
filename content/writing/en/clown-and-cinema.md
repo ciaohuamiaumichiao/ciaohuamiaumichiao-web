@@ -3,8 +3,8 @@ title: "After the Circus × The Films Clowns Bring Back for Me"
 date: 2023-03-09
 excerpt: "The circus has one classic character: the clown. A clown usually wears a red nose, almost like a trademark. Clowns always bring me back to Hou Hsiao-hsien's The Sandwich Man, an anthology also seen as the beginning of the Taiwan New Wave."
 tags: [Film notes, Taiwanese cinema, Hou Hsiao-hsien]
-seoTitle: "From The Sandwich Man to A City of Sadness 4K: Clowns and Hou Hsiao-hsien"
-description: "From the red-nosed circus clown to Hou Hsiao-hsien's The Sandwich Man and the realism of the Taiwan New Wave, plus the 4K restoration of A City of Sadness and Tseng Hsi-pa, the film teacher who used to show me movies on VCD."
+seoTitle: "Clowns, The Sandwich Man and Hou Hsiao-hsien"
+description: "From the red-nosed circus clown to Hou Hsiao-hsien's The Sandwich Man and the Taiwan New Wave, plus the A City of Sadness 4K restoration and my film teacher."
 keywords: ["The Sandwich Man 1983", "A City of Sadness", "A City of Sadness 4K restoration", "Hou Hsiao-hsien", "Taiwan New Wave", "clowns in film", "Tseng Hsi-pa"]
 source: clown-and-cinema
 about:

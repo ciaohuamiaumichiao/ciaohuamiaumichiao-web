@@ -8,10 +8,11 @@ import { ETHERFI_PUBLISHED_ISO, etherfiFaqs } from "../data";
 const PAGE_URL = `${BASE_URL}/tools/etherfi`;
 const TITLE = "ether.fi Cash 卡評價：台灣能辦嗎？導演半年刷 1,353 美元的帳單";
 const DESCRIPTION =
-  "ether.fi Cash 卡在台灣好用嗎？導演張正杰公開 5 月到 10 月的交易紀錄，刷 1,353 美元拿回 37.6 美元回饋、被拒絕 47 次的原因、台幣換匯加收多少、怎麼儲值、會員等級與常見問題都整理在這裡。本頁含推薦連結，不是投資建議。";
+  "ether.fi Cash 卡在台灣好用嗎？導演張正杰公開 5 月到 10 月的交易紀錄，刷 1,353 美元拿回 37.6 美元回饋、被拒絕 47 次的原因、台幣換匯加收多少、怎麼儲值與常見問題都整理在這裡。本頁含推薦連結，不是投資建議。";
 
 export const metadata: Metadata = {
-  title: { absolute: `${TITLE}｜小花貓咪叫` },
+  /* <title> 用短版，OG 與頁面標題保留完整 TITLE */
+  title: { absolute: "ether.fi Cash 卡台灣評價：半年 1,353 美元帳單" },
   description: DESCRIPTION,
   keywords: [
     "ether.fi",

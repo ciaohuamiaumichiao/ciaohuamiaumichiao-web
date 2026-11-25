@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { BreadcrumbJsonLd } from "@/components/BreadcrumbJsonLd";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { CompanionContent } from "./CompanionContent";
@@ -44,6 +45,7 @@ export default function CompanionPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <BreadcrumbJsonLd items={[["首頁", "/"], ["影像陪伴計畫", "/companion"]]} />
       <Header />
       <CompanionContent />
       <Footer />

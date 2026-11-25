@@ -3,8 +3,8 @@ title: "The Day My Bandages Came Off, I Found Out What Blue Really Looks Like"
 date: 2026-03-22
 excerpt: "I had my bandages taken off at an eye clinic on the 84th floor of Taipei 101, looked at the clinic's deep blue carpet and just froze. When I got home I opened some videos I'd color graded before, and the longer I watched, the more scared I got."
 tags: [Filmmaking, Self-awareness, Lecture notes]
-seoTitle: "Seeing Color Again After Cataract Surgery: A Filmmaker's Blind Spot"
-description: "After cataract surgery at 41, I realized that in 15 years of making video, the colors I graded were often just what I thought was right. From the blue I saw the day the bandages came off, to the brands that say \"I want a video like that one,\" to how scary it is not to know what you don't know."
+seoTitle: "After Cataract Surgery, I Rethought Color Grading"
+description: "After cataract surgery at 41, I saw that the colors I'd graded for 15 years were often just my guess. On seeing blue again and the blind spots we all have."
 keywords: ["cataract surgery", "seeing color after cataract surgery", "color grading", "brand video", "blind spots", "self-awareness", "filmmaker"]
 source: cataract-and-blind-spot
 updated: 2026-10-30

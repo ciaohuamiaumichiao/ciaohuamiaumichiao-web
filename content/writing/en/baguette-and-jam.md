@@ -3,8 +3,8 @@ title: "Jam Today, Butter Next Time, but I'm Still a Baguette!"
 date: 2026-11-05
 excerpt: "Eat it plain and write five words, then dip it in butter, then apricot jam, and write five more. In that class we were supposedly talking about raw footage and seasoning, but by the end we were really talking about ourselves."
 tags: [Creative work, Faith, Lecture notes]
-seoTitle: "A Baguette Exercise for Creative Class: Raw Material, Seasoning and Who You Are"
-description: "For a creative class at KUA Worship Academy, I brought a baguette, butter and apricot jam, and had everyone eat it plain first, then with spreads, writing five words each time. Starting from raw footage and seasoning in filmmaking, we ended up talking about the self that never changes in creative work and in worship."
+seoTitle: "A Baguette Tasting Exercise for Creative Classes"
+description: "In a KUA Worship Academy class, we tasted a baguette plain, then with butter and jam. A creative exercise on raw footage, seasoning and who you are."
 keywords: ["creative class exercise", "creative writing exercise", "raw footage", "film editing", "worship and creativity", "KUA Worship Academy"]
 source: baguette-and-jam
 ---

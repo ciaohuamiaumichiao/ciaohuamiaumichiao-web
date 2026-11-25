@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { BreadcrumbJsonLd } from "@/components/BreadcrumbJsonLd";
 import Link from "next/link";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
@@ -45,6 +46,7 @@ export default function ToolsPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <BreadcrumbJsonLd items={[["首頁", "/"], ["工具實測", "/tools"]]} />
       <Header />
       <main className="px-6 pb-32 pt-40 lg:pt-48">
         <div className="mx-auto max-w-6xl">

@@ -3,8 +3,8 @@ title: "How Does a Story Turn Into a 348 km Walk? We Went on a Podcast and Mostl
 date: 2026-11-03
 excerpt: "Pei-Yu and I went on our friend Jamie's show to talk about the 16 days House of Dream spent walking from Taipei to Taitung for its 20th anniversary. I expected to talk about planning and the documentary. We talked about toilets the longest."
 tags: [Documentary, Behind the scenes, Interview]
-seoTitle: "Behind the Documentary: House of Dream's 348 km Walk Across Taiwan"
-description: "For House of Dream's 20th anniversary, Pastor Wen-Hua walked from Taipei to Taitung: 16 days, 348 km. How the walk started, how the dramatic documentary I'd planned got completely overturned, the toilet we had to find every 40 minutes, and the hardest day of the route."
+seoTitle: "Behind House of Dream's 348 km Walk Documentary"
+description: "For House of Dream's 20th anniversary, a pastor walked 348 km across Taiwan in 16 days. How my documentary plan fell apart, and the toilet stops."
 keywords: ["documentary behind the scenes", "House of Dream", "walking across Taiwan", "Taipei to Taitung walk", "documentary directing", "location scouting", "nonprofit documentary"]
 source: walking-348km-interview
 ---

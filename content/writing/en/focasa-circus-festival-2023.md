@@ -3,8 +3,8 @@ title: "Dreams × Circus // FOCASA Circus Festival 2023"
 date: 2023-03-08
 excerpt: "His dream came true, or you could say the circus performers' dream came true, and it's incredibly exciting. Thank you to everyone who gave so much here. With everything they have, circus performers are teaching me what a dream is."
 tags: [Film notes, Circus, Festivals, Family]
-seoTitle: "FOCASA Circus Festival 2023: A Family Day at Taiwan's Circus Festival"
-description: "Notes from the 2023 FOCASA Circus Festival. It starts with Chih-Wei, the acrobat I met during alternative military service, then follows our family's day: Tien Circus Theatre in the V-13 circus tent, a whole afternoon at the Popping Candy stage, and heading back to Taipei with more than 1,400 photos."
+seoTitle: "FOCASA Circus Festival 2023: A Family Day Out"
+description: "Notes from the 2023 FOCASA Circus Festival in Taiwan: an acrobat friend, Tien Circus Theatre in the big tent, and 1,400 photos from one family day."
 keywords: ["FOCASA Circus Festival", "FOCASA 2023", "FOCA Formosa Circus Art", "Taiwan circus", "Tien Circus Theatre", "circus with kids", "Taiwan arts festival"]
 source: focasa-circus-festival-2023
 about:

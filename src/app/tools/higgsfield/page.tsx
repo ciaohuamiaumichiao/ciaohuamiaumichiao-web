@@ -11,7 +11,8 @@ const DESCRIPTION =
   "Higgsfield 值得訂嗎？導演張正杰公開自己的帳單，13 天用掉 1,100 點，Kling 3.0、Seedance、GPT Image 2.5 怎麼選、實際扣多少、哪裡不好用，方案價格和常見問題都整理在這裡。本頁含聯盟連結。";
 
 export const metadata: Metadata = {
-  title: { absolute: `${TITLE}｜小花貓咪叫` },
+  /* <title> 用短版，OG 與頁面標題保留完整 TITLE */
+  title: { absolute: "Higgsfield 評價：導演 13 天 1,100 點實測帳單" },
   description: DESCRIPTION,
   keywords: [
     "Higgsfield",

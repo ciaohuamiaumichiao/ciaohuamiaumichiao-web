@@ -3,8 +3,8 @@ title: "AI Can Make Anything Look Good Now. So What Do We Have Left?"
 date: 2026-03-24
 excerpt: "For the past ten years, Rick, Timothy and I have all been doing the same thing: making things that don't look good look good. Now AI can do that too. At the talk, we asked what we should actually be putting in front of people next."
 tags: [Branding, Creative work, Lecture notes]
-seoTitle: "Brand Storytelling in the AI Era: Dig It Up, Don't Dress It Up"
-description: "Once AI can polish anything, what's left for brands and for individuals? From Japanese kintsugi and the poet Xin Qiji to the song \"Golden\" at this year's Oscars: why a brand story has to be dug out of yourself, why technique only serves people who have ideas, and how a personal brand slowly builds up."
+seoTitle: "Brand Storytelling in the Age of AI"
+description: "When AI can make anything look good, what's left for brands? Notes from a talk on kintsugi and why a brand story is dug out of you, not wrapped up."
 keywords: ["AI and branding", "brand storytelling", "personal branding", "kintsugi", "authentic brand story", "AI photo editing", "Backstage is a WORLD"]
 source: invisible-days
 updated: 2026-10-30

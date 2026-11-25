@@ -3,8 +3,8 @@ title: "October 20, 2022: What Really Matters Can't Be Seen With Your Eyes Alone
 date: 2023-03-14
 excerpt: "Every time the fox in The Little Prince tells his secret, it stirs up a storm in me. It keeps making me rethink what I'm taming, and what's taming me. \"What is essential is invisible to the eye,\" and the little prince repeats it so he won't forget."
 tags: [Film notes, Musical theater, Cinematography, Faith]
-seoTitle: "The Little Prince Musical: What Is Essential Is Invisible to the Eye"
-description: "After CMusical's The Little Prince, the fox's line that what is essential is invisible to the eye had me choked up for half the show. Also: our church's new Sony cinema camera, and how focus decides what the audience sees, so we can film the things eyes can't see."
+seoTitle: "The Little Prince Musical Review: The Fox's Secret"
+description: "After CMusical's The Little Prince musical, the fox's line that what is essential is invisible stayed with me, and so did how camera focus guides the eye."
 keywords: ["The Little Prince musical", "CMusical The Little Prince", "The Little Prince fox quote", "what is essential is invisible to the eye", "camera focus storytelling", "worship cinematography", "church media team"]
 source: what-is-essential-is-invisible
 about:

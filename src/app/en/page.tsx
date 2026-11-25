@@ -18,9 +18,9 @@ import { EMAIL, LINKEDIN, REEL_ID, enFaq } from "@/components/en/faq";
 /* 英文版首頁：給美國公司的招募人員看。
    根 layout 是 zh-Hant，這頁用外層 lang="en" ＋ hreflang 互指標示語言（不另開 root layout，避免動 next.config）。 */
 
-const title = "Kimi Chang | Video Producer & Creative Director | Remote from Taiwan";
+const title = "Kimi Chang: Remote Video Producer & Creative Director";
 const description =
-  "Taipei-based director and producer. Documentaries, brand films, weekly video podcasts and multi-platform live streaming, with AI-assisted post-production. Open to remote full-time or contract roles.";
+  "Taipei-based video producer and creative director: documentaries, brand films, video podcasts and live streaming, with AI-assisted post. Open to remote roles.";
 
 export const metadata: Metadata = {
   title: { absolute: title },
@@ -40,6 +40,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "/en",
     languages: { "zh-Hant": "/", en: "/en", "x-default": "/" },
+    types: { "application/rss+xml": `${BASE_URL}/en/rss.xml` },
   },
   openGraph: {
     title,

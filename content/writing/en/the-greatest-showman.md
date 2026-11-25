@@ -3,8 +3,8 @@ title: "Since When Has Happiness Ever Been Boring? The Greatest Showman"
 date: 2023-03-11
 excerpt: "In the film, everyone reaches their happiness, but in real life we're still struggling. How can you not love movies? They take you into a dream and make it real, and for 120 minutes you get to soar around inside that world. Movies always end, and we all have to face real life eventually. While you were in there, did you take a moment to talk with yourself?"
 tags: [Film notes, Musicals, Family movie night]
-seoTitle: "The Greatest Showman Review: Since When Is Happiness Boring?"
-description: "I watched The Greatest Showman three times in seven days. From Zendaya and Zac Efron doing their own trapeze work to This Is Me and P. T. Barnum's American dream, plus why it's a great first film for teaching film literacy."
+seoTitle: "The Greatest Showman Review: Is Happiness Boring?"
+description: "I saw The Greatest Showman three times in seven days. On the trapeze work, This Is Me, P. T. Barnum's dream, and why it suits teaching film literacy."
 keywords: ["The Greatest Showman review", "The Greatest Showman", "This Is Me", "Hugh Jackman", "Zendaya", "movie musicals for families", "film literacy for kids"]
 source: the-greatest-showman
 about:

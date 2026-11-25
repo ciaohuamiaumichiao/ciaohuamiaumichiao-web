@@ -3,8 +3,8 @@ title: "A Pink Alice in Wonderland: You Might Think Barbie Is Just Silly, but It
 date: 2023-07-29
 excerpt: "A lot of people are calling this a feminist film, but to me, \"feminism\" might just be the antidote for a real world that feels powerless. When women are free to be themselves, to simply be people, to chase their dreams and achievements and let their energy out, then this real, powerless world has a chance to move on to the next..."
 tags: [Film notes, Film review, Barbie, Feminism]
-seoTitle: "Barbie (2023) Review: A Pink Alice in Wonderland and a Modern Fable"
-description: "Barbie looks like pure silliness, but it's really a new fable. I hold it up against Alice in Wonderland and talk about Barbie's tears and the question of who she is, plus feminism, Barbenheimer and Warner Bros. after losing Nolan, and the moment Ken discovers his own worth."
+seoTitle: "Barbie (2023) Review: A Pink Alice in Wonderland"
+description: "A Barbie review that reads the film as a new fable beside Alice in Wonderland: Barbie's tears, feminism, Barbenheimer and Ken discovering his worth."
 keywords: ["Barbie movie review", "Barbie 2023", "Greta Gerwig", "Margot Robbie", "Ryan Gosling Ken", "Barbenheimer", "Barbie and Alice in Wonderland"]
 source: barbie-new-fable
 about:

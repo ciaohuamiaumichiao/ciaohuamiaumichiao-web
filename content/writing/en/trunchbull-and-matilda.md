@@ -3,8 +3,8 @@ title: "Miss Trunchbull and Matilda: When the Bully Is the One in Charge"
 date: 2023-03-25
 excerpt: "Every time I read Matilda or watch one of the films, the unequal bullying in it makes me angry. If you want to stay out of a bully's reach, you have to arm yourself and get strong. Swallowing it again and again, or keeping the peace on the surface, only grows a bigger kind of violence. I was never bullied, because I armed myself and let people know I wasn't someone they could bully…"
 tags: [Film notes, Parenting, Bullying]
-seoTitle: "Matilda and School Bullying: What Miss Trunchbull Teaches Parents"
-description: "In Roald Dahl's Matilda, Miss Trunchbull uses her power to bully students. From the book and the film versions on Netflix to a real case of a high school junior in Taiwan, a picture book about a fox at school and The Glory, a look at how parents can stand with their kids against bullying."
+seoTitle: "Matilda and School Bullying: Lessons for Parents"
+description: "Miss Trunchbull in Roald Dahl's Matilda bullies her students. From the book and films to a real case in Taiwan, how parents can stand with their kids."
 keywords: ["Matilda", "Miss Trunchbull", "Roald Dahl's Matilda the Musical", "school bullying", "bullying and parenting", "The Glory", "picture books about bullying"]
 source: trunchbull-and-matilda
 about:

@@ -3,8 +3,8 @@ title: "Snow White (1937): Social Metaphors and a Close Look at Its Characters"
 date: 2024-09-12
 excerpt: "Disney's Snow White, the groundbreaking 1937 film, uses animation to explore gender roles, the abuse of power and conflict between generations. By setting Snow White against the Evil Queen, it shows the contradictory expectations society placed on women and a warped value system built on looks. The use of color and the design of the characters' movement..."
 tags: [Film notes, Disney, Animation]
-seoTitle: "Snow White and the Seven Dwarfs (1937) Analysis: Gender, Color and Character Animation"
-description: "An analysis of Disney's 1937 Snow White and the Seven Dwarfs: what the contrast between Snow White and the Evil Queen says about gender roles, abuse of power, obsession with looks and generational conflict, and how color psychology and movement design help the characters speak."
+seoTitle: "Snow White and the Seven Dwarfs (1937) Analysis"
+description: "An analysis of Disney's 1937 Snow White and the Seven Dwarfs: gender roles, the Evil Queen's vanity, and how color and movement build character."
 keywords: ["Snow White and the Seven Dwarfs", "Snow White 1937 analysis", "Evil Queen", "Disney animation", "color psychology in animation", "character animation", "gender roles in Disney films"]
 source: snow-white
 about:

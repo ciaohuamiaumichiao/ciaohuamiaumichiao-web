@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { BreadcrumbJsonLd } from "@/components/BreadcrumbJsonLd";
 import Link from "next/link";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
@@ -11,9 +12,10 @@ export const revalidate = 3600;
 export const metadata: Metadata = {
   title: "寫作 Writing",
   description:
-    "張正杰的寫作。上課、拍片、跟客戶聊天的時候想到的事，還有看完電影的心得。",
+    "導演張正杰的寫作：拍片現場與剪接室的筆記、在學校和教會上課的整理、跟客戶聊出來的品牌觀念，還有看完電影久久散不去的心得。全部文章都有英文版。",
   alternates: {
     canonical: `${BASE_URL}/writing`,
+    languages: { "zh-Hant": "/writing", en: "/en/writing", "x-default": "/writing" },
     types: { "application/rss+xml": `${BASE_URL}/rss.xml` },
   },
   openGraph: {
@@ -48,6 +50,7 @@ export default function WritingIndex() {
 
   return (
     <>
+      <BreadcrumbJsonLd items={[["首頁", "/"], ["寫作", "/writing"]]} />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}

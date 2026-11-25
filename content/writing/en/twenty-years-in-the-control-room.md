@@ -3,8 +3,8 @@ title: "In My Lowest Years, I Promised God I'd Keep Showing Up: 20 Years on a Ch
 date: 2026-11-22
 excerpt: "Bread of Life Christian Church in Taipei filmed a four-minute story about my 20 years on its media team: how work and serving fed each other, the small promise I made to God when I was at my lowest, and the first time my whole family worked a service together."
 tags: [Faith, Serving, Interview]
-seoTitle: "20 Years on a Church Media Team: Serving Through the Low Years"
-description: "A four-minute church film about my 20 years on the media team at Bread of Life Christian Church in Taipei: bringing film-school training into church, how my day job and serving fed each other, a promise made during depression, and my family running a service together."
+seoTitle: "20 Years Serving on a Church Media Team"
+description: "A short film about my 20 years on a church media team in Taipei: work and serving, a promise to God made in depression, and my family serving together."
 keywords: ["church media team", "Bread of Life Christian Church in Taipei", "serving through depression", "church live production", "Christian filmmaker", "volunteer media team leadership"]
 source: twenty-years-in-the-control-room
 about:

@@ -3,8 +3,8 @@ title: "Invisible Nation: When the World Finally Sees Taiwan, We See Ourselves A
 date: 2025-05-20
 excerpt: "Can a documentary change the way you see the world? For me, Invisible Nation did exactly that."
 tags: [Film notes, Documentary, Taiwan]
-seoTitle: "Invisible Nation Review: Tsai Ing-wen, Taiwan and Democracy on Film"
-description: "A review of Invisible Nation, in which American director Vanessa Hope spent seven years filming Tsai Ing-wen up close and talks about Taiwan's democracy and international position through restrained camerawork. A director's look at how the documentary tells its story, how it sets Taiwan against Hong Kong, and why it made Taiwanese viewers see themselves again."
+seoTitle: "Invisible Nation Review: Tsai Ing-wen and Taiwan"
+description: "A director's review of Invisible Nation, Vanessa Hope's documentary on Tsai Ing-wen: its restrained storytelling, Hong Kong, and Taiwan's democracy."
 keywords: ["Invisible Nation review", "Invisible Nation documentary", "Vanessa Hope", "Tsai Ing-wen documentary", "Taiwan documentary", "Taiwan democracy film"]
 source: invisible-nation
 about:

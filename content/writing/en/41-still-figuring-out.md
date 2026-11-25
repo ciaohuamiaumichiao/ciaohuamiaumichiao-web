@@ -3,8 +3,8 @@ title: "I'm 41, and I Still Don't Know Who I Want to Be"
 date: 2026-03-29
 excerpt: "Every six months or so I sit down and ask myself who I'm supposed to become in this life. Then my mind goes blank, and then I start scolding myself. It took me a while to notice that the scolding part is actually worse than coming up empty."
 tags: [Creative work, Self-knowledge, Lecture notes]
-seoTitle: "41 and Still Don't Know Who You Want to Be? Stop Beating Yourself Up First"
-description: "I'm 41, I've worked in video for 15 years, and I still can't say who I want to become. Worse than not knowing is the voice that scolds me for it every day. On midlife uncertainty, what deadlifting taught me about process, and swapping \"who do I want to be\" for \"what do I want to do next.\""
+seoTitle: "41 and Still Not Sure Who You Want to Be"
+description: "At 41, after 15 years in video, I still can't say who I want to become. On midlife uncertainty, the voice that scolds you, and asking what to do next."
 keywords: ["midlife uncertainty", "finding direction in life", "don't know who I want to be", "self-discovery", "creative career", "career change in your 40s"]
 source: 41-still-figuring-out
 updated: 2026-10-30

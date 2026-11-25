@@ -3,8 +3,8 @@ title: "A Dream Is Only One Night Away: The Astronaut"
 date: 2023-08-10
 excerpt: "\"The distance between a dream and its coming true is just one night.\" A dream is that close, so close that once you start chasing it, it comes to find you the very next day."
 tags: [Film notes, Movie review, French cinema]
-seoTitle: "The Astronaut (L'Astronaute) Review: A Dream Only One Night Away"
-description: "A review of The Astronaut (L'Astronaute): after aerospace engineer Jim misses out on becoming an astronaut, he recruits a pyrotechnics chemist, a retired astronaut and his own grandmother, and flies into space in a homemade mini rocket. From October Sky to chasing dreams in middle age, plus the cinematography and light of this French film."
+seoTitle: "The Astronaut (L'Astronaute) Film Review"
+description: "A review of the French film The Astronaut, where engineer Jim builds a homemade rocket with a chemist, a retired astronaut and his grandmother."
 keywords: ["The Astronaut review", "L'Astronaute 2022", "Nicolas Giraud", "October Sky", "French films", "space movies", "movies about chasing dreams"]
 source: one-night-from-dream
 about:

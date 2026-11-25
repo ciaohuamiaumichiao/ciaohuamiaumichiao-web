@@ -3,8 +3,8 @@ title: "If Someone Paid You $200 Million to Never Make Another Film, Would You T
 date: 2026-11-07
 excerpt: "I went on Pastor Wen-Hua's show and he asked how I've kept my passion alive after 20 years in video. I thought about it, and the answer is probably hidden in a $200 million question, a radio drama on a school stage, and the failed music video I'm proudest of."
 tags: [Interview, Creative work, Documentary]
-seoTitle: "Should Your Passion Become Your Job? A Filmmaker on 20 Years of Loving the Work"
-description: "I was a guest on EP7 of Truth Church pastor Wen-Hua Liao's podcast, talking about how I've stayed passionate after 20 years in video: the $200 million question, a high school radio drama, a Joshua Band music video that failed, and Only to Meet You, the documentary about a 348 km walk."
+seoTitle: "Keeping a Passion for Film After 20 Years"
+description: "On a pastor's podcast, I talked about keeping a passion for film after 20 years: the $200 million question, a school radio drama and a failed music video."
 keywords: ["passion and work", "turning a hobby into a job", "filmmaker career", "staying passionate at work", "Christian podcast interview", "Only to Meet You documentary", "creative burnout"]
 source: two-hundred-million-podcast
 about:

@@ -3,8 +3,8 @@ title: "AI Can Write Scripts Now. So Why Would You Still Hire Me?"
 date: 2026-04-27
 excerpt: "Last month a longtime client asked whether he could just prompt his next ad himself. I didn't reply right away, because after three months of working with AI I'd been asking myself the same thing."
 tags: [AI, Directing, Creative work]
-seoTitle: "AI Writes Scripts Now. Does a Brand Film Director Still Matter?"
-description: "AI already writes decent scripts, and a longtime client asked if he could prompt his next ad himself. After three months of using Claude and ChatGPT on every project: which grunt work I hand to AI, which judgment calls stay with a person, and what I told him."
+seoTitle: "Can AI Scripts Replace a Brand Film Director?"
+description: "A client asked if he could just prompt his next ad himself. After three months of AI on every project, what I hand to AI and what still needs a person."
 keywords: ["AI scriptwriting", "AI for video production", "ChatGPT scripts", "Claude video workflow", "brand film director", "will AI replace directors", "AI-assisted pre-production"]
 source: ai-cant-write-why
 updated: 2026-10-30

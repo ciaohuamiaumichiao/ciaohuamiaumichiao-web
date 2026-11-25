@@ -3,8 +3,8 @@ title: "Dad, What Do You Want Me to Do? Leave Right and Wrong to the Historians"
 date: 2026-11-23
 excerpt: "Just before class ended, a student asked: the director decides what we get to see, so isn't that like a God's-eye view? That's a heavy responsibility. I thought for a moment and said that once we take back our identity as God's children, all that's left is \"Dad, what do you want me to do?\""
 tags: [Faith, Live production, Lecture notes]
-seoTitle: "The Responsibility of a Church Live Director: Leave Right and Wrong to the Historians"
-description: "A church live director decides what everyone gets to see. Is that responsibility as heavy as preaching? From a Q&A in a class at KUA Worship Academy's Arts Department, on how I think about media ministry: we're all just pipes for God, and instead of agonizing over right and wrong, we can ask, \"Dad, what do you want me to do?\""
+seoTitle: "The Responsibility of a Church Live Director"
+description: "Does a church live director hold a God's-eye view? A student's question at KUA Worship Academy, and my answer: we're just pipes, so ask what God wants."
 keywords: ["church live director", "church media ministry", "worship service directing", "church media team", "KUA Worship Academy", "worship arts"]
 source: leave-right-wrong-to-historians
 ---

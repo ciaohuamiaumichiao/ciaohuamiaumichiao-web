@@ -3,8 +3,8 @@ title: "\"Just Shoot Me One of Those!\" The Three Questions I'll Ask You First"
 date: 2026-03-26
 excerpt: "The client on the phone wanted a video as viral as so-and-so's. I asked who it was for, and he said, you know, one of those. I've heard some version of this call about once a month for 15 years. Every time I laugh first, and then I sigh."
 tags: [Branding, Video production, Client work]
-seoTitle: "Planning a Brand Video? Answer These Three Questions Before You Hire a Director"
-description: "Want a brand video but all you can say is \"you know, one of those\"? After 15 years in video, I've found most brands get stuck on not knowing why they're making it. Before I take a job I ask three questions: who you want to reach, how you want to be remembered, and who you want to get paid by."
+seoTitle: "Three Questions to Answer Before a Brand Video"
+description: "Planning a brand video? After 15 years in video, the three questions I ask clients first: who it's for, how you want to be remembered, and who pays you."
 keywords: ["brand video", "brand video production", "hiring a video director", "video pre-production", "brand positioning", "video production client brief"]
 source: clients-dont-know-what-they-want
 updated: 2026-10-30

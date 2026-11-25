@@ -3,8 +3,8 @@ title: "I Can Taste Five Flavors in One Bowl of Braised Pork Rice"
 date: 2026-11-16
 excerpt: "I asked my students if they mix their curry rice. Almost everyone raised a hand. I said I don't, and I don't mix my braised pork rice either. I can get five flavors out of one bowl. Okay, I know that's not the standard way to eat it."
 tags: [Creative work, Lecture notes]
-seoTitle: "Should You Mix Your Braised Pork Rice? On Taste, Feeling and Layers in Creative Work"
-description: "Do you mix your braised pork rice? I asked my students at KUA Worship Academy's Arts Department. I eat the meat first, then the rice, and get five flavors out of one bowl. From Gabai Granny to music arrangements built layer by layer, on how creative people can practice feeling and layering."
+seoTitle: "Braised Pork Rice and Layers in Creative Work"
+description: "I don't mix my braised pork rice, and I get five flavors from one bowl. A KUA Worship Academy class on layers in creative work and learning to feel."
 keywords: ["braised pork rice", "creative process", "layering in creative work", "music arrangement layers", "Gabai Granny", "KUA Worship Academy"]
 source: dont-mix-the-rice
 ---

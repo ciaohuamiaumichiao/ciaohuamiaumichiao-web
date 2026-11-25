@@ -3,8 +3,8 @@ title: "One Black Instagram Story, and in Two Days It Had Traveled Five Circles 
 date: 2026-03-27
 excerpt: "A friend posted a black Instagram story that just said \"Things have been a little hard lately.\" Fewer than 100 people saw it, but two days later someone five or six social circles away called to ask me if he'd gotten divorced. You don't need to start building a personal brand. You're already sending signals every day."
 tags: [Personal branding, Social media]
-seoTitle: "Personal Branding: Every Instagram Story You Post Is Sending a Signal"
-description: "You don't need to build a personal brand on purpose. The Instagram stories you post every day are already speaking for you. One black story traveled five circles out in two days, and posting food every day gets you known as a foodie. How social media signals shape the way others see you, plus a small seven-day exercise."
+seoTitle: "Your Instagram Stories Are Your Personal Brand"
+description: "You don't have to build a personal brand on purpose. Your Instagram stories already speak for you. One black story went five circles out in two days."
 keywords: ["personal branding", "building a personal brand", "Instagram stories", "social media presence", "online reputation", "Instagram tips"]
 source: your-stories-are-your-brand
 updated: 2026-10-30

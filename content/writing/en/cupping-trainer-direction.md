@@ -3,8 +3,8 @@ title: "My Trainer Didn't Ask a Thing. He Told Me to Lie Down and Started Cuppin
 date: 2026-03-31
 excerpt: "Back then I'd show up at the gym well rested and well fed, stand in front of the equipment and just not want to move. My trainer gave me a dozen-plus cupping marks, and that afternoon a 95 kg deadlift felt as light as an empty bar. The whole way home I kept wondering what exactly he'd fixed."
 tags: [Creative work, Self-knowledge]
-seoTitle: "Feeling Stuck as a Creative? What One Cupping Session Taught Me"
-description: "What do you do when you're a creative who's stuck and can't get going? I couldn't lift at the gym, my trainer had me lie down for cupping, and that afternoon a 95 kg deadlift felt like an empty bar. On the way home I worked out that what was stuck was my head, and that it's fine not to have a clear direction. Do one small thing and you start moving."
+seoTitle: "Feeling Stuck as a Creative? A Lesson From Cupping"
+description: "Stuck as a creative? My trainer skipped the questions and gave me cupping, and a 95 kg deadlift felt light. What was stuck was my head, not my back."
 keywords: ["creative block", "feeling stuck", "no motivation", "creative slump", "cupping therapy", "getting unstuck"]
 source: cupping-trainer-direction
 updated: 2026-10-30

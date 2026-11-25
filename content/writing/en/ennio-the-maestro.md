@@ -3,8 +3,8 @@ title: "Ennio: Notes From a Preview Screening (and a Lesson in Bladder Control)"
 date: 2023-03-16
 excerpt: "Giuseppe Tornatore's new film, with a full interview with Ennio himself. You hear from one legendary director after another about how Ennio influenced and inspired them, and you start to realize every one of them was, in a way, trained by Ennio. While working with him, some even..."
 tags: [Film notes, Documentary, Film music]
-seoTitle: "Ennio (2021) Review: Ennio Morricone's Life in Front of the Blank Page"
-description: "Ennio is Giuseppe Tornatore's documentary about Ennio Morricone. From the whistle in Sergio Leone's westerns to The Legend of 1900 and his Oscar for The Hateful Eight, I split his life into three acts, and noted the laughter in the room at the preview screening."
+seoTitle: "Ennio (2021) Review: Morricone in Three Acts"
+description: "Notes on Ennio, Giuseppe Tornatore's documentary on Ennio Morricone, from the whistles in Sergio Leone's westerns to his Oscar for The Hateful Eight."
 keywords: ["Ennio documentary review", "Ennio: The Maestro", "Ennio Morricone", "Giuseppe Tornatore", "film score documentary", "Sergio Leone music", "The Hateful Eight score"]
 source: ennio-the-maestro
 about:

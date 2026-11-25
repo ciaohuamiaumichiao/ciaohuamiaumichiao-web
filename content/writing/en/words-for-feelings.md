@@ -3,8 +3,8 @@ title: "Early One Morning, My Acting Teacher Had Us Lie on the Stage and Feel Ou
 date: 2026-11-09
 excerpt: "In a college acting class, our teacher had us lie down and feel whether the muscles in our right arms were twitching. Back then the only thing I felt was: could class please not start so early? Many years later, that class slowly came back to find me."
 tags: [Creative work, Senses, Lecture notes]
-seoTitle: "A Sensory Exercise From Acting Class: Where Creative Inspiration Starts"
-description: "In a college acting class, Hsu Hua-Chien had us lie on the stage and feel our right arms. Years later I understood that creative inspiration often starts with opening up your senses. Notes from a class at KUA Worship Academy's Arts Department on feeling, experience, and why creative people need words."
+seoTitle: "A Sensory Exercise for Creative Inspiration"
+description: "In acting class, our teacher had us lie on stage and feel our right arms. A KUA Worship Academy class on creative inspiration, senses and finding words."
 keywords: ["creative inspiration", "sensory awareness exercise", "acting class", "five senses", "vocabulary for creatives", "KUA Worship Academy"]
 source: words-for-feelings
 ---

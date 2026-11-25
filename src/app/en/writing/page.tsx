@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { EnHeader } from "@/components/en/EnHeader";
+import { BreadcrumbJsonLd } from "@/components/BreadcrumbJsonLd";
 import { EnFooter } from "@/components/en/EnSections";
 import { getAllWritingsEn, formatDateEn } from "@/lib/writing";
 import { BASE_URL, PERSON_ID } from "@/lib/site";
@@ -9,7 +10,7 @@ import { BASE_URL, PERSON_ID } from "@/lib/site";
 
 const title = "Writing | Kimi Chang";
 const description =
-  "Essays by Kimi Chang, a Taipei-based director and producer, translated from Mandarin: live production, documentary work, AI in creative work, and 20 years on a church media team.";
+  "Essays by Kimi Chang, a Taipei-based video producer: notes from set and the edit room, AI in creative work, church media, and film reviews.";
 
 export const metadata: Metadata = {
   title: { absolute: title },
@@ -17,6 +18,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "/en/writing",
     languages: { "zh-Hant": "/writing", en: "/en/writing", "x-default": "/writing" },
+    types: { "application/rss+xml": `${BASE_URL}/en/rss.xml` },
   },
   openGraph: { title, description, url: `${BASE_URL}/en/writing`, locale: "en_US", type: "website" },
 };
@@ -45,6 +47,7 @@ export default function EnglishWriting() {
   return (
     <div lang="en">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <BreadcrumbJsonLd items={[["Home", "/en"], ["Writing", "/en/writing"]]} />
       <EnHeader zhHref="/writing" />
       <main className="px-6 pb-24 pt-32 sm:pt-40">
         <div className="mx-auto max-w-2xl">

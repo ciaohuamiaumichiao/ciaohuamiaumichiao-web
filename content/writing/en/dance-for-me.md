@@ -3,8 +3,8 @@ title: "\"Come On, Dance for Me.\" Grown-Ups, Listen to What You're Saying"
 date: 2026-11-12
 excerpt: "Those of us who dance, paint or hold a camera are worshippers who don't make a sound. Music is loud, and everyone feels it right away. We have no sound, and sometimes we don't even make it into the footage."
 tags: [Faith, Behind the scenes, Lecture notes]
-seoTitle: "Church Media and Worship Arts: The Worshippers Who Don't Make a Sound"
-description: "People who dance, paint and hold cameras are all worshippers who don't make a sound. Notes from a class at KUA Worship Academy's Arts Department: why church media is the neck, why our work starts after the shoot, and how to reset before and after you go on stage."
+seoTitle: "Church Media and the Worshippers Without a Sound"
+description: "Dancers, painters and camera operators worship without a sound. From a KUA Worship Academy class: why church media is the neck, and how to reset."
 keywords: ["church media", "church media ministry", "worship dance", "worship arts", "worship team", "KUA Worship Academy"]
 source: dance-for-me
 ---

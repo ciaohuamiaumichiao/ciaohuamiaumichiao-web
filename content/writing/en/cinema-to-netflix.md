@@ -3,8 +3,8 @@ title: "From Cinema to Netflix: Notes From Yeh Lang's Book Launch Talk"
 date: 2023-03-10
 excerpt: "Yeh Lang started with the marketing behind To Leslie, followed the thread into how Oscar campaign season works, and recommended Oscar Wars for us to read along. The great champion of campaign season was also one of the most powerful producers in Hollywood..."
 tags: [Film notes, Film books, Book talk]
-seoTitle: "Yeh Lang Book Talk: How Videotape Changed the Oscars, Acting and Fandom"
-description: "Notes from the launch talk for Yeh Lang's book 從前，有個錄影帶店 (\"Once Upon a Time, There Was a Video Store\"). From the Oscar campaign for To Leslie to Harvey Weinstein, then how videotape changed the way Oscar voters watched films, how actors performed and how fan culture grew, all the way to Netflix."
+seoTitle: "Yeh Lang Book Talk on Video Stores and the Oscars"
+description: "Notes from Yeh Lang's book talk: the To Leslie Oscar campaign, Harvey Weinstein, and how videotape changed Oscar voting, acting and fandom up to Netflix."
 keywords: ["Yeh Lang", "Once Upon a Time There Was a Video Store", "history of videotape", "Oscar campaigns", "Harvey Weinstein Miramax", "Netflix and Blockbuster", "books about film history"]
 source: cinema-to-netflix
 about:

@@ -3,8 +3,8 @@ title: "Everything Everywhere All at Once: I Spent the Whole Movie Waiting to Fi
 date: 2023-03-13
 excerpt: "The most precious thing in every universe is time slipping away. You can't rewind it. You can only grit your teeth and keep going, and in that very limited time, our choices make us into whatever kind of 'self' we become."
 tags: [Film notes, Film review, Family]
-seoTitle: "Everything Everywhere All at Once Review: Three Acts and a Chinese Family's Love"
-description: "A review of Everything Everywhere All at Once that uses the three parts of its title, Everything, Everywhere and All at Once, to unpack Michelle Yeoh's Evelyn. On parallel universes versus the multiverse, the Hong Kong film memories in the kung fu universe, and the suffocating love of a Chinese family."
+seoTitle: "Everything Everywhere All at Once Review"
+description: "An Everything Everywhere All at Once review told through its three title words: Michelle Yeoh's Evelyn, the multiverse and a Chinese family's love."
 keywords: ["Everything Everywhere All at Once review", "Michelle Yeoh", "Ke Huy Quan", "multiverse movie", "three-act structure", "Chinese immigrant family film", "Jobu Tupaki"]
 source: everything-everywhere-all-at-once
 about:

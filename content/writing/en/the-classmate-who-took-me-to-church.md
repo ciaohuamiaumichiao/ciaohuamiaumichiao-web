@@ -3,8 +3,8 @@ title: "He Was Better Than Me at Everything Except Height. Then He Asked If I Wa
 date: 2026-11-19
 excerpt: "He came back from the US in fourth grade. He could write his essays in English, he ran fast, his grades were great, and the only thing he lost to me at was height. One day he asked if I wanted to go to church, and I thought, oh, so that's how you got so good."
 tags: [Faith, Testimony, Lecture notes]
-seoTitle: "My Christian Testimony: The Elementary School Classmate Who Invited Me to Church"
-description: "This is my testimony. In fourth grade a classmate who was better than me at everything joined our class. In sixth grade he asked if I wanted to go to church, and that's how I started attending Bread of Life Church in Tainan and came to know God. Studying film at Shih Hsin University, serving at Bread of Life Christian Church in Taipei, starting a video company: it all began with that one invitation."
+seoTitle: "My Christian Testimony: A Classmate's Invitation"
+description: "My Christian testimony: in sixth grade, a classmate who beat me at everything invited me to church. Film school and my video company followed."
 keywords: ["Christian testimony", "how I became a Christian", "Bread of Life Christian Church", "church media ministry", "Shih Hsin University film", "KUA Worship Academy"]
 source: the-classmate-who-took-me-to-church
 ---

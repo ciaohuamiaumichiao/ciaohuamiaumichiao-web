@@ -3,8 +3,8 @@ title: "One Afternoon at 13, I Pushed Faders Behind a Mixing Console, and Then I
 date: 2026-03-25
 excerpt: "The church worship band was performing that day and nobody there knew how to run the sound board, so I stepped up. I barely understood the buttons, the faders or the EQ, but that afternoon, I was lit up."
 tags: [Behind the scenes, Faith, Lecture notes]
-seoTitle: "From a Church Sound Board to 30 Years Behind the Scenes"
-description: "At 13, I ran a mixing console at a church in Tainan for the first time, and I've been backstage for 30 years since. About my friend Steven, who took me to church, the road from sound and lighting to music videos and concerts, and where the \"Backstage is a WORLD\" exhibition came from."
+seoTitle: "From a Church Sound Board to 30 Years Backstage"
+description: "At 13 I ran a church sound board in Tainan, and I've worked backstage for 30 years since. On my friend Steven, music videos, concerts and an exhibition."
 keywords: ["church sound tech", "working behind the scenes", "Backstage is a WORLD", "church media ministry", "concert production", "music video director", "behind-the-scenes careers"]
 source: the-mixing-console
 updated: 2026-10-30

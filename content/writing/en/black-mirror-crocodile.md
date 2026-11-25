@@ -3,8 +3,8 @@ title: "Is Black Mirror's \"Crocodile\" Memory Reader Becoming Real? Yu Takagi a
 date: 2023-03-10
 excerpt: "New research from Yu Takagi and colleagues at Osaka University turns the electrical signals in the brain into images using fMRI. Subjects first look at and memorize specific images, then are asked to recall them during a scan while the equipment captures the signals and tries to draw what they saw. In the results…"
 tags: [Film notes, Black Mirror, Netflix]
-seoTitle: "Black Mirror \"Crocodile\" and the Real fMRI Research That Reads Images From the Brain"
-description: "Notes on Black Mirror Season 4, Episode 3, \"Crocodile.\" Starting from Yu Takagi's Osaka University study that reconstructs images from fMRI brain signals, on to the show's memory reader, the crocodile principle and crocodile tears, plus the Black Mirror episodes I love more."
+seoTitle: "Black Mirror Crocodile vs Real fMRI Memory Readers"
+description: "Notes on the Black Mirror episode Crocodile, starting from an Osaka University study that rebuilds images from fMRI brain scans, plus episodes I prefer."
 keywords: ["Black Mirror Crocodile", "Black Mirror season 4", "Crocodile episode review", "fMRI image reconstruction", "Yu Takagi", "Osaka University brain decoding", "best Black Mirror episodes"]
 source: black-mirror-crocodile
 about:

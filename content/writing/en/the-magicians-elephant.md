@@ -3,8 +3,8 @@ title: "If You've Got Great Plot Points, String Them All Together: The Magician'
 date: 2023-03-25
 excerpt: "Netflix's The Magician's Elephant came out on March 17, 2023 and went straight to number one in Taiwan's Kids section, flattening every other big title on the chart! With a banner on the home page too, anyone browsing the Kids section would find it hard not to click in for three to five minutes!"
 tags: [Film notes, Animation, Netflix]
-seoTitle: "The Magician's Elephant Review: A Netflix Animated Film for Families"
-description: "Netflix's animated The Magician's Elephant, adapted from the classic children's novel, follows a boy who must complete three impossible tasks set by a king. On the detailed artwork, how every character changes inside, and the guard captain who loves to ask \"What if,\" plus four questions to talk through with your kids."
+seoTitle: "The Magician's Elephant Review for Families"
+description: "A family review of Netflix's animated The Magician's Elephant: three impossible tasks, detailed artwork, how each character grows, and questions for kids."
 keywords: ["The Magician's Elephant", "The Magician's Elephant review", "Netflix animated movie", "family movie night", "movies to watch with kids", "Kate DiCamillo adaptation"]
 source: the-magicians-elephant
 about:
