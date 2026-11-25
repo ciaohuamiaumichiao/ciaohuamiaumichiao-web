@@ -17,6 +17,7 @@ const navLinks = [
   { label: "寫作", href: "/writing" },
   { label: "工具", href: "/tools" },
   { label: "聯絡", href: "#contact" },
+  { label: "EN", href: "/en" },
 ];
 
 export function Header() {

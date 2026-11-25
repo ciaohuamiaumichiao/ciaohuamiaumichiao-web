@@ -27,6 +27,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1,
     },
     {
+      url: `${BASE_URL}/en`,
+      lastModified: new Date("2026-11-25"),
+      changeFrequency: "monthly",
+      priority: 0.9,
+      alternates: { languages: { "zh-Hant": BASE_URL, en: `${BASE_URL}/en` } },
+    },
+    {
       url: `${BASE_URL}/companion`,
       lastModified: new Date("2026-11-05"),
       changeFrequency: "monthly",

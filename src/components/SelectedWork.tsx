@@ -4,7 +4,20 @@ import Image from "next/image";
 import { FadeIn } from "./FadeIn";
 import { SectionSlate } from "./SectionSlate";
 
-const works = [
+export type Work = {
+  index: string;
+  year: string;
+  category: string;
+  title: string;
+  role: string;
+  description: string;
+  href: string | null;
+  linkLabel: string | null;
+  image: string | null;
+  slate: string | null;
+};
+
+const works: Work[] = [
   {
     index: "E01",
     year: "2026",
@@ -114,7 +127,7 @@ const works = [
 /* SMPTE 檢驗條（無訊號畫面用） */
 const bars = ["#b9b9b9", "#b9b900", "#00b9b9", "#00b900", "#b900b9", "#b90000", "#0000b9"];
 
-function PreviewMonitor({ work }: { work: (typeof works)[number] }) {
+function PreviewMonitor({ work }: { work: Work }) {
   return (
     <div className="overflow-hidden border border-border/60 bg-black">
       {/* 監視器上緣 */}
@@ -155,14 +168,22 @@ function PreviewMonitor({ work }: { work: (typeof works)[number] }) {
   );
 }
 
-export function SelectedWork() {
+export function SelectedWork({
+  items = works,
+  index = "03",
+  heading = "今年做的事",
+}: {
+  items?: Work[];
+  index?: string;
+  heading?: string;
+} = {}) {
   return (
     <section id="work" className="border-t border-border px-6 py-28 lg:py-36">
       <div className="mx-auto max-w-6xl">
-        <SectionSlate index="03" en="Selected Work" zh="今年做的事" note="8 ENTRIES" />
+        <SectionSlate index={index} en="Selected Work" zh={heading} note={`${items.length} ENTRIES`} />
 
         <div className="mt-14">
-          {works.map((work, i) => (
+          {items.map((work, i) => (
             <FadeIn key={work.title} delay={i * 0.05}>
               <article className="frame-marks group grid gap-6 border-b border-border/40 py-10 transition-colors hover:bg-surface/40 sm:px-4 lg:grid-cols-[110px_minmax(0,1fr)_240px] lg:gap-10">
                 <div>

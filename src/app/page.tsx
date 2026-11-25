@@ -13,6 +13,17 @@ import { InstagramFeed } from "@/components/InstagramFeed";
 import { Contact } from "@/components/Contact";
 import { Footer } from "@/components/Footer";
 import { homeJsonLd } from "./home-jsonld";
+import type { Metadata } from "next";
+import { BASE_URL } from "@/lib/site";
+
+/* 中英互指：首頁有英文版 /en。alternates 會整包覆蓋 layout 的設定，所以 canonical 和 RSS 也要一起寫 */
+export const metadata: Metadata = {
+  alternates: {
+    canonical: "/",
+    languages: { "zh-Hant": "/", en: "/en", "x-default": "/" },
+    types: { "application/rss+xml": `${BASE_URL}/rss.xml` },
+  },
+};
 
 export const revalidate = 3600;
 
