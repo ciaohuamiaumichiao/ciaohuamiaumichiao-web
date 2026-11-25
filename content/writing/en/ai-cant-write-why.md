@@ -22,7 +22,7 @@ I laughed out loud, because that answer works for any brand, any product, at any
 
 ## Most clients don't know yet either
 
-I once wrote a piece ([in Mandarin](/writing/clients-dont-know-what-they-want)) about the three questions I ask before taking a brand film. In it I said that at least eight out of ten brands we've worked with didn't know why they wanted to make the thing. Think about that. If the client doesn't know, where is the AI supposed to find out?
+I once wrote a piece about [the three questions I ask before taking a brand film](/en/writing/clients-dont-know-what-they-want). In it I said that at least eight out of ten brands we've worked with didn't know why they wanted to make the thing. Think about that. If the client doesn't know, where is the AI supposed to find out?
 
 AI is best at taking a clear task and finishing it. Creative work almost never starts clear. Far more often, a client thinks they want A, would actually prefer B, and hasn't noticed. A big part of my job is sitting in that fog with them until we find it: watching where their expression changes, hearing which parts are industry talk and which parts they really mean, knowing what the brand has been through in the last three years, and quietly guessing whether their boss will buy it. A better prompt doesn't fix that. That room needs a person sitting in it.
 

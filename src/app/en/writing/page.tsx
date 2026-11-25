@@ -51,8 +51,8 @@ export default function EnglishWriting() {
           <p className="font-mono text-[10px] uppercase tracking-[0.15em] text-accent">Writing</p>
           <h1 className="mt-6 text-4xl font-light tracking-tight">Notes from set, the edit and the control room</h1>
           <p className="mt-6 text-[15px] leading-[1.85] text-muted">
-            I write mostly in Mandarin. These are the pieces I&apos;ve translated so far, the ones closest to how I work.
-            The full archive is on the <Link href="/writing" hrefLang="zh-Hant" className="text-accent underline-offset-4 hover:underline">Mandarin side</Link>.
+            I write in Mandarin first: notes from set and the edit, things I teach, and film reviews. Everything here is
+            translated from the <Link href="/writing" hrefLang="zh-Hant" className="text-accent underline-offset-4 hover:underline">Mandarin originals</Link>.
           </p>
           <ul className="mt-14 divide-y divide-border/40 border-y border-border/40">
             {posts.map((p) => (

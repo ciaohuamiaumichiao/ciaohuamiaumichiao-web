@@ -20,9 +20,10 @@ export default async function Image({ params }: { params: Promise<{ slug: string
   const date = toYmd(w?.date).replaceAll("-", ".");
   const interview = w?.tags?.includes("Interview");
   const lecture = w?.tags?.includes("Lecture notes");
+  const film = w?.tags?.includes("Film notes");
   return renderOg({
     slate: `WRITING — ${date}`,
-    kicker: interview ? "INTERVIEW" : lecture ? "LECTURE NOTES" : "NOTES FROM SET",
+    kicker: film ? "FILM NOTES" : interview ? "INTERVIEW" : lecture ? "LECTURE NOTES" : "NOTES FROM SET",
     title: w?.title ?? "Writing",
     subtitle: "KIMI CHANG · VIDEO PRODUCER & CREATIVE DIRECTOR",
     footer: (w?.tags ?? ["Writing"]).slice(0, 4),

@@ -39,7 +39,7 @@ Looking back, that came from church too. In that community we learned that relat
 
 At the end of the film I said I was really looking forward to this story being released. It's a new storyline I'd love to see: people connecting with each other into one big community, growing together and moving forward together.
 
-If you want to know how I first ended up at church, there's a piece about that ([in Mandarin](/writing/the-classmate-who-took-me-to-church)). Thank you to the Bread of Life team for filming, and to everyone who has called cues with me in that control room for 20 years. Four minutes is short, so if you have time, go watch the whole thing on YouTube.
+If you want to know how I first ended up at church, I wrote about [the classmate who took me there](/en/writing/the-classmate-who-took-me-to-church). Thank you to the Bread of Life team for filming, and to everyone who has called cues with me in that control room for 20 years. Four minutes is short, so if you have time, go watch the whole thing on YouTube.
 
 ---
 
