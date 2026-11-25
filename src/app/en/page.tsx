@@ -12,7 +12,7 @@ import {
 } from "@/components/en/EnSections";
 import { SelectedWork, type Work } from "@/components/SelectedWork";
 import { BASE_URL, PERSON_ID, SAME_AS } from "@/lib/site";
-import { EMAIL, LINKEDIN, enFaq } from "@/components/en/faq";
+import { EMAIL, LINKEDIN, REEL_ID, enFaq } from "@/components/en/faq";
 
 /* 英文版首頁：給美國公司的招募人員看。
    根 layout 是 zh-Hant，這頁用外層 lang="en" ＋ hreflang 互指標示語言（不另開 root layout，避免動 next.config）。 */
@@ -207,6 +207,20 @@ const jsonLd = {
       dateModified: "2026-11-25",
     },
     person,
+    {
+      "@type": "VideoObject",
+      "@id": `${BASE_URL}/en#showreel`,
+      name: "Kimi Chang | Showreel 2026 | Video Producer & Creative Director",
+      description:
+        "Selected work 2016 to 2026 in 60 seconds: documentaries, brand films, music videos, live music and concerts, directed by Kimi Chang.",
+      thumbnailUrl: `https://i.ytimg.com/vi/${REEL_ID}/maxresdefault.jpg`,
+      uploadDate: "2026-11-25",
+      duration: "PT1M",
+      contentUrl: `https://www.youtube.com/watch?v=${REEL_ID}`,
+      embedUrl: `https://www.youtube.com/embed/${REEL_ID}`,
+      inLanguage: "en",
+      creator: { "@id": PERSON_ID },
+    },
     {
       "@type": "ItemList",
       "@id": `${BASE_URL}/en#work`,

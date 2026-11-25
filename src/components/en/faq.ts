@@ -3,6 +3,8 @@
 
 export const EMAIL = "ciaohuamiaumichiao@gmail.com";
 export const LINKEDIN = "https://www.linkedin.com/in/chengchieh-chang-0296aa35/";
+/* 英文 showreel（YouTube 不公開，2026-11-25 上傳） */
+export const REEL_ID = "euHnnKluS0Y";
 
 export const enFaq: [string, string][] = [
   [

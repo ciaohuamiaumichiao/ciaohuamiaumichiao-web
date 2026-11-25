@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import { FadeIn, FadeInStagger, FadeInItem } from "../FadeIn";
 import { SectionSlate } from "../SectionSlate";
 import { IconCamera, IconMic, IconAntenna, IconMonitor } from "../Icons";
-import { EMAIL, LINKEDIN, enFaq } from "./faq";
+import { EMAIL, LINKEDIN, REEL_ID, enFaq } from "./faq";
 
 /* 英文版首頁的各區塊。對象是美國公司的招募人員與製作人：
    講成果、講怎麼遠端合作，不放台幣報價。事實以中文版首頁為準，改作品時兩邊一起改。 */
@@ -312,28 +312,28 @@ export function EnShowreel() {
             <div className="flex items-center justify-between border-b border-border/60 bg-surface px-4 py-2.5">
               <div className="flex items-center gap-2.5">
                 <span className="h-1.5 w-1.5 rounded-full bg-live" />
-                <span className="font-mono text-[9px] uppercase tracking-[0.2em] text-foreground/80">PGM · Selected work</span>
+                <span className="font-mono text-[9px] uppercase tracking-[0.2em] text-foreground/80">PGM · Showreel 2026</span>
               </div>
-              <span className="hidden font-mono text-[9px] tracking-[0.15em] text-muted sm:inline">16:9 · 1080P</span>
+              <span className="hidden font-mono text-[9px] tracking-[0.15em] text-muted sm:inline">60 SEC · 1080P</span>
             </div>
             <div className="aspect-video w-full bg-black">
               <iframe
-                src="https://www.youtube.com/embed/videoseries?list=PLoB4pTdgzrfgxNIOhQlxWOm1zL3lYdWpB"
-                title="Selected work playlist"
+                src={`https://www.youtube.com/embed/${REEL_ID}?rel=0`}
+                title="Kimi Chang showreel 2026"
                 className="h-full w-full"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
               />
             </div>
             <div className="flex items-center justify-between border-t border-border/60 bg-surface px-4 py-2">
-              <span className="font-mono text-[9px] tracking-[0.15em] text-muted">Selected work playlist (most titles in Mandarin)</span>
+              <span className="font-mono text-[9px] tracking-[0.15em] text-muted">Showreel 2026 · 10 projects in 60 seconds</span>
               <a
-                href="https://www.youtube.com/channel/UCfxcum7XC4qB-jFbH1qjE-Q"
+                href="https://www.youtube.com/playlist?list=PLoB4pTdgzrfgxNIOhQlxWOm1zL3lYdWpB"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="font-mono text-[9px] uppercase tracking-[0.12em] text-accent/70 transition-colors hover:text-accent"
               >
-                YouTube →
+                Full playlist →
               </a>
             </div>
           </div>
