@@ -12,7 +12,7 @@ import {
 } from "@/components/en/EnSections";
 import { SelectedWork, type Work } from "@/components/SelectedWork";
 import { EnWriting } from "@/components/en/EnWriting";
-import { BASE_URL, PERSON_ID, SAME_AS } from "@/lib/site";
+import { BASE_URL, PERSON_ID, SAME_AS, PERSON_IMAGE_SQUARE } from "@/lib/site";
 import { EMAIL, LINKEDIN, REEL_ID, enFaq } from "@/components/en/faq";
 
 /* 英文版首頁：給美國公司的招募人員看。
@@ -168,6 +168,7 @@ const person = {
   name: "Kimi Chang",
   alternateName: ["張正杰", "Cheng-Chieh Chang", "ChengChieh Chang"],
   jobTitle: "Video Producer and Creative Director",
+  image: [{ "@type": "ImageObject", url: `${BASE_URL}/images/kimi-chang.jpg`, width: 800, height: 1000, caption: "Kimi Chang" }, PERSON_IMAGE_SQUARE],
   description,
   url: `${BASE_URL}/en`,
   email: `mailto:${EMAIL}`,

@@ -22,6 +22,16 @@ export const SAME_AS = [
   "https://www.linkedin.com/in/chengchieh-chang-0296aa35/",
 ];
 
+/* 人物照片（2026-11 由本人照片以 Higgsfield 修飾，正方形版給頭像，直式版給一般用途） */
+export const PERSON_IMAGE = {
+  "@type": "ImageObject",
+  url: `${BASE_URL}/images/kimi-chang.jpg`,
+  width: 800,
+  height: 1000,
+  caption: "張正杰 Kimi Chang",
+};
+export const PERSON_IMAGE_SQUARE = `${BASE_URL}/images/kimi-chang-square.jpg`;
+
 export const personNode = {
   "@type": "Person",
   "@id": PERSON_ID,
@@ -30,6 +40,7 @@ export const personNode = {
   url: BASE_URL,
   email: "mailto:ciaohuamiaumichiao@gmail.com",
   jobTitle: "導演",
+  image: [PERSON_IMAGE, PERSON_IMAGE_SQUARE],
   description:
     "台灣影像導演、策展人。拍了十五年，做紀錄片、音樂 MV、Video Podcast 節目與多平台直播，也陪教會、學校與公益團體建立自己的影像團隊。",
   nationality: { "@type": "Country", name: "Taiwan" },
