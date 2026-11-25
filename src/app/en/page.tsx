@@ -11,6 +11,7 @@ import {
   EnFooter,
 } from "@/components/en/EnSections";
 import { SelectedWork, type Work } from "@/components/SelectedWork";
+import { EnWriting } from "@/components/en/EnWriting";
 import { BASE_URL, PERSON_ID, SAME_AS } from "@/lib/site";
 import { EMAIL, LINKEDIN, REEL_ID, enFaq } from "@/components/en/faq";
 
@@ -265,6 +266,7 @@ export default function EnglishHome() {
         <EnCapabilities />
         <EnRemote />
         <EnShowreel />
+        <EnWriting />
         <EnFaq />
         <EnContact />
       </main>

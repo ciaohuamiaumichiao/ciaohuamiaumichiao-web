@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { getAllWritings } from "@/lib/writing";
+import { getAllWritings, getAllWritingsEn } from "@/lib/writing";
 
 import { BASE_URL } from "@/lib/site";
 
@@ -10,12 +10,27 @@ export default function sitemap(): MetadataRoute.Sitemap {
   /* 首頁與寫作列表的「最後更新」= 最新一篇文章的日期，不再每次都填現在 */
   const latest = all[0] ? new Date(all[0].updated ?? all[0].date) : new Date();
 
+  const en = new Set(getAllWritingsEn().map((w) => w.slug));
+  const langs = (slug: string) =>
+    en.has(slug)
+      ? { alternates: { languages: { "zh-Hant": `${BASE_URL}/writing/${slug}`, en: `${BASE_URL}/en/writing/${slug}` } } }
+      : {};
+  /* 英文翻譯文章 */
+  const writingsEn = getAllWritingsEn().map((w) => ({
+    url: `${BASE_URL}/en/writing/${w.slug}`,
+    lastModified: new Date(w.updated ?? w.date ?? Date.now()),
+    changeFrequency: "monthly" as const,
+    priority: 0.7,
+    ...langs(w.slug),
+  }));
+
   const writings = all.map((w) => ({
     url: `${BASE_URL}/writing/${w.slug}`,
     lastModified: new Date(w.updated ?? w.date ?? Date.now()),
     changeFrequency: "monthly" as const,
     priority: 0.7,
     ...(w.cover ? { images: [`${BASE_URL}${w.cover}`] } : {}),
+    ...langs(w.slug),
   }));
 
   /* 服務頁的日期寫死：改了頁面內容就順手更新這裡 */
@@ -69,6 +84,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly",
       priority: 0.8,
     },
+    {
+      url: `${BASE_URL}/en/writing`,
+      lastModified: new Date("2026-11-25"),
+      changeFrequency: "monthly",
+      priority: 0.7,
+      alternates: { languages: { "zh-Hant": `${BASE_URL}/writing`, en: `${BASE_URL}/en/writing` } },
+    },
     ...writings,
+    ...writingsEn,
   ];
 }

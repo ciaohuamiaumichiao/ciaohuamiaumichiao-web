@@ -347,7 +347,7 @@ export function EnFaq() {
   return (
     <section id="faq" className="border-t border-border px-6 py-28 lg:py-36">
       <div className="mx-auto max-w-6xl">
-        <SectionSlate index="06" en="FAQ" zh="Quick answers" note={`${enFaq.length} Q`} />
+        <SectionSlate index="07" en="FAQ" zh="Quick answers" note={`${enFaq.length} Q`} />
         <div className="mt-14 divide-y divide-border/40 border-y border-border/40">
           {enFaq.map(([q, a], i) => (
             <FadeIn key={q} delay={i * 0.03}>
@@ -378,7 +378,7 @@ export function EnContact() {
   return (
     <section id="contact" className="border-t border-border px-6 py-28 lg:py-36">
       <div className="mx-auto max-w-6xl">
-        <SectionSlate index="07" en="Contact" zh="Let's talk" note="ROLL CREDITS" />
+        <SectionSlate index="08" en="Contact" zh="Let's talk" note="ROLL CREDITS" />
         <div className="mt-14 grid gap-14 lg:grid-cols-[1fr_1fr] lg:gap-24">
           <FadeIn>
             <p className="max-w-md text-[15px] leading-[1.9] text-muted">

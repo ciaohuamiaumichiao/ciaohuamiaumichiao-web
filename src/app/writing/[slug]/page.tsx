@@ -6,7 +6,7 @@ import remarkGfm from "remark-gfm";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { EmailSubscribe } from "@/components/EmailSubscribe";
-import { getAllSlugs, getWriting, getRelatedWritings, formatDate, toYmd } from "@/lib/writing";
+import { getAllSlugs, getWriting, getRelatedWritings, formatDate, toYmd, hasEnglish } from "@/lib/writing";
 import { BASE_URL, PERSON_ID, WEBSITE_ID } from "@/lib/site";
 
 /* 排程文章到期前不在 build 清單裡，到期後第一次被請求時才生成 */
@@ -33,7 +33,13 @@ export async function generateMetadata({
     description,
     keywords: w.keywords ?? w.tags,
     authors: [{ name: "張正杰 Kimi Chang", url: BASE_URL }],
-    alternates: { canonical: url },
+    /* 有英文翻譯的文章，中英互指 */
+    alternates: hasEnglish(slug)
+      ? {
+          canonical: url,
+          languages: { "zh-Hant": `/writing/${slug}`, en: `/en/writing/${slug}`, "x-default": `/writing/${slug}` },
+        }
+      : { canonical: url },
     openGraph: {
       title,
       description,
@@ -128,7 +134,7 @@ export default async function WritingPost({
             <h1 className="text-3xl font-light leading-tight tracking-tight sm:text-4xl">
               {w.title}
             </h1>
-            <div className="mt-6 flex items-center gap-4">
+            <div className="mt-6 flex flex-wrap items-center gap-4">
               <time className="font-mono text-[10px] tracking-wider text-muted">
                 {formatDate(w.date)}
               </time>
@@ -143,6 +149,16 @@ export default async function WritingPost({
                     </span>
                   ))}
                 </div>
+              )}
+              {hasEnglish(slug) && (
+                <Link
+                  href={`/en/writing/${slug}`}
+                  hrefLang="en"
+                  lang="en"
+                  className="ml-auto font-mono text-[10px] tracking-[0.1em] text-muted underline-offset-4 transition-colors hover:text-accent hover:underline"
+                >
+                  Read in English →
+                </Link>
               )}
             </div>
           </header>

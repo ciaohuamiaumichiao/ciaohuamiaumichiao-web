@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 
 const navLinks = [
@@ -11,11 +12,16 @@ const navLinks = [
   { label: "Remote", href: "#remote" },
   { label: "Reel", href: "#showreel" },
   { label: "FAQ", href: "#faq" },
+  { label: "Writing", href: "/en/writing" },
   { label: "Contact", href: "#contact" },
 ];
 
-export function EnHeader() {
+/* zhHref：右上「中文」要切去的中文頁（文章頁傳原文網址，預設中文首頁） */
+export function EnHeader({ zhHref = "/" }: { zhHref?: string } = {}) {
   const [open, setOpen] = useState(false);
+  const pathname = usePathname();
+  /* 錨點只在 /en 首頁有，其他英文頁要帶回 /en */
+  const resolve = (href: string) => (href.startsWith("#") && pathname !== "/en" ? `/en${href}` : href);
   const [scrolled, setScrolled] = useState(false);
 
   /* 根 layout 的 <html> 是 zh-Hant；英文頁改成 en，離開時還原，讓螢幕閱讀器用對語言 */
@@ -54,7 +60,7 @@ export function EnHeader() {
             {navLinks.map((link) => (
               <li key={link.href}>
                 <a
-                  href={link.href}
+                  href={resolve(link.href)}
                   className="font-mono text-[10px] uppercase tracking-[0.1em] text-muted transition-colors hover:text-foreground"
                 >
                   {link.label}
@@ -64,7 +70,7 @@ export function EnHeader() {
           </ul>
 
           <Link
-            href="/"
+            href={zhHref}
             hrefLang="zh-Hant"
             lang="zh-Hant"
             className="border border-border px-2.5 py-1 text-[11px] text-muted transition-colors hover:border-accent/50 hover:text-foreground"
@@ -92,7 +98,7 @@ export function EnHeader() {
               {navLinks.map((link, i) => (
                 <li key={link.href}>
                   <a
-                    href={link.href}
+                    href={resolve(link.href)}
                     className="flex items-baseline gap-4 py-2 text-sm text-muted transition-colors hover:text-foreground"
                     onClick={() => setOpen(false)}
                   >

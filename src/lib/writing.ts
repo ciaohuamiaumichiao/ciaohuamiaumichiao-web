@@ -3,6 +3,8 @@ import path from "node:path";
 import matter from "gray-matter";
 
 const WRITING_DIR = path.join(process.cwd(), "content", "writing");
+/* 英文翻譯版放在 content/writing/en/（沿用 next.config 對 content/writing 的打包設定）；檔名＝中文原文的 slug */
+const WRITING_EN_DIR = path.join(process.cwd(), "content", "writing", "en");
 
 export type WritingAbout = {
   /* schema.org 類型：Movie、Book、Event、TVSeries… */
@@ -47,16 +49,16 @@ function isPublished(date: unknown): boolean {
   return goLive.getTime() <= Date.now();
 }
 
-function readAllFiles(): string[] {
-  if (!fs.existsSync(WRITING_DIR)) return [];
+function readAllFiles(dir: string = WRITING_DIR): string[] {
+  if (!fs.existsSync(dir)) return [];
   return fs
-    .readdirSync(WRITING_DIR)
+    .readdirSync(dir)
     .filter((f) => f.endsWith(".md") || f.endsWith(".mdx"));
 }
 
-function parse(file: string): Writing {
+function parse(file: string, dir: string = WRITING_DIR): Writing {
   const slug = file.replace(/\.(md|mdx)$/, "");
-  const raw = fs.readFileSync(path.join(WRITING_DIR, file), "utf-8");
+  const raw = fs.readFileSync(path.join(dir, file), "utf-8");
   const { data, content } = matter(raw);
   const cover = content.match(/!\[[^\]]*\]\((\/[^)\s]+)\)/)?.[1];
   return {
@@ -79,7 +81,7 @@ function parse(file: string): Writing {
 
 export function getAllWritings(): WritingMeta[] {
   return readAllFiles()
-    .map(parse)
+    .map((f) => parse(f))
     .map(({ content: _content, ...meta }) => meta)
     .filter((p) => !p.draft && isPublished(p.date))
     .sort((a, b) => (a.date < b.date ? 1 : -1));
@@ -108,6 +110,33 @@ export function getRelatedWritings(slug: string, limit = 3): WritingMeta[] {
     .sort((a, b) => b.score - a.score || (a.w.date < b.w.date ? 1 : -1))
     .slice(0, limit)
     .map((x) => x.w);
+}
+
+/* ── 英文翻譯 ── */
+export function getAllWritingsEn(): WritingMeta[] {
+  return readAllFiles(WRITING_EN_DIR)
+    .map((f) => parse(f, WRITING_EN_DIR))
+    .map(({ content: _content, ...meta }) => meta)
+    .filter((p) => !p.draft && isPublished(p.date))
+    .sort((a, b) => (a.date < b.date ? 1 : -1));
+}
+
+export function getWritingEn(slug: string): Writing | null {
+  const file = readAllFiles(WRITING_EN_DIR).find((f) => f.replace(/\.(md|mdx)$/, "") === slug);
+  if (!file) return null;
+  const w = parse(file, WRITING_EN_DIR);
+  if (w.draft || !isPublished(w.date)) return null;
+  return w;
+}
+
+export function hasEnglish(slug: string): boolean {
+  return getWritingEn(slug) !== null;
+}
+
+export function formatDateEn(date: unknown): string {
+  const d = date instanceof Date ? date : new Date(String(date));
+  if (Number.isNaN(d.getTime())) return String(date ?? "");
+  return d.toLocaleDateString("en-US", { year: "numeric", month: "short", day: "numeric", timeZone: "Asia/Taipei" });
 }
 
 export function getAllSlugs(): string[] {
